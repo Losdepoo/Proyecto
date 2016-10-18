@@ -14,21 +14,21 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Administración, Bienvenido</title>
+    <title>Secretaría Docentes</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	 <link href="css/general.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<link href="../../css/general.css" rel="stylesheet">
+	<link href="../../css/custom.css" rel="stylesheet">
+	<link href="../../css/owl.carousel.css" rel="stylesheet">
+    <link href="../../css/owl.theme.css" rel="stylesheet">
+	<link href="../../css/style.css" rel="stylesheet">
+	<link href="../../css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../css/magnific-popup.css"> 
+	<script src="../../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -50,20 +50,7 @@
 	</div>
 	
 	<!-- FullScreen -->
-    <div class="intro-header">
-		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">¡Bienvenido al sistema de administración!</h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Ház click en la flecha para comenzar</h3>
-		</div>    
-
-        <!-- /.container -->
-		<div class="col-xs-12 text-center abcen wow fadeIn">
-			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#administrar"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
-			</div>
-		</div>
-
-    </div>
+    
 	
 	<!-- NavBar principio-->
 	<nav class="navbar-default" role="navigation">
@@ -77,16 +64,16 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="#home">Instituto Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="#administrar">Instituto Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion-principal.php#administrar">Empezar a Administrar</a></li>
-					<li class="menuItem"><a href="/Proyecto/administracion-tesoreria.php">Tesorería</a></li>
-					<li class="menuItem"><a href="/Proyecto/administracion-secretaria.php">Secretaría</a></li>
-					<li class="menuItem"><a href="/Proyecto/administracion-cuentas.php">Cuentas</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/administracion-secretaria.php">Volver a Secretaría</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/tesoreria/administracion-tesoreria.php">Tesorería</a></li>
+					
+					<li class="menuItem"><a href="/Proyecto/administracion/cuentas/administracion-cuentas.php">Cuentas</a></li>
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -112,34 +99,29 @@
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Administrar</h2>
-				<p class="lead" style="margin-top:0">Seleccione una opción</p>
+				<h2>Secretaría</h2>
+				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
 			
 			<div class="row">
 			
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Tesorería" href="/Proyecto/administracion-tesoreria.php"><img  class="rotate" src="img/icon/tesoreria.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Tesorería</h3>
-				  <p class="lead">En este apartado usted será capáz de administrar todo lo relacionado con la tesorería institucional.</p>
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Alumnos" href="/Proyecto/administracion-tesoreria.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Alumnos</h3>
+				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la matrícula, traslados u otras acciones al alumnado.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Secretaría" href="/Proyecto/administracion-secretaria.php"><img  class="rotate" src="img/icon/secretaria.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Secretaría</h3>
-				   <p class="lead">En este apartado usted será capáz de administrar todo lo relacionado con la secretaría institucional.</p>
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Docentes" href="/Proyecto/administracion-secretaria.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Docentes</h3>
+				   <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la contratacion y manejo del personal docente.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Cuentas" href="/Proyecto/administracion-cuentas.php"><img  class="rotate" src="img/icon/cuentas.png" alt="Generic placeholder image" height="100" width="100"></a>
-				   <h3>Cuentas</h3>
-					<p class="lead">En este apartado usted será capáz de administrar, borrar y crear cuentas en el sistema.</p>
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+				
 				
 			</div><!-- /.row -->
 		</div>
@@ -216,12 +198,12 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/script.js"></script>
+    <script src="/proyecto/js/jquery-1.10.2.js"></script>
+    <script src="/proyecto/js/bootstrap.js"></script>
+	<script src="/proyecto/js/owl.carousel.js"></script>
+	<script src="/proyecto/js/script.js"></script>
 	<!-- StikyMenu -->
-	<script src="js/stickUp.min.js"></script>
+	<script src="/proyecto/js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -232,15 +214,15 @@
 	
 	</script>
 	<!-- Smoothscroll -->
-	<script type="text/javascript" src="js/jquery.corner.js"></script> 
-	<script src="js/wow.min.js"></script>
+	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
+	<script src="/proyecto/js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_inflow.js"></script>
+	<script src="/proyecto/js/classie.js"></script>
+	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="js/jquery.magnific-popup.js"></script> 
+	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
 
 </body>
 
