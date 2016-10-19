@@ -99,7 +99,7 @@
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Secretaría</h2>
+				<h2>Alumnos</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
@@ -107,17 +107,31 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Alumnos" href="/Proyecto/administracion-tesoreria.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Alumnos</h3>
-				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la matrícula, traslados u otras acciones al alumnado.</p>
+				  <a title="Traslados/Extension de titulos" href="/Proyecto/Alumnos/traslados-titulos.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Traslados/Extension de titulos</h3>
+				  <p class="lead">Control de los traslados que se llevan a cabo.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Docentes" href="/Proyecto/administracion-secretaria.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Docentes</h3>
-				   <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la contratacion y manejo del personal docente.</p>
+				  <a title="Pagos" href="/Proyecto/Administracion/Pagos/pagos-principal.php"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Pagos</h3>
+				   <p class="lead">En este apartado usted podrá administrar todo lo relacionado a pagos de matriculas, mensualidades y otros.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Reportes/Excusas" href="/Proyecto/Alumnos/reportes-excusas.php"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Reportes/Excusas</h3>
+				   <p class="lead">En este apartado usted podrá hacer reportes, excusas.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Expulsiones/otros" href="/Proyecto/Alumnos/expulsiones.php"><img  class="rotate" src="../../img/icon/expulsiones.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Expulsiones/otros</h3>
+				   <p class="lead">En este apartado usted podrá llevar el control de las expulsiones y otros.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
