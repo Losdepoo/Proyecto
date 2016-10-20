@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Administración, Bienvenido</title>
+    <title>Instituto Privado Dr. Ramón Rosa</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,7 @@
 	<!-- FullScreen -->
     <div class="intro-header">
 		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">¡Bienvenido al sistema de administración!</h1>
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">¡Bienvenidos al planeta Ramón Rosa!</h1>
 			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Ház click en la flecha para empezar</h3>
 		</div>    
 
@@ -77,7 +77,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="#home">Instituto Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="#home">Instituto Privado Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
