@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Instituto Privado Dr. Ramón Rosa</title>
+    <title>Administración Instituto Privado Dr. Ramón Rosa</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -52,8 +52,8 @@
 	<!-- FullScreen -->
     <div class="intro-header">
 		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">¡Bienvenidos al planeta Ramón Rosa!</h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Ház click en la flecha para empezar</h3>
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">¡Bienvenidos a la Administración!</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">¡Haz clic en la flecha para continuar!</h3>
 		</div>    
 
         <!-- /.container -->
@@ -77,15 +77,13 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="#home">Instituto Privado Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la página principal">Instituto Privado Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					
-					
-					<li class="menuItem"><a href="/Proyecto/Administracion/Tesoreria/administracion-tesoreria.php">Tesorería</a></li>
-					<li class="menuItem"><a href="/Proyecto/Administracion/Secretaria/administracion-secretaria.php">Secretaría</a></li>
+					<li class="menuItem"><a href="/Proyecto/Administracion/Secretaria/secretaria.php">Secretaría</a></li>
+					<li class="menuItem"><a href="/Proyecto/Administracion/Tesoreria/tesoreria.php">Tesorería</a></li>
 					<li class="menuItem"><a href="/Proyecto/Administracion/Cuentas/administracion-cuentas.php">Cuentas</a></li>
 				</ul>
 				
@@ -118,20 +116,19 @@
 			</div>
 			
 			<div class="row">
-			
 				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Tesorería" href="/Proyecto/administracion/tesoreria/administracion-tesoreria.php"><img  class="rotate" src="../img/icon/tesoreria.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Secretaría" href="/Proyecto/administracion/secretaria/secretaria.php"><img  class="rotate" src="../img/icon/secretaria.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Secretaría</h3>
+				   <p class="lead">En este apartado usted será capáz de administrar todo lo relacionado con la secretaría institucional.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a title="Tesorería" href="/Proyecto/administracion/tesoreria/tesoreria.php"><img  class="rotate" src="../img/icon/tesoreria.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Tesorería</h3>
 				  <p class="lead">En este apartado usted será capáz de administrar todo lo relacionado con la tesorería institucional.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Secretaría" href="/Proyecto/administracion/secretaria/administracion-secretaria.php"><img  class="rotate" src="../img/icon/secretaria.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Secretaría</h3>
-				   <p class="lead">En este apartado usted será capáz de administrar todo lo relacionado con la secretaría institucional.</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
@@ -178,41 +175,17 @@
 		</div>
 	</div>	
 	
-	
-	
-	
-	
-	
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h3 class="footer-title">Universidad Nacional Autónoma de Honduras</h3>
-            <p>Grupo numero <br/>
-              integrantes:<br/>
-             	blah 1 <br/>
-             	blah 2 <br/>
-             	blah 3 <br/>
-             	blah 4 <br/>
-             	blah 5 <br/>
-			</p>
-			
-			<!-- LICENSE -->
-			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti</a>
-		   is licensed to the public under 
-		   <BR>the <a rel="license"
-		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
-		   
-	   
-          </div> <!-- /col-xs-7 -->
-
-          
-        </div>
-      </div>
+     <footer>
+          <div class="col-md-6">
+              <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
+                <li>Grupo #3</li>
+                <li>Integrantes:</li>
+                <li>Abigail Fick</li>
+                <li>Cristian Umanzor</li>
+                <li>Gabriel Mejiga</li>
+                <li>Gipsy Ortiz</li>
+                <li>Jennifer Escoto</li><br>
+          </div>
     </footer>
 
     <!-- JavaScript -->

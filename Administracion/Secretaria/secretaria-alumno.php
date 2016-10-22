@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Secretaría alumnos</title>
+    <title>Secretaría Alumnos</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -64,16 +64,13 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="#administrar">Instituto Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la página principal">Instituto Privado Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/administracion-secretaria.php">Volver a Secretaría</a></li>
-					<li class="menuItem"><a href="/Proyecto/administracion/tesoreria/administracion-tesoreria.php">Tesorería</a></li>
-					
-					<li class="menuItem"><a href="/Proyecto/administracion/cuentas/administracion-cuentas.php">Cuentas</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria.php">Volver a Secretaría</a></li>
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -107,35 +104,40 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Traslados/Extension de titulos" href="/Proyecto/Alumnos/traslados-titulos.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Traslados/Extension de titulos</h3>
-				  <p class="lead">Control de los traslados que se llevan a cabo.</p>
+				  <a title="Matricula/Traslados" href="#"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Matricula/Traslados</h3>
+				  <p class="lead">CControl de matrícula y traslado de alumnos.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Pagos" href="/Proyecto/Administracion/Pagos/pagos-principal.php"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Pagos</h3>
-				   <p class="lead">En este apartado usted podrá administrar todo lo relacionado a pagos de matriculas, mensualidades y otros.</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Reportes/Excusas" href="/Proyecto/Alumnos/reportes-excusas.php"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Reportes/Excusas" href="#"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Reportes/Excusas</h3>
 				   <p class="lead">En este apartado usted podrá hacer reportes, excusas.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Expulsiones/otros" href="/Proyecto/Alumnos/expulsiones.php"><img  class="rotate" src="../../img/icon/expulsiones.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Expulsiones/otros</h3>
+				  <a title="Expulsiones/Otros" href="#"><img  class="rotate" src="../../img/icon/expulsiones.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Expulsiones/Otros</h3>
 				   <p class="lead">En este apartado usted podrá llevar el control de las expulsiones y otros.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
-				
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Distribuciones" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Distribuciones</h3>
+				   <p class="lead">En este apartado usted podrá administrar la distribución de aulas, edificios, material didáctico, curso, entre otros..</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-12 wow fadeInDown text-center">
+				  <a title="Extension de Titulos/Otros Documentos" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Extension de Titulos/Otros Documentos</h3>
+				   <p class="lead">En este apartado usted podrá extender tituos y otros documentos.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
 				
 			</div><!-- /.row -->
 		</div>
@@ -174,24 +176,19 @@
 		</div>
 	</div>	
 	
-	
-	
-	
-	
-	
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h3 class="footer-title">Universidad Nacional Autónoma de Honduras</h3>
-            <p>Grupo numero <br/>
-              integrantes:<br/>
-             	blah 1 <br/>
-             	blah 2 <br/>
-             	blah 3 <br/>
-             	blah 4 <br/>
-             	blah 5 <br/>
-			</p>
+     <footer>
+          <div class="col-md-6">
+              <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
+                <li>Grupo #3</li>
+                <li>Integrantes:</li>
+                <li>Abigail Fick</li>
+                <li>Cristian Umanzor</li>
+                <li>Gabriel Mejiga</li>
+                <li>Gipsy Ortiz</li>
+                <li>Jennifer Escoto</li><br>
+          </div>
+    </footer>
+
 			
 			<!-- LICENSE -->
 			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"

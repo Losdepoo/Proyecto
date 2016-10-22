@@ -61,7 +61,7 @@
 	<!-- FullScreen -->
     <div class="intro-header">
 		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Bienvenidos al Instituto Dr. Ramón Rosa</h1>
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Bienvenidos al Instituto Privado Dr. Ramón Rosa</h1>
 			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">¡Haz clic en la flecha para continuar!</h3>
 			<!--<ul class="list-inline intro-social-buttons">
 				<li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
@@ -73,7 +73,7 @@
         <!-- /.container -->
 		<div class="col-xs-12 text-center abcen wow fadeIn">
 			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#¿Quiénes somos?"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
 			</div>
 		</div>
     </div>
@@ -89,22 +89,22 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="#home">Instituto Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="#">Instituto Privado Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem¿Quiénes somos?"><a href="#whatis">¿Quiénes somos?</a></li>
-					<li class="menuItemMisión"><a href="#useit">Misión</a></li>
-					<li class="menuItemVisión"><a href="#screen">Visión</a></li>
-					<li class="menuItemContáctanos"><a href="#credits">Contáctanos</a></li>
+					<li class="menuItem¿Quiénes somos?"><a href="#¿Quiénes somos?">¿Quiénes somos?</a></li>
+					<li class="menuItem"><a href="#Misión">Misión</a></li>
+					<li class="menuItem"><a href="#Visión">Visión</a></li>
+					<li class="menuItem"><a href="#Contáctanos">Contáctanos</a></li>
 					<ul class="nav navbar-nav navbar-right">
 	        			<li class="dropdown">
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios<span class="caret"></span></a>
 		          			<ul class="dropdown-menu">
-		            			<li><a href="http://localhost/Proyecto/Administracion/pantalla-principal.php">Administración</a></li>
-		            			<li><a href="#">Secretaria</a></li>
+		            			<li><a href="http://localhost/Proyecto/Administracion/administracion.php">Administración</a></li>
+		            			<li><a href="#">Docentes</a></li>
 		            			<li><a href="#">Alumnos/Encargados</a></li>
 		            		</ul>
 	        			</li>
@@ -164,7 +164,7 @@
 	</div>
 	
 	<!-- Misión/Visión -->
-    <div id ="Misión/Visión" class="content-section-a">
+    <div id ="Misión" class="content-section-a">
 
         <div class="container">
 			
@@ -210,7 +210,7 @@
                 </div>
 				
                 <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Visión</h3>
+                    <h3 id="Visión" class="section-heading">Visión</h3>
                     <p class="lead">
 						Nuestra visión...
 					</p>
@@ -287,7 +287,7 @@
     <footer>
           <div class="col-md-6">
             <div class="footer-banner">
-              <h3 class="footer-title">Universidad Nacional Autónoma de Honduras</h3>
+              <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
                 <li>Grupo #3</li>
                 <li>Integrantes:</li>
                 <li>Abigail Fick</li>
@@ -297,8 +297,6 @@
                 <li>Jennifer Escoto</li>
             </div>
           </div>
-        </div>
-      </div>
     </footer>
 
 
