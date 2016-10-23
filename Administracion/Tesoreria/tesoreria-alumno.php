@@ -104,7 +104,7 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Pagos" href="/Proyecto/Administracion/Tesoreria/Pagos/pagos-principal"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Pagos" href="Proyecto/Administracion/Tesoreria/pagos-principal.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Pagos</h3>
 				  <p class="lead">En este apartado se llevara el control de pagos matrícula y mensualidades.</p>
 

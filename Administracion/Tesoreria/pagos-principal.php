@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Pagos</title>
+    <title>Menu de pagos</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -68,11 +68,8 @@
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="/Proyecto/administracion/tesoreria/tesoreria-alumno.php">Volver a Alumno</a></li>
-				</ul>
-				
+				<ul class="nav navbar-nav">	
+					<li class="menuItem"><a href="/Proyecto/administracion/administracion">Volver a Administración</a></li>		
 				<ul class="nav navbar-nav navbar-right">
 	        		<li class="dropdown">
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>
@@ -92,33 +89,31 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="Pago" class="content-section-b" style="border-top: 0">
+	<div id="Tesorería" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Pago</h2>
-				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
+				<h2>Menu de pagos</h2>
+				<p class="lead" style="margin-top:0">Seleccione una opción de pago:</p>
 				
 			</div>
 			
 			<div class="row">
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Pagos de matricula" href="/Proyecto/administracion/tesoreria/pagos-matricula.php"><img  class="rotate" src="../../img/icon/pagos-matricula.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Pagos de matricula</h3>
+				   <p class="lead">En este apartado se lleva el control de los pagos de matriculas.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Pago de Matricula" href="Proyecto/Administracion/Tesoreria/Pagos/pagos-matricula.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Pago de Matricula</h3>
-				  <p class="lead">Control de los pagos de matricula.</p>
+				  <a title="Pagos de mensualidades" href="/Proyecto/administracion/tesoreria/pagos-mensualidades.php"><img  class="rotate" src="../../img/icon/pagos-mensualidades.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Pagos de mensualidades</h3>
+				  <p class="lead">En este apartado se lleva el control de los pagos de las mensualidades.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Pagos Mensualidades" href="Proyecto/Administracion/Tesoreria/Pagos/pagos-mensualidades.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Pagos Mensualidades</h3>
-				   <p class="lead">Control en los pagos de mensualidades.</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				
 				
 			</div><!-- /.row -->
 		</div>
@@ -156,7 +151,7 @@
 			</div>
 		</div>
 	</div>	
-
+	
 	<footer>
           <div class="col-md-6">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
@@ -172,14 +167,13 @@
           </div>
     </footer>
 
-
     <!-- JavaScript -->
-    <script src="/proyecto/js/jquery-1.10.2.js"></script>
-    <script src="/proyecto/js/bootstrap.js"></script>
-	<script src="/proyecto/js/owl.carousel.js"></script>
-	<script src="/proyecto/js/script.js"></script>
+    <script src="../../js/jquery-1.10.2.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+	<script src="../../js/owl.carousel.js"></script>
+	<script src="../../js/script.js"></script>
 	<!-- StikyMenu -->
-	<script src="/proyecto/js/stickUp.min.js"></script>
+	<script src="../../js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -190,15 +184,15 @@
 	
 	</script>
 	<!-- Smoothscroll -->
-	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
-	<script src="/proyecto/js/wow.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.corner.js"></script> 
+	<script src="../../js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="/proyecto/js/classie.js"></script>
-	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
+	<script src="../../js/classie.js"></script>
+	<script src="../../js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
+	<script src="../../js/jquery.magnific-popup.js"></script> 
 
 </body>
 
