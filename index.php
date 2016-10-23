@@ -153,7 +153,7 @@
 				
 			<div class="row tworow">
 			
-				<div class="col-sm-4  wow fadeInDown text-center">
+				<div class="col-sm-12  wow fadeInDown text-center">
 				  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
 				  <h3>Transporte</h3>
 				  <p class="lead">Contamos con un servicio de transporte...</p>
