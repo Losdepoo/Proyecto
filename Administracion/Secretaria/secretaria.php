@@ -92,7 +92,7 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="administrar" class="content-section-b" style="border-top: 0">
+	<div id="Secretaría" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
@@ -168,6 +168,8 @@
                 <li>Gabriel Mejiga</li>
                 <li>Gipsy Ortiz</li>
                 <li>Jennifer Escoto</li><br>
+                <li>Flatfy Theme: Andrea Galanti</li>
+                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
           </div>
     </footer>
 

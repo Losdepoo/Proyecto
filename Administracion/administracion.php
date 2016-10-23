@@ -175,7 +175,7 @@
 		</div>
 	</div>	
 	
-     <footer>
+  <footer>
           <div class="col-md-6">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
                 <li>Grupo #3</li>
@@ -185,6 +185,8 @@
                 <li>Gabriel Mejiga</li>
                 <li>Gipsy Ortiz</li>
                 <li>Jennifer Escoto</li><br>
+                <li>Flatfy Theme: Andrea Galanti</li>
+                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
           </div>
     </footer>
 

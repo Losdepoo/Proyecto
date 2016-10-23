@@ -92,7 +92,7 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="administrar" class="content-section-b" style="border-top: 0">
+	<div id="Alumno" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
@@ -186,26 +186,9 @@
                 <li>Gabriel Mejiga</li>
                 <li>Gipsy Ortiz</li>
                 <li>Jennifer Escoto</li><br>
+                <li>Flatfy Theme: Andrea Galanti</li>
+                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
           </div>
-    </footer>
-
-			
-			<!-- LICENSE -->
-			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti</a>
-		   is licensed to the public under 
-		   <BR>the <a rel="license"
-		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
-		   
-	   
-          </div> <!-- /col-xs-7 -->
-
-          
-        </div>
-      </div>
     </footer>
 
     <!-- JavaScript -->

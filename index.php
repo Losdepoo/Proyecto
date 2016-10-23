@@ -294,7 +294,9 @@
                 <li>Cristian Umanzor</li>
                 <li>Gabriel Mejiga</li>
                 <li>Gipsy Ortiz</li>
-                <li>Jennifer Escoto</li>
+                <li>Jennifer Escoto</li><br>
+                <li>Flatfy Theme: Andrea Galanti</li>
+                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
             </div>
           </div>
     </footer>

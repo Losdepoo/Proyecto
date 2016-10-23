@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Secretaría Docentes</title>
+    <title>Pagos</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -64,16 +64,13 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="#administrar">Instituto Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la página principal">Instituto Privado Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/administracion-secretaria.php">Volver a Secretaría</a></li>
-					<li class="menuItem"><a href="/Proyecto/administracion/tesoreria/administracion-tesoreria.php">Tesorería</a></li>
-					
-					<li class="menuItem"><a href="/Proyecto/administracion/cuentas/administracion-cuentas.php">Cuentas</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/tesoreria/tesoreria-alumno.php">Volver a Alumno</a></li>
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -95,11 +92,11 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="administrar" class="content-section-b" style="border-top: 0">
+	<div id="Pago" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Secretaría</h2>
+				<h2>Pago</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
@@ -107,17 +104,17 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Alumnos" href="/Proyecto/administracion-tesoreria.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Alumnos</h3>
-				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la matrícula, traslados u otras acciones al alumnado.</p>
+				  <a title="Pago de Matricula" href="Proyecto/Administracion/Tesoreria/Pagos/pagos-matricula.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Pago de Matricula</h3>
+				  <p class="lead">Control de los pagos de matricula.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Docentes" href="/Proyecto/administracion-secretaria.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Docentes</h3>
-				   <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la contratacion y manejo del personal docente.</p>
+				  <a title="Pagos Mensualidades" href="Proyecto/Administracion/Tesoreria/Pagos/pagos-mensualidades.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Pagos Mensualidades</h3>
+				   <p class="lead">Control en los pagos de mensualidades.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
@@ -159,43 +156,22 @@
 			</div>
 		</div>
 	</div>	
-	
-	
-	
-	
-	
-	
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h3 class="footer-title">Universidad Nacional Autónoma de Honduras</h3>
-            <p>Grupo numero <br/>
-              integrantes:<br/>
-             	blah 1 <br/>
-             	blah 2 <br/>
-             	blah 3 <br/>
-             	blah 4 <br/>
-             	blah 5 <br/>
-			</p>
-			
-			<!-- LICENSE -->
-			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti</a>
-		   is licensed to the public under 
-		   <BR>the <a rel="license"
-		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
-		   
-	   
-          </div> <!-- /col-xs-7 -->
 
-          
-        </div>
-      </div>
+	<footer>
+          <div class="col-md-6">
+              <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
+                <li>Grupo #3</li>
+                <li>Integrantes:</li>
+                <li>Abigail Fick</li>
+                <li>Cristian Umanzor</li>
+                <li>Gabriel Mejiga</li>
+                <li>Gipsy Ortiz</li>
+                <li>Jennifer Escoto</li><br>
+                <li>Flatfy Theme: Andrea Galanti</li>
+                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
+          </div>
     </footer>
+
 
     <!-- JavaScript -->
     <script src="/proyecto/js/jquery-1.10.2.js"></script>
