@@ -16,27 +16,18 @@
 
     <title>Pagina Principal Instituto Dr. Ramón Rosa</title>
 
-    <!-- Bootstrap core CSS -->
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
- 
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+ 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	
-    <!-- Custom CSS-->
-    <link href="css/general.css" rel="stylesheet">
-	
-	 <!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/general.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 	<link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
-	
-	<!-- Magnific Popup core CSS file -->
 	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	
 	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
@@ -346,12 +337,11 @@
           </div>
     </footer>
 
-    <!-- JavaScript -->
+
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/script.js"></script>
-	<!-- StikyMenu -->
 	<script src="js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
@@ -362,7 +352,6 @@
 	  });
 	
 	</script>
-	<!-- Smoothscroll -->
 	<script type="text/javascript" src="js/jquery.corner.js"></script> 
 	<script src="js/wow.min.js"></script>
 	<script>
@@ -370,8 +359,8 @@
 	</script>
 	<script src="js/classie.js"></script>
 	<script src="js/uiMorphingButton_inflow.js"></script>
-	<!-- Magnific Popup core JS file -->
 	<script src="js/jquery.magnific-popup.js"></script> 
+
 </body>
 
 </html>
