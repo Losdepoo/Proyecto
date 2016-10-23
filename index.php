@@ -62,18 +62,12 @@
     <div class="intro-header">
 		<div class="col-xs-12 text-center abcen1">
 			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Bienvenidos al Instituto Privado Dr. Ramón Rosa</h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">¡Haz clic en la flecha para continuar!</h3>
-			<!--<ul class="list-inline intro-social-buttons">
-				<li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
-				</li>
-				<li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
-				</li>
-			</ul>-->
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">¡Haz click en la flecha para continuar!</h3>
 		</div>    
         <!-- /.container -->
 		<div class="col-xs-12 text-center abcen wow fadeIn">
 			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#¿Quiénes somos?"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#quienessmos"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
 			</div>
 		</div>
     </div>
@@ -89,39 +83,41 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="#">Instituto Privado Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="#home">Instituto Privado Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem¿Quiénes somos?"><a href="#¿Quiénes somos?">¿Quiénes somos?</a></li>
-					<li class="menuItem"><a href="#Misión">Misión</a></li>
-					<li class="menuItem"><a href="#Visión">Visión</a></li>
-					<li class="menuItem"><a href="#Contáctanos">Contáctanos</a></li>
+					<li class="menuItem"><a href="#quienessmos">¿Quiénes somos?</a></li>
+					<li class="menuItem"><a href="#mision">Misión</a></li>
+					<li class="menuItem"><a href="#vision">Visión</a></li>
+					<li class="menuItem"><a href="#contactenos">Contáctenos</a></li>
+					
 					<ul class="nav navbar-nav navbar-right">
 	        			<li class="dropdown">
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios<span class="caret"></span></a>
 		          			<ul class="dropdown-menu">
-		            			<li><a href="http://localhost/Proyecto/Administracion/administracion.php">Administración</a></li>
+		            			<li><a href="/Proyecto/Administracion/administracion.php">Administración</a></li>
 		            			<li><a href="#">Docentes</a></li>
 		            			<li><a href="#">Alumnos/Encargados</a></li>
 		            		</ul>
 	        			</li>
-	      		</ul>
+	      			</ul>
+
 				</ul>
 			</div>
 		   
 		</div>
 	</nav> 
 	
-	<!-- ¿Quiénes somos? -->
-	<div id="¿Quiénes somos?" class="content-section-b" style="border-top: 0">
+	<!-- What is -->
+	<div id="quienessmos" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
 				<h2>¿Quiénes somos?</h2>
-				<p class="lead" style="margin-top:0">Somos tu mejor opción en educación.</p>
+				<p class="lead" style="margin-top:0">Sómos tu mejor opción en educación.</p>
 				
 			</div>
 			
@@ -131,8 +127,6 @@
 				  <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
 				  <h3>Historia</h3>
 				  <p class="lead">Nuestro Instituto se fundó en el año de… </p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
@@ -153,18 +147,19 @@
 				
 			<div class="row tworow">
 			
+				
 				<div class="col-sm-12  wow fadeInDown text-center">
 				  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
 				  <h3>Transporte</h3>
 				  <p class="lead">Contamos con un servicio de transporte...</p>
-				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+				
+				
 			</div><!-- /.row -->
 		</div>
 	</div>
 	
-	<!-- Misión/Visión -->
-    <div id ="Misión" class="content-section-a">
+	<!-- Use it -->
+    <div id ="mision" class="content-section-a">
 
         <div class="container">
 			
@@ -176,9 +171,13 @@
 				
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
                     <h3 class="section-heading">Misión</h3>
+					<div class="sub-title lead3">En tegucigalpa desde no se cuando abby.<br> Nosotros estamos aquí para lo que necesites</div>
                     <p class="lead">
-						Nuestra misión...
+						alguna misión que aby conoce
 					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">Más acerca de Ramón Rosa</a> 
+					 <a class="btn btn-embossed btn-info" href="#" role="button">Contáctanos ya</a></p>
 				</div>   
             </div>
         </div>
@@ -209,30 +208,32 @@
 					</div>       
                 </div>
 				
-                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 id="Visión" class="section-heading">Visión</h3>
+                <div id="vision" class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Visión</h3>
+					<div class="sub-title lead3">en tegucigalpa desde que solo aby sabe<br> algo mas que solo aby sabe</div>
                     <p class="lead">
-						Nuestra visión...
+						bueno nuestra mision es blah blah blah
 					</p>
+
+					 
 				</div>  			
 			</div>
         </div>
     </div>
 
-	<!-- Contáctanos -->
-	<div id="Contáctanos" class="content-section-a">
+    <div id="contactenos" class="content-section-a">
 		<div class="container">
 			<div class="row">
 			
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
 				<h2>Contáctanos</h2>
-				<p class="lead" style="margin-top:0">Siempre a tu servicio.</p>
+				<p class="lead" style="margin-top:0">Mensaje que aby tiene que proporcionar.</p>
 			</div>
 			
 			<form role="form" action="" method="post" >
 				<div class="col-md-6">
 					<div class="form-group">
-						<label for="InputName">Tu Nombre</label>
+						<label for="InputName">Tú Nombre</label>
 						<div class="input-group">
 							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
@@ -240,7 +241,7 @@
 					</div>
 					
 					<div class="form-group">
-						<label for="InputEmail">Tu Email</label>
+						<label for="InputEmail">Tú Email</label>
 						<div class="input-group">
 							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
@@ -262,15 +263,14 @@
 			<hr class="featurette-divider hidden-lg">
 				<div class="col-md-5 col-md-push-1 address">
 					<address>
-					<h3>Direccion</h3>
-					<p class="lead">
-					<a href="#">The Pentagon<br>
-					Washington, DC 20301</a><br>
-					Phone: XXX-XXX-XXXX<br>
-					Fax: XXX-XXX-YYYY</p>
+					<h3>Nos encontramos en:</h3>
+					<p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">Tegucigalpa<br>
+					Francisco Morazán, Código Postal: 11101</a><br>
+					Teléfono: 2234-5678<br>
+					
 					</address>
 
-					<h3>Social</h3>
+					<h3>Siguenós en:</h3>
 					<li class="social"> 
 					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
 					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
@@ -281,9 +281,54 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Screenshot -->
+	
+	
+	<div  class="content-section-c ">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center white">
+				<h2>Dejanós un comentario</h2>
+				<p class="lead" style="margin-top:0">Solucionaremos cualquier problema que tengas.</p>
+			</div>
+			
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<div class="mockup-content">
+						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+							<button type="button "><span>Ház click aquí</span></button>
+							<div class="morph-content">
+								<div>
+									<div class="content-style-form content-style-form-4 ">
+										<h2 class="morph-clone">Ház click aquí</h2>
+										<form>
+											<p><label>Nombre de usuario:</label><input type="text"/></p>
+											<p><label>Háblanos de tu problema:</label><input type="text"/></p>
+											<p><button>Comentar</button></p>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>	
+			</div>
+		</div>
+	</div>	
+	
+	<!-- Credits -->
+	
+	
+	<!-- Banner Download -->
+
+	
+	<!-- Contact -->
 	
 	
 	
+	
+    
     <footer>
           <div class="col-md-6">
             <div class="footer-banner">
@@ -300,7 +345,6 @@
             </div>
           </div>
     </footer>
-
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
