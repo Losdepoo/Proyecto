@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Secretaría Alumnos</title>
+    <title>Secretaría Alumnado</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -104,7 +104,7 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Matricula/Traslados" href="/Proyecto/administracion/secretaria/alumnado/matricula.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Matricula/Traslados" href="/Proyecto/administracion/secretaria/alumnos/matricula.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Matricula/Traslados</h3>
 				  <p class="lead">CControl de matrícula y traslado de alumnos.</p>
 
