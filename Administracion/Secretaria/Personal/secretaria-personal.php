@@ -14,11 +14,11 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Secretaría</title>
+    <title>Secretaría Docentes</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
- 	<link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 	<link href="/Proyecto/css/general.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 	<link href="/Proyecto/css/style.css" rel="stylesheet">
 	<link href="/Proyecto/css/animate.css" rel="stylesheet">
 	<link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
-	<script src="/Proyecto/js/modernizr-2.8.3.min.js"></script> <!-- Modernizr /-->
+	<script src="/Proyecto/js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -64,13 +64,14 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la página principal">Instituto Privado Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="#administrar">Instituto Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion/administracion.php">Volver a Administración</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria.php">Volver a Secretaría</a></li>
+					
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -92,42 +93,48 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="Secretaría" class="content-section-b" style="border-top: 0">
+	<div id="administrar" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Secretaría</h2>
+				<h2>Personal</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
 			
 			<div class="row">
 			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a title="Nuevo docente"><img  class="rotate" src="/Proyecto/img/icon/nuevo.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  
+				  <div class="mockup-content">
+						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+							<button type="button "><span>Docentes</span></button>
+							<div class="morph-content">
+								<div>
+									<div class="content-style-form content-style-form-3">
+										<h2 class="morph-clone">Docentes</h2>
+										<form>
+											<p><button type="button" class="btn-primary" onClick="return popitup('/Proyecto/Administracion/Secretaria/personal/docente-contratacion.php')"><span>Nuevo Docentes</span></button></p>
+
+											<p><button type="button" class="btn-primary" onClick="return popitup('/Proyecto/Administracion/Secretaria/personal/docente-contratacion.php')"><span>Administrar Docentes</span></button></p>
+
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
 				
-
 				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Alumnos" href="/Proyecto/administracion/secretaria/secretaria-alumno.php"><img  class="rotate" src="/Proyecto/img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Alumnos</h3>
-				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la matrícula, traslados u otras acciones al alumnado.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Personal" href="/Proyecto/administracion/secretaria/personal/secretaria-personal.php"><img  class="rotate" src="/Proyecto/img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Personal</h3>
-				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en el personal como quitar, agregar y reubicarlos.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Instituto" href="/Proyecto/administracion/secretaria/secretaria-instituto.php"><img  class="rotate" src="/Proyecto/img/icon/edificio.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Instituto</h3>
-				   <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en el manejo de la institución.</p>
+				  <a title="General" href="#"><img  class="rotate" src="/Proyecto/img/icon/existente.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>General</h3>
+				   <p class="lead">Listados de docentes y cualquier gestion de los mismos.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
-				
 				
 				
 				
@@ -168,27 +175,50 @@
 		</div>
 	</div>	
 	
-	 <footer>
-          <div class="col-md-6">
-              <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
-                <li>Grupo #3</li>
-                <li>Integrantes:</li>
-                <li>Abigail Fick</li>
-                <li>Cristian Umanzor</li>
-                <li>Gabriel Mejiga</li>
-                <li>Gipsy Ortiz</li>
-                <li>Jennifer Escoto</li><br>
-                <li>Flatfy Theme: Andrea Galanti</li>
-                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
-          </div>
+	
+	
+	
+	
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">Universidad Nacional Autónoma de Honduras</h3>
+            <p>Grupo numero <br/>
+              integrantes:<br/>
+             	blah 1 <br/>
+             	blah 2 <br/>
+             	blah 3 <br/>
+             	blah 4 <br/>
+             	blah 5 <br/>
+			</p>
+			
+			<!-- LICENSE -->
+			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
+		   property="dc:title">Flatfy Theme </a> by
+		   <a rel="dc:creator" href="http://www.andreagalanti.it"
+		   property="cc:attributionName">Andrea Galanti</a>
+		   is licensed to the public under 
+		   <BR>the <a rel="license"
+		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
+		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
+		   
+	   
+          </div> <!-- /col-xs-7 -->
+
+          
+        </div>
+      </div>
     </footer>
 
     <!-- JavaScript -->
-    <script src="/Proyecto/js/jquery-1.10.2.js"></script>
-    <script src="/Proyecto/js/bootstrap.js"></script>
-	<script src="/Proyecto/js/owl.carousel.js"></script>
-	<script src="/Proyecto/js/script.js"></script>
-	<script src="/Proyecto/js/stickUp.min.js"></script>
+     <script src="/proyecto/js/jquery-1.10.2.js"></script>
+    <script src="/proyecto/js/bootstrap.js"></script>
+	<script src="/proyecto/js/owl.carousel.js"></script>
+	<script src="/proyecto/js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="/proyecto/js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -198,14 +228,24 @@
 	  });
 	
 	</script>
-	<script type="text/javascript" src="/Proyecto/js/jquery.corner.js"></script> 
-	<script src="/Proyecto/js/wow.min.js"></script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
+	<script src="/proyecto/js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="/Proyecto/js/classie.js"></script>
-	<script src="/Proyecto/js/uiMorphingButton_inflow.js"></script>
-	<script src="/Proyecto/js/jquery.magnific-popup.js"></script> 
+	<script src="/proyecto/js/classie.js"></script>
+	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
+		<script  type="text/javascript">
+		function popitup(url)
+		{
+			newwindow=window.open(url,'name','height=660,width=600'); 
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+		</script>
 
 </body>
 
