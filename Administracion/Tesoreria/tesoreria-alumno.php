@@ -92,11 +92,11 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="Alumno" class="content-section-b" style="border-top: 0">
+	<div id="Alumnado" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Alumnos</h2>
+				<h2>Alumnado</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>

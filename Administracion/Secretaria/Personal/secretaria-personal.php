@@ -175,41 +175,19 @@
 		</div>
 	</div>	
 	
-	
-	
-	
-	
-	
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h3 class="footer-title">Universidad Nacional Autónoma de Honduras</h3>
-            <p>Grupo numero <br/>
-              integrantes:<br/>
-             	blah 1 <br/>
-             	blah 2 <br/>
-             	blah 3 <br/>
-             	blah 4 <br/>
-             	blah 5 <br/>
-			</p>
-			
-			<!-- LICENSE -->
-			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti</a>
-		   is licensed to the public under 
-		   <BR>the <a rel="license"
-		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
-		   
-	   
-          </div> <!-- /col-xs-7 -->
-
-          
-        </div>
-      </div>
+          <div class="col-md-6">
+              <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
+                <li>Grupo #3</li>
+                <li>Integrantes:</li>
+                <li>Abigail Fick</li>
+                <li>Cristian Umanzor</li>
+                <li>Gabriel Mejiga</li>
+                <li>Gipsy Ortiz</li>
+                <li>Jennifer Escoto</li><br>
+                <li>Flatfy Theme: Andrea Galanti</li>
+                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
+          </div>
     </footer>
 
     <!-- JavaScript -->

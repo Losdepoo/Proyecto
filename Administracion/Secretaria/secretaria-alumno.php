@@ -96,7 +96,7 @@
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Alumnos</h2>
+				<h2>Alumnado</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
@@ -104,7 +104,7 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Matricula/Traslados" href="#"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Matricula/Traslados" href="/Proyecto/administracion/secretaria/alumnado/matricula.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Matricula/Traslados</h3>
 				  <p class="lead">CControl de matrícula y traslado de alumnos.</p>
 
@@ -126,13 +126,6 @@
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Distribuciones" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Distribuciones</h3>
-				   <p class="lead">En este apartado usted podrá administrar la distribución de aulas, edificios, material didáctico, curso, entre otros..</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-12 wow fadeInDown text-center">
 				  <a title="Extension de Titulos/Otros Documentos" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Extension de Titulos/Otros Documentos</h3>
 				   <p class="lead">En este apartado usted podrá extender tituos y otros documentos.</p>
