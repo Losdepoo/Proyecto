@@ -104,7 +104,7 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Matricula/Traslados" href="#"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Matricula/Traslados" href="/Proyecto/Administracion/Secretaria/Alumnos/matricula.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Matricula/Traslados</h3>
 				  <p class="lead">CControl de matrícula y traslado de alumnos.</p>
 
