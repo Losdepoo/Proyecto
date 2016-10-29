@@ -93,42 +93,57 @@
 
   <!-- inicio div Traslado -->
   
+<div id="Traslado" class="content-section-b" style="border-top: 0">
+    <div class="container">
+
+      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+        <h2>Traslado</h2>
+        <p class="lead" style="margin-top:0">Ingrese los datos del estudiante:</p>
+        
+      </div>
+      
+      <div class="row">
+
+        <div class="col-sm-6 wow fadeInDown text-center">
+          <!--Quite div de pagos matriculas-->
+           <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+
 <form class="form-horizontal">
   <fieldset>
-    <legend>Solicitud de Traslado</legend>
+    <legend></legend>
     
     <div class="form-group">
-      <label for="inputNombre" class="col-lg-2 control-label">Nombre del Estudiante</label>
-      <div class="col-lg-3">
+      <label for="inputNombre" class="col-lg-4 control-label">Nombre del Estudiante</label>
+      <div class="col-lg-8">
         <input type="Nombre" class="form-control" id="inputNombre" placeholder="Ingrese el Nombre del estudiante">
       </div>
     </div> 
 
     <div class="form-group">
-      <label for="inputEncargado" class="col-lg-2 control-label">Nombre del Encargado</label>
-      <div class="col-lg-3">
+      <label for="inputEncargado" class="col-lg-4 control-label">Nombre del Encargado</label>
+      <div class="col-lg-8">
         <input type="Encargado" class="form-control" id="inputEncargado" placeholder="Ingrese el nombre del encargado">
       </div>
     </div>
     
 
     <div class="form-group">
-      <label for="inputConstancia-conducta" class="col-lg-2 control-label">constancia de conducta</label>
-      <div class="col-lg-3">
+      <label for="inputConstancia-conducta" class="col-lg-4 control-label">constancia de conducta</label>
+      <div class="col-lg-8">
         <input type="Constancia-conducta" class="form-control" id="inputConstancia-conducta" placeholder="Constancia de conducta">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputInstituto-traslada" class="col-lg-2 control-label">Instituto donde se traslada</label>
-      <div class="col-lg-3">
+      <label for="inputInstituto-traslada" class="col-lg-4 control-label">Instituto donde se traslada</label>
+      <div class="col-lg-8">
         <input type="Instituto-traslada" class="form-control" id="inputInstituto-traslada" placeholder="Ingrese donde se traslada">
       </div>
     </div>
   
   <div class="form-group">
-      <label for="select" class="col-lg-2 control-label">Motivo/razon del traslado</label>
-      <div class="col-lg-3">
+      <label for="select" class="col-lg-4 control-label">Motivo/razon del traslado</label>
+      <div class="col-lg-8">
         <select class="form-control" id="select">
           <option>Salud</option>
           <option>Trabajo</option>
@@ -140,14 +155,14 @@
     </div>
 
     <div class="form-group">
-      <label for="inputFecha" class="col-lg-2 control-label">Lugar y Fecha</label>
-      <div class="col-lg-3">
+      <label for="inputFecha" class="col-lg-4 control-label">Lugar y Fecha</label>
+      <div class="col-lg-8">
         <input type="lugar-fecha" class="form-control" id="inputfecha" placeholder="Ingrese el lugar y fecha">
       </div>
     </div>
     
     <div class="form-group">
-      <div class="col-lg-4 col-lg-offset-2">
+      <div class="col-lg-8 col-lg-offset-4">
         <button type="reset" class="btn btn-default">Guardar</button>
         <button type="submit" class="btn btn-primary">Cancelar</button>
 
@@ -156,6 +171,13 @@
   </fieldset>
 </form>
       
+      </div><!-- /.col-lg-4 -->
+      
+        
+        
+      </div><!-- /.row -->
+    </div>
+  </div> 
 
   <!-- fin div traslado -->
   

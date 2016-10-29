@@ -92,42 +92,59 @@
   <!-- NavBar fin-->
 
   <!-- inicio div Matricula -->
+
+  <div id="Matricula" class="content-section-b" style="border-top: 0">
+    <div class="container">
+
+      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+        <h2>Matricula</h2>
+        <p class="lead" style="margin-top:0">Ingrese los datos del estudiante:</p>
+        
+      </div>
+      
+      <div class="row">
+
+        <div class="col-sm-6 wow fadeInDown text-center">
+          <!--Quite div Matricula-->
+           <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+
+
   <form class="form-horizontal">
   <fieldset>
-    <legend>Matricula Alumnos</legend>
+    <legend></legend>
     
     
     <div class="form-group">
-      <label for="inputNombre" class="col-lg-2 control-label">Nombre del Estudiante</label>
-      <div class="col-lg-3">
+      <label for="inputNombre" class="col-lg-4 control-label">Nombre del Estudiante</label>
+      <div class="col-lg-8">
         <input type="Nombre" class="form-control" id="inputNombre" placeholder="Ingrese el Nombre">
       </div>
     </div> 
 
     <div class="form-group">
-      <label for="inputApellido" class="col-lg-2 control-label">Apellido</label>
-      <div class="col-lg-3">
+      <label for="inputApellido" class="col-lg-4 control-label">Apellido</label>
+      <div class="col-lg-8">
         <input type="Apellido" class="form-control" id="inputApellido" placeholder="Ingrese el Apellido">
       </div>
     </div>
     
       <div class="form-group">
-      <label for="inputTelefono" class="col-lg-2 control-label">Fecha de nacimiento</label>
-      <div class="col-lg-3">
+      <label for="inputTelefono" class="col-lg-4 control-label">Fecha de nacimiento</label>
+      <div class="col-lg-8">
         <input type="Telefono" class="form-control" id="inputNombre" placeholder="Ingrese la fecha de nacimiento">
       </div>
     </div>
 
       <div class="form-group">
-      <label for="inputIdEstudiante" class="col-lg-2 control-label">No. de identidad</label>
-      <div class="col-lg-3">
+      <label for="inputIdEstudiante" class="col-lg-4 control-label">No. de identidad</label>
+      <div class="col-lg-8">
         <input type="text" class="form-control" id="inputIdEstudiante" placeholder="Ingrese el No. de identidad">
       </div>
     </div>
 
     <div class="form-group">
-      <label class="col-lg-2 control-label">Genero</label>
-      <div class="col-lg-4">
+      <label class="col-lg-4 control-label">Genero</label>
+      <div class="col-lg-2">
         <div class="Genero">
           <label>
             <input type="radio" name="optionsGenero" id="optionsGenero1" value="option1" checked="">
@@ -143,22 +160,22 @@
      
 
     <div class="form-group">
-      <label for="inputDireccion" class="col-lg-2 control-label">Direccion</label>
-      <div class="col-lg-3">
+      <label for="inputDireccion" class="col-lg-4 control-label">Direccion</label>
+      <div class="col-lg-8">
         <input type="Direccion" class="form-control" id="inputDireccion" placeholder="Ingrese la Direccion">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputEdad" class="col-lg-2 control-label">Edad</label>
-      <div class="col-lg-3">
+      <label for="inputEdad" class="col-lg-4 control-label">Edad</label>
+      <div class="col-lg-8">
         <input type="Edad" class="form-control" id="inputEdad" placeholder="Ingrese la Edad">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="select" class="col-lg-2 control-label">Jornada</label>
-      <div class="col-lg-3">
+      <label for="select" class="col-lg-4 control-label">Jornada</label>
+      <div class="col-lg-8">
         <select class="form-control" id="select">
           <option>Matutino</option>
           <option>Vespertino</option>
@@ -167,21 +184,21 @@
     </div>
      
     <div class="form-group">
-      <label for="inputCorreo-electronico" class="col-lg-2 control-label">Correo Electronico</label>
-      <div class="col-lg-3">
+      <label for="inputCorreo-electronico" class="col-lg-4 control-label">Correo Electronico</label>
+      <div class="col-lg-8">
         <input type="Correo-electronico" class="form-control" id="Correo-electronico" placeholder="Ingrese el Correo Electronico">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputTelefono" class="col-lg-2 control-label">Telefono</label>
-      <div class="col-lg-3">
+      <label for="inputTelefono" class="col-lg-4 control-label">Telefono</label>
+      <div class="col-lg-8">
         <input type="Telefono" class="form-control" id="inputNombre" placeholder="Ingrese el Telefono">
       </div>
     </div>
     
     <div class="form-group">
-      <div class="col-lg-4 col-lg-offset-2">
+      <div class="col-lg-8 col-lg-offset-4">
         <button type="reset" class="btn btn-default">Guardar</button>
         <button type="submit" class="btn btn-primary">Cancelar</button>
 
@@ -191,13 +208,18 @@
          </div>
         </div>
           </div>
-           <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-        </div><!-- /.col-lg-4 -->
-         
+           <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->    
   </fieldset>
 </form>
-    
-    
+
+   </div><!-- /.col-lg-4 -->
+      
+        
+        
+      </div><!-- /.row -->
+    </div>
+  </div> 
+
   <!-- fin div Matricula -->
   
   <div  class="content-section-c ">

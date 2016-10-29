@@ -92,48 +92,63 @@
   <!-- NavBar fin-->
 
   <!-- inicio div Encargado -->
-  
+  <div id="Encargado" class="content-section-b" style="border-top: 0">
+    <div class="container">
+
+      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+        <h2>Encargado</h2>
+        <p class="lead" style="margin-top:0">Ingrese los datos del encargado:</p>
+        
+      </div>
+      
+      <div class="row">
+
+        <div class="col-sm-6 wow fadeInDown text-center">
+          <!--Quite div Encargado-->
+           <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+           
+
   <form class="form-horizontal">
   <fieldset>
-    <legend>Encargado</legend>
+    <legend></legend>
     <div class="form-group">
-      <label for="inputEncargado" class="col-lg-2 control-label">Nombre del Encargado</label>
-      <div class="col-lg-3">
+      <label for="inputEncargado" class="col-lg-4 control-label">Nombre del Encargado</label>
+      <div class="col-lg-8">
         <input type="Encargado" class="form-control" id="inputEncargado" placeholder="Ingrese el nombre">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputId-encargado" class="col-lg-2 control-label">Id del encargado</label>
-      <div class="col-lg-3">
+      <label for="inputId-encargado" class="col-lg-4 control-label">Id del encargado</label>
+      <div class="col-lg-8">
         <input type="Id-encargado" class="form-control" id="inputId-encargado" placeholder="Ingrese el Id del encargado">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputNumero-cel" class="col-lg-2 control-label">Numero de celular</label>
-      <div class="col-lg-3">
+      <label for="inputNumero-cel" class="col-lg-4 control-label">Numero de celular</label>
+      <div class="col-lg-8">
         <input type="Numero-cel" class="form-control" id="inputNumero-cel" placeholder="Ingrese el numero de celular">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputDireccion" class="col-lg-2 control-label">Direccion de residencia</label>
-      <div class="col-lg-3">
+      <label for="inputDireccion" class="col-lg-4 control-label">Direccion de residencia</label>
+      <div class="col-lg-8">
         <input type="Direccion" class="form-control" id="inputDireccion" placeholder="Ingrese la Direccion">
       </div>
     </div>
      
     <div class="form-group">
-      <label for="inputLugar-trabajo" class="col-lg-2 control-label">Lugar de trabajo</label>
-      <div class="col-lg-3">
+      <label for="inputLugar-trabajo" class="col-lg-4 control-label">Lugar de trabajo</label>
+      <div class="col-lg-8">
         <input type="Lugar-trabajo" class="form-control" id="inputLugar-trabajo" placeholder="Ingrese el Lugar de trabajo">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputOcupacion" class="col-lg-2 control-label">ocupacion</label>
-      <div class="col-lg-3">
+      <label for="inputOcupacion" class="col-lg-4 control-label">ocupacion</label>
+      <div class="col-lg-8">
         <input type="Ocupacion" class="form-control" id="inputOcupacion" placeholder="Ingrese la Ocupacion">
       </div>
     </div>
@@ -141,16 +156,25 @@
 
   
     <div class="form-group">
-      <div class="col-lg-3 col-lg-offset-2">
+      <div class="col-lg-10 col-lg-offset-2">
         <button type="reset" class="btn btn-default">Guardar</button>
         <button type="submit" class="btn btn-primary">Cancelar</button>
         
 
       </div>
     </div>
+
   </fieldset>
 </form>
 
+         </div><!-- /.col-lg-4 -->
+      
+        
+        
+      </div><!-- /.row -->
+    </div>
+  </div> 
+ 
   <!-- fin div Encargado -->
   
   <div  class="content-section-c ">
