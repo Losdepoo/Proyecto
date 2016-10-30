@@ -17,18 +17,18 @@
     <title>Secretaría Alumnado</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link href="../../css/general.css" rel="stylesheet">
-	<link href="../../css/custom.css" rel="stylesheet">
-	<link href="../../css/owl.carousel.css" rel="stylesheet">
-    <link href="../../css/owl.theme.css" rel="stylesheet">
-	<link href="../../css/style.css" rel="stylesheet">
-	<link href="../../css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="../../css/magnific-popup.css"> 
-	<script src="../../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<link href="/Proyecto/css/general.css" rel="stylesheet">
+	<link href="/Proyecto/css/custom.css" rel="stylesheet">
+	<link href="/Proyecto/css/owl.carousel.css" rel="stylesheet">
+    <link href="/Proyecto/css/owl.theme.css" rel="stylesheet">
+	<link href="/Proyecto/css/style.css" rel="stylesheet">
+	<link href="/Proyecto/css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
+	<script src="/Proyecto/js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -126,7 +126,7 @@
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Extension de Titulos/Otros Documentos" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Extension de Titulos/Otros Documentos" onClick="return popitup('/Proyecto/administracion/secretaria/alumnos/titulos/titulos.php')"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Extension de Titulos/Otros Documentos</h3>
 				   <p class="lead">En este apartado usted podrá extender tituos y otros documentos.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
@@ -211,6 +211,14 @@
 	<!-- Magnific Popup core JS file -->
 	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
 
+	<script  type="text/javascript">
+		function popitup(url)
+		{
+			newwindow=window.open(url,'name','height=660,width=600'); 
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+		</script>
 </body>
 
 </html>
