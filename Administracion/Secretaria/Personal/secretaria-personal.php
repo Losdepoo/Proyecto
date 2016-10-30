@@ -134,7 +134,7 @@
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Nuevo docente"><img  class="rotate" src="/Proyecto/img/icon/chofer.png" alt="Generic placeholder image" height="100" width="100"></a></br>
+				  <a title="Nuevo docente" onClick="return popitup('/Proyecto/Administracion/Secretaria/Personal/transporte.php')"><img  class="rotate" src="/Proyecto/img/icon/chofer.png" alt="Generic placeholder image" height="100" width="100"></a></br>
 				  Personal Transporte
 				</div>
 			</div><!-- /.row -->
