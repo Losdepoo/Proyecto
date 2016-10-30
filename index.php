@@ -157,18 +157,15 @@
             <div class="row">
 			
 				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/ipad.png" alt="">
+                    <img class="img-responsive " src="img/mision.jpg" alt="">
                 </div>
 				
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
                     <h3 class="section-heading">Misión</h3>
-					<div class="sub-title lead3">En tegucigalpa desde no se cuando abby.<br> Nosotros estamos aquí para lo que necesites</div>
+					<div class="sub-title lead3">Nuestra mision:<br> </div>
                     <p class="lead">
-						alguna misión que aby conoce
+						Nuestra misión es formar a nuestros estudiantes con una educación cristiana integral, basados en la formación de su carácter, su formación científica, cognoscitiva, cultural, deportiva y tecnológica con los más altos estándares de calidad; para así brindar a la sociedad hondureña; Jóvenes pilares del desarrollo, democracia e identidad nacional.
 					</p>
-
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">Más acerca de Ramón Rosa</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Contáctanos ya</a></p>
 				</div>   
             </div>
         </div>
@@ -181,29 +178,25 @@
             <div class="row">
                 <div class="col-sm-6 wow fadeInLeftBig">
                      <div id="owl-demo-1" class="owl-carousel">
-						<a href="img/iphone.png" class="image-link">
+						<a href="img/vision 2.png" class="image-link">
 							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+								<img  class="img-responsive img-rounded" src="img/vision 1.jpg" alt="">
 							</div>
 						</a>
-						<a href="img/iphone.png" class="image-link">
+						<a href="img/vision 2.png" class="image-link">
 							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+								<img  class="img-responsive img-rounded" src="img/vision 2.png" alt="">
 							</div>
 						</a>
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
+						
 					</div>       
                 </div>
 				
                 <div id="vision" class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
                     <h3 class="section-heading">Visión</h3>
-					<div class="sub-title lead3">en tegucigalpa desde que solo aby sabe<br> algo mas que solo aby sabe</div>
+					<div class="sub-title lead3">Nuestra vision:<br> </div>
                     <p class="lead">
-						bueno nuestra mision es blah blah blah
+						Para 2025 ser una Institución de calidad y líder del sector educacional en Tegucigalpa; con procesos continuos de aprendizaje y nuevas formas educativas que contribuyan a desarrollar y fomentar en nuestros alumnos sus propias habilidades, destrezas, conocimientos y valores cumpliendo así con el compromiso adquirido con cada uno de los padres: Altruismo, Autonomía, Cooperación, Compromiso, Empatía, Fortaleza, Bondad, Integridad, Optimismo, Perseverancia, Orden.
 					</p>
 
 					 
@@ -218,7 +211,7 @@
 			
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
 				<h2>Contáctanos</h2>
-				<p class="lead" style="margin-top:0">Mensaje que aby tiene que proporcionar.</p>
+				<p class="lead" style="margin-top:0"></p>
 			</div>
 			
 			<form role="form" action="" method="post" >
@@ -331,8 +324,8 @@
                 <li>Gabriel Mejiga</li>
                 <li>Gipsy Ortiz</li>
                 <li>Jennifer Escoto</li><br>
-                <li>Flatfy Theme: Andrea Galanti</li>
-                <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
+               
+                
             </div>
           </div>
     </footer>
