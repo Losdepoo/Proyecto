@@ -105,7 +105,7 @@
 			
 			<div class="row">
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/edificio.png" alt="Generic placeholder image" height="100" width="100">
+				  <img  class="rotate" src="../../img/icon/curso.png" alt="Generic placeholder image" height="100" width="100">
 				  <div class="center">
 				  <h4>Curso</h4>
 				  	<button data-toggle="modal" data-target="#modalNCurso" class="btn btn-link btn-lg" title="El usuario podra crear un nuevo curso.">Nuevo Curso</button>
@@ -115,7 +115,7 @@
 				</div><!-- /.col-lg-4 -->
 
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/edificio.png" alt="Generic placeholder image" height="100" width="100">
+				  <img  class="rotate" src="../../img/icon/asignatura.png" alt="Generic placeholder image" height="100" width="100">
 				  <div class="center">
 				  <h4>Asignatura</h4>
 				  	<button data-toggle="modal" data-target="#modalNAsignatura" class="btn btn-link btn-lg" title="El usuario podra crear una nueva Asignatura.">Nueva Asignatura</button>
@@ -125,10 +125,20 @@
 				</div><!-- /.col-lg-4 -->
 
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/edificio.png" alt="Generic placeholder image" height="100" width="100">
+				  <img  class="rotate" src="../../img/icon/seccion.png" alt="Generic placeholder image" height="100" width="100">
 				  <div class="center">
 				  	<h4>Sección</h4>
 				  	<button data-toggle="modal" data-target="#modalNSeccion" class="btn btn-link btn-lg" title="El usuario podra crear una nuevo sección.">Nueva Sección</button>
+				  	<button data-toggle="modal" data-target="#modalMESeccion" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar una sección.">Modificar/Eliminar Sección</button>
+				  </div>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <img  class="rotate" src="../../img/icon/edificios.png" alt="Generic placeholder image" height="100" width="100">
+				  <div class="center">
+				  	<h4>Edificios</h4>
+				  	<button data-toggle="modal" data-target="#modalNEdificios" class="btn btn-link btn-lg" title="El usuario podra crear una nuevo sección.">Nuevo Edificio</button>
 				  	<button data-toggle="modal" data-target="#modalMESeccion" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar una sección.">Modificar/Eliminar Sección</button>
 				  </div>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
@@ -200,16 +210,16 @@
 	            <!-- aqui el contenido -->
 				<form class="form-horizontal" style="width:520px">
 					<div class="form-group">
-						<label for="textCodCurso" class="col-lg-4 control-label">Código del Curso</label>
+						<label for="txtCodCurso" class="col-lg-4 control-label">Código del Curso</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="textCodCurso" placeholder="Inserte código asignado al curso" required="">
+							<input type="text" class="form-control" id="txtCodCurso" placeholder="Inserte código asignado al curso" required="">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="txtNomCurso" class="col-lg-4 control-label">Nombre del Curso</label>
 						<div class="col-lg-8">
-							<input type="password" class="form-control" id="txtNomCurso" placeholder="Inserte el nombre del curso" required="">
+							<input type="text" class="form-control" id="txtNomCurso" placeholder="Inserte el nombre del curso" required="">
 						</div>
 					</div>
 					    
@@ -218,7 +228,16 @@
 							<button type="submit" class="btn btn-primary btn-sm">Crear</button>
 							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
 						</div>
-					</div>							
+					</div>
+
+					<div class="media">
+					   <a href="#" class="pull-left">
+					      <img  class="rotate" src="../../img/icon/ayuda.png" alt="Generic placeholder image" height="20" width="20">
+					   </a>
+					   <div class="media-body">
+					     <p class="help-block" style="font-size:8pt">Aquí el usuario establecerá cuales son los cursos/carreras que se imparten en la institución, (ej.: primero de ciclo común, bachillerato en ciencias y letras, entre otros).</p>
+					   </div>
+					</div>		
 				</form>
 			</div>
 		</div>
@@ -236,10 +255,10 @@
 	            <!-- aqui el contenido -->
 				<form class="form-horizontal" style="width:520px">
 					<div class="form-group">
-						<label for="textCodCurso" class="col-lg-4 control-label">Código del Curso</label>
+						<label for="txtCodCurso" class="col-lg-4 control-label">Código del Curso</label>
 						<div class="col-lg-8">
 							<div class="input-group">
-								<input type="text" class="form-control" id="textCodCurso" placeholder="Código curso" required="">
+								<input type="text" class="form-control" id="txtCodCurso" placeholder="Código curso" required="">
 									<span class="input-group-btn">
 										<button type="button" class="btn btn-default" id="btnBuscarCurso" title="Buscar">
 											<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
@@ -281,16 +300,16 @@
 	            <!-- aqui el contenido -->
 				<form class="form-horizontal" style="width:550px">
 					<div class="form-group">
-						<label for="textCodAsignatura" class="col-lg-4 control-label">Código de la Asignatura</label>
+						<label for="txtCodAsignatura" class="col-lg-4 control-label">Código de la Asignatura</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="textCodAsignatura" placeholder="Inserte código asignado a la asignatura" required="">
+							<input type="text" class="form-control" id="txtCodAsignatura" placeholder="Inserte código asignado a la asignatura" required="">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="txtNomAsignatura" class="col-lg-4 control-label">Nombre de la Asignatura</label>
 						<div class="col-lg-8">
-							<input type="password" class="form-control" id="txtNomAsignatura" placeholder="Inserte el nombre de la asignatura" required="">
+							<input type="text" class="form-control" id="txtNomAsignatura" placeholder="Inserte el nombre de la asignatura" required="">
 						</div>
 					</div>
 					    
@@ -299,7 +318,16 @@
 							<button type="submit" class="btn btn-primary btn-sm">Crear</button>
 							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
 						</div>
-					</div>							
+					</div>		
+
+					<div class="media">
+					   <a href="#" class="pull-left">
+					      <img  class="rotate" src="../../img/icon/ayuda.png" alt="Generic placeholder image" height="20" width="20">
+					   </a>
+					   <div class="media-body">
+					     <p class="help-block" style="font-size:8pt">Aquí el usuario establecerá cuales son las asignaturas que se imparten en la institución, (ej.: matematicas, español, entre otros).</p>
+					   </div>
+					</div>					
 				</form>
 			</div>
 		</div>
@@ -317,10 +345,10 @@
 	            <!-- aqui el contenido -->
 				<form class="form-horizontal" style="width:550px">
 					<div class="form-group">
-						<label for="textCodAsignatura" class="col-lg-4 control-label">Código de la Asignatura</label>
+						<label for="txtCodAsignatura" class="col-lg-4 control-label">Código de la Asignatura</label>
 						<div class="col-lg-8">
 							<div class="input-group">
-								<input type="text" class="form-control" id="textCodAsignatura" placeholder="Código asignatura" required="">
+								<input type="text" class="form-control" id="txtCodAsignatura" placeholder="Código asignatura" required="">
 									<span class="input-group-btn">
 										<button type="button" class="btn btn-default" id="btnBuscarAsignatura" title="Buscar" >
 											<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
@@ -333,7 +361,7 @@
 					<div class="form-group">
 						<label for="txtNomAsignatura" class="col-lg-4 control-label">Nombre de la Asignatura</label>
 						<div class="col-lg-8">
-							<input type="password" class="form-control" id="txtNomAsignatura" placeholder="Nombre de la asignatura" required="">
+							<input type="text" class="form-control" id="txtNomAsignatura" placeholder="Nombre de la asignatura" required="">
 						</div>
 					</div>
 					    
@@ -362,16 +390,16 @@
 	            <!-- aqui el contenido -->
 				<form class="form-horizontal" style="width:550px">
 					<div class="form-group">
-						<label for="textCodSección" class="col-lg-4 control-label">Código de la Sección</label>
+						<label for="txtCodSección" class="col-lg-4 control-label">Código de la Sección</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="textCodSección" placeholder="Inserte código asignado a la sección" required="">
+							<input type="text" class="form-control" id="txtCodSección" placeholder="Inserte código asignado a la sección" required="">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="txtNomSección" class="col-lg-4 control-label">Nombre de la Sección</label>
 						<div class="col-lg-8">
-							<input type="password" class="form-control" id="txtNomSección" placeholder="Inserte el nombre de la sección" required="">
+							<input type="text" class="form-control" id="txtNomSección" placeholder="Inserte el nombre de la sección" required="">
 						</div>
 					</div>
 					    
@@ -380,7 +408,16 @@
 							<button type="submit" class="btn btn-primary btn-sm">Crear</button>
 							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
 						</div>
-					</div>							
+					</div>	
+
+					<div class="media">
+					   <a href="#" class="pull-left">
+					      <img  class="rotate" src="../../img/icon/ayuda.png" alt="Generic placeholder image" height="20" width="20">
+					   </a>
+					   <div class="media-body">
+					     <p class="help-block" style="font-size:8pt">Aquí el usuario establecerá cuales son las secciones que tendrá la institución, (ej.: A, B, entre otros).</p>
+					   </div>
+					</div>
 				</form>
 			</div>
 		</div>
@@ -398,10 +435,10 @@
 	            <!-- aqui el contenido -->
 				<form class="form-horizontal" style="width:550px">
 					<div class="form-group">
-						<label for="textCodSección" class="col-lg-4 control-label">Código de la Sección</label>
+						<label for="txtCodSección" class="col-lg-4 control-label">Código de la Sección</label>
 						<div class="col-lg-8">
 							<div class="input-group">
-								<input type="text" class="form-control" id="textSección" placeholder="Código sección" required="">
+								<input type="text" class="form-control" id="txtCodSección" placeholder="Código sección" required="">
 									<span class="input-group-btn">
 										<button type="button" class="btn btn-default" id="btnBuscarSeccion" title="Buscar">
 											<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
@@ -414,7 +451,7 @@
 					<div class="form-group">
 						<label for="txtNomSección" class="col-lg-4 control-label">Nombre de la Sección</label>
 						<div class="col-lg-8">
-							<input type="password" class="form-control" id="txtSección" placeholder="Nombre de la sección" required="">	
+							<input type="text" class="form-control" id="txtNomSección" placeholder="Nombre de la sección" required="">	
 						</div>
 					</div>
 					    
@@ -422,6 +459,51 @@
 						<div class="col-lg-6 col-lg-offset-4">
 							<button type="submit" class="btn btn-warning btn-sm">Modificar</button>
 							<button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+						</div>
+					</div>							
+				</form>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+	<!-- ventana modal Edificios-->
+	<div class="modal fade" id="modalNEdificios" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="lineModalLabel">Nuevo Edificio</h4>
+			</div>
+			<div class="modal-body">
+				
+	            <!-- aqui el contenido -->
+				<form class="form-horizontal" style="width:520px">
+					<div class="form-group">
+						<label for="txtCodEdificio" class="col-lg-4 control-label">Código del Edificio</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtCodEdificio" placeholder="Inserte código asignado al Edificio" required="">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="txtNumAulas" class="col-lg-4 control-label">Número de Aulas</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtNumAulas" placeholder="Inserte el numero de aulas" required="">
+						</div>
+					</div>
+
+					<div class="form-group">
+				      <label for="txtDescripcion" class="col-lg-4 control-label">Descripción</label>
+				      <div class="col-lg-8">
+				        <textarea class="form-control" rows="3" id="txtDescripcion"></textarea>
+				        <span class="help-block">El usuario podrá describir otras actividades que se desempeñan en el edificio.</span>
+				      </div>
+				    </div>
+					    
+					<div class="form-group">
+						<div class="col-lg-6 col-lg-offset-4">
+							<button type="submit" class="btn btn-primary btn-sm">Crear</button>
 							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
 						</div>
 					</div>							

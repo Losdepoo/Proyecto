@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Instituto</title>
+    <title>Inventario</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,10 @@
 	<link href="../../css/style.css" rel="stylesheet">
 	<link href="../../css/animate.css" rel="stylesheet">
 	<link rel="stylesheet" href="../../css/magnific-popup.css"> 
-	<script src="../../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<script src="../../js/modernizr-2.8.3.min.js"></script>
+	<link href="bootstrap.css" rel="stylesheet">   
+	<link href="/css/bootstrap.css" rel="stylesheet"> 
+	<!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -50,8 +53,7 @@
 	</div>
 	
 	<!-- FullScreen -->
-    
-	
+
 	<!-- NavBar principio-->
 	<nav class="navbar-default" role="navigation">
 		<div class="container">
@@ -70,7 +72,7 @@
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria.php">Volver a Secretaría</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria-instituto.php">Volver a Instituto</a></li>
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -91,43 +93,33 @@
 	</nav> 
 	<!-- NavBar fin-->
 
-	<!-- inicio div administracion -->
-	<div id="Instituto" class="content-section-b" style="border-top: 0">
+	<!-- inicio div insercion -->
+	<div id="Inserciones" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Instituto</h2>
+				<h2>Inventario</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
 			
 			<div class="row">
-			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Inserciones" href="/Proyecto/administracion/secretaria/inserciones.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Inserciones</h3>
-				  <p class="lead">En este apartado usted podra inserta/crear nuevos cursos, asignaturas, secciones, entre otros a su base de datos.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Inventario" href="/Proyecto/administracion/secretaria/inventario.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Inventario</h3>
-				   <p class="lead">En este apartado usted podra incluir todo lo relacionado al inventario del instituto.</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Distribuciones" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Distribuciones</h3>
-				   <p class="lead">En este apartado usted podrá administrar la distribución de aulas, edificios, material didáctico, curso, entre otros..</p>
+				  <img  class="rotate" src="../../img/icon/edificios.png" alt="Generic placeholder image" height="100" width="100">
+				  <div class="center">
+				  	<h4>Edificios</h4>
+				  	<button data-toggle="modal" data-target="#modalNEdificios" class="btn btn-link btn-lg" title="El usuario podra crear una nuevo sección.">Nuevo Edificio</button>
+				  	<button data-toggle="modal" data-target="#modalMESeccion" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar una sección.">Modificar/Eliminar Sección</button>
+				  </div>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 			</div><!-- /.row -->
 		</div>
 	</div>
-	<!-- fin div administracion -->
+
+	<!-- fin div insercion -->
+
+	<!--Comentario-->
 	
 	<div  class="content-section-c ">
 		<div class="container">
@@ -160,8 +152,8 @@
 			</div>
 		</div>
 	</div>	
-
-	<footer>
+	
+	 <footer>
           <div class="col-md-6">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
                 <li>Grupo #3</li>
@@ -176,14 +168,60 @@
           </div>
     </footer>
 
+	<!-- ventana modal Edificios-->
+	<div class="modal fade" id="modalNEdificios" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="lineModalLabel">Nuevo Edificio</h4>
+			</div>
+			<div class="modal-body">
+				
+	            <!-- aqui el contenido -->
+				<form class="form-horizontal" style="width:520px">
+					<div class="form-group">
+						<label for="txtCodEdificio" class="col-lg-4 control-label">Código del Edificio</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtCodEdificio" placeholder="Inserte código asignado al Edificio" required="">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="txtNumAulas" class="col-lg-4 control-label">Número de Aulas</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtNumAulas" placeholder="Inserte el numero de aulas" required="">
+						</div>
+					</div>
+
+					<div class="form-group">
+				      <label for="txtDescripcion" class="col-lg-4 control-label">Descripción</label>
+				      <div class="col-lg-8">
+				        <textarea class="form-control" rows="3" id="txtDescripcion"></textarea>
+				        <span class="help-block">El usuario podrá describir otras actividades que se desempeñan en el edificio.</span>
+				      </div>
+				    </div>
+					    
+					<div class="form-group">
+						<div class="col-lg-6 col-lg-offset-4">
+							<button type="submit" class="btn btn-primary btn-sm">Crear</button>
+							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+						</div>
+					</div>							
+				</form>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+	<!--fin de las ventanas modales-->
 
     <!-- JavaScript -->
-    <script src="/proyecto/js/jquery-1.10.2.js"></script>
-    <script src="/proyecto/js/bootstrap.js"></script>
-	<script src="/proyecto/js/owl.carousel.js"></script>
-	<script src="/proyecto/js/script.js"></script>
+    <script src="../../js/jquery-1.10.2.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+	<script src="../../js/owl.carousel.js"></script>
+	<script src="../../js/script.js"></script>
 	<!-- StikyMenu -->
-	<script src="/proyecto/js/stickUp.min.js"></script>
+	<script src="../../js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -194,15 +232,15 @@
 	
 	</script>
 	<!-- Smoothscroll -->
-	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
-	<script src="/proyecto/js/wow.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.corner.js"></script> 
+	<script src="../../js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="/proyecto/js/classie.js"></script>
-	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
+	<script src="../../js/classie.js"></script>
+	<script src="../../js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
+	<script src="../../js/jquery.magnific-popup.js"></script> 
 
 </body>
 
