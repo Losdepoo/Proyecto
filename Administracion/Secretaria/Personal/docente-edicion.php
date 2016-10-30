@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Nuevo Maestro</title>
+    <title>Edicion Maestro</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
@@ -34,13 +34,23 @@
 <body id="home">
 		<form class="form-vertical">
 			  <fieldset>
-			    <legend>Nuevo Maestro</legend>
+			    <legend>Editar Docentes</legend>
 			    <div class="form-group">
-			      <label class="col-lg-2 control-label">Nombre Completo</label>
+			      <label class="col-lg-2 control-label">Ingrese el Codigo de Docente</label>
 			      <div class="col-lg-10">
-			        <input type="text" class="form-control" id="inputEmail" placeholder="Ej. Juan Orlando Hernandez Alvarado">
+			        <input type="text" class="form-control" id="inputEmail" placeholder="Ej. 4158720">
+			        <button>Buscar</button>
 			      </div>
 			    </div>
+
+			   	
+			    <div class="form-group">
+			      <label class="col-lg-2 control-label">Nombre Docente</label>
+			      <div class="col-lg-10">
+			        <input type="text" class="form-control" id="inputEmail" placeholder="Ej. 4158720">
+			      </div>
+			    </div>
+
 			    <div class="form-group">
 			      <label for="inputPassword" class="col-lg-2 control-label">Numero de Identidad</label>
 			      <div class="col-lg-10">
@@ -84,7 +94,6 @@
 						<br />
 						<input name="cbtercero" type="checkbox" />Tercero Diversificado
 						</br>
-			        
 
 			        <label for="select" class="col-lg-2 control-label">Clase a impartír</label>
 			        <select class="form-control">
@@ -112,11 +121,12 @@
 			        <span class="help-block">cualquier tipo de observacion incluidas: medicas, conductivas, etc.</span>
 			      </div>
 			    </div>
-				
-				<div class="form-group">
+
+			    <div class="form-group">
 			      <div class="col-lg-10 col-lg-offset-2">
 			        <button type="reset" class="btn btn-default">Cancelar</button>
-			        <button type="submit" class="btn btn-primary">Agregar Docente</button>
+			        <button type="submit" class="btn btn-warning">Elminar Docente</button>
+			        <button type="submit" class="btn btn-primary">Modificar Docente</button>
 			      </div>
 			    </div>
 			  </fieldset>

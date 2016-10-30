@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Secretaría Docentes</title>
+    <title>Personal</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
      <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
@@ -105,40 +105,41 @@
 			<div class="row">
 			
 				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Nuevo docente"><img  class="rotate" src="/Proyecto/img/icon/nuevo.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  
-				  <div class="mockup-content">
-						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
-							<button type="button "><span>Docentes</span></button>
-							<div class="morph-content">
-								<div>
-									<div class="content-style-form content-style-form-3">
-										<h2 class="morph-clone">Docentes</h2>
-										<form>
-											<p><button type="button" class="btn-primary" onClick="return popitup('/Proyecto/Administracion/Secretaria/personal/docente-contratacion.php')"><span>Nuevo Docentes</span></button></p>
-
-											<p><button type="button" class="btn-primary" onClick="return popitup('/Proyecto/Administracion/Secretaria/personal/docente-contratacion.php')"><span>Administrar Docentes</span></button></p>
-
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-				</div>
-
+				  	<a title="Docente" onClick="return popitup('/Proyecto/Administracion/Secretaria/Personal/docente.php')"><img  class="rotate" src="/Proyecto/img/icon/Docente.png" alt="Generic placeholder image" height="100" width="100"></a></br>
+				  	Personal Docentes
+				  	
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="General" href="#"><img  class="rotate" src="/Proyecto/img/icon/existente.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>General</h3>
-				   <p class="lead">Listados de docentes y cualquier gestion de los mismos.</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				
+				  <a title="Aseo" onClick="return popitup('/Proyecto/Administracion/Secretaria/Personal/aseo.php')"><img  class="rotate img-circle" src="/Proyecto/img/icon/limpieza.png" alt="Generic placeholder image" height="100" width="100"></a></br>
+				  Personal Aseo
+				</div>
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+					
+				  <a title="Mantenimiento" onClick="return popitup('/Proyecto/Administracion/Secretaria/Personal/mantenimiento.php')"><img  class="rotate img-circle" src="/Proyecto/img/icon/Mantenimiento.png" alt="Generic placeholder image" height="100" width="100"></a></br>
+				  Personal Mantenimiento
+				</div>				
 				
 			</div><!-- /.row -->
+				</br>
+			<div class="row">
+			
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  	<a title="Nuevo docente"><img  class="rotate" src="/Proyecto/img/icon/seguridad.png" alt="Generic placeholder image" height="100" width="100"></a></br>
+				  	Personal Seguridad
+				  	
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Nuevo docente"><img  class="rotate" src="/Proyecto/img/icon/chofer.png" alt="Generic placeholder image" height="100" width="100"></a></br>
+				  Personal Transporte
+				</div>
+			</div><!-- /.row -->
+
+
 		</div>
 	</div>
 	<!-- fin div administracion -->

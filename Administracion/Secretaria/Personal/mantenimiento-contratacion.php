@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Nuevo Maestro</title>
+    <title>Nuevo Personal Mantenimiento</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
 <body id="home">
 		<form class="form-vertical">
 			  <fieldset>
-			    <legend>Nuevo Maestro</legend>
+			    <legend>Nuevo Personal de Mantenimiento</legend>
 			    <div class="form-group">
 			      <label class="col-lg-2 control-label">Nombre Completo</label>
 			      <div class="col-lg-10">
@@ -58,48 +58,24 @@
 			        </select>
 			        <br>
 
-			        <label class="col-lg-2 control-label">Cursos a los que impartirá</label>
+			        <label class="col-lg-2 control-label">Areas de Trabajo</label>
 			        	<br />
-						<input name="cbprimero" type="checkbox" />Primero
+						<input name="cbprimero" type="checkbox" />Material Didáctico
 						<br />
-						<input name="cbsegundo" type="checkbox" />Segundo
+						<input name="cbsegundo" type="checkbox" />Pupítres
 						<br />
-						<input name="cbtercero" type="checkbox" />Tercero
+						<input name="cbtercero" type="checkbox" />Laboratorios
 						<br />
-						<input name="cbprimero" type="checkbox" />Cuarto
+						<input name="cbprimero" type="checkbox" />Fontanería
 						<br />
-						<input name="cbsegundo" type="checkbox" />Quinto
-						<br />
-						<input name="cbtercero" type="checkbox" />Sexto
-						<br />
-						<input name="cbprimero" type="checkbox" />Séptimo
-						<br />
-						<input name="cbsegundo" type="checkbox" />Octavo
-						<br />
-						<input name="cbtercero" type="checkbox" />Noveno
-						<br />
-						<input name="cbprimero" type="checkbox" />Primero Diversificado
-						<br />
-						<input name="cbsegundo" type="checkbox" />Segundo Diversificado
-						<br />
-						<input name="cbtercero" type="checkbox" />Tercero Diversificado
+						<input name="cbsegundo" type="checkbox" />Nivel Administrativo
 						</br>
 			        
 
-			        <label for="select" class="col-lg-2 control-label">Clase a impartír</label>
+			        <label for="select" class="col-lg-2 control-label">Edificio Asignado</label>
 			        <select class="form-control">
-			          <option>Ciencias Naturales</option>
-			          <option>Matemáticas</option>
-			          <option>Español</option>
-			          <option>Ciencias Sociáles</option>
-			          <option>Computación</option>
-			          <option>Ingles</option>
-			          <option>Dibujo</option>
-			          <option>Música</option>
-			          <option>Educación Física</option>
-			          <option>Física Elemental</option>
-			          <option>Química</option>
-			          <option>Biología</option>
+			          <option>Colegio</option>
+			          <option>Escuela</option>
 			        </select>	
 
 			      </div>
@@ -116,7 +92,7 @@
 				<div class="form-group">
 			      <div class="col-lg-10 col-lg-offset-2">
 			        <button type="reset" class="btn btn-default">Cancelar</button>
-			        <button type="submit" class="btn btn-primary">Agregar Docente</button>
+			        <button type="submit" class="btn btn-primary">Agregar a Personal de Mantenimiento</button>
 			      </div>
 			    </div>
 			  </fieldset>
