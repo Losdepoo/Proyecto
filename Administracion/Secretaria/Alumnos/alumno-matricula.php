@@ -156,9 +156,7 @@
         </div>
       </div>
     </div>
- 
      
-
     <div class="form-group">
       <label for="inputDireccion" class="col-lg-4 control-label">Direccion</label>
       <div class="col-lg-8">
@@ -201,6 +199,7 @@
       <div class="col-lg-8 col-lg-offset-4">
         <button type="reset" class="btn btn-default">Guardar</button>
         <button type="submit" class="btn btn-primary">Cancelar</button>
+        
 
      <div class="center">
          <h4></h4>
@@ -329,51 +328,6 @@
     </div>
     </div>
   </div>
-
-              <!-- aqui el contenido -->
-        <form class="form-horizontal" style="width:520px">
-          <div class="form-group">
-            <label for="textAlergias" class="col-lg-4 control-label">Alergias</label>
-            <div class="col-lg-8">
-              <div class="input-group">
-                <input type="text" class="form-control" id="textAlergias" placeholder="Alergias" required="">
-                  <span class="input-group-btn">
-                    <button type="button" class="btn btn-default" id="btnBuscar" title="Buscar">
-                      <i class="glyphicon glyphicon-search" aria-hidden="true"></i>
-                    </button> 
-                  </span>
-              </div>    
-            </div>
-          </div>
-          
-          <div class="form-group">
-            <label for="txtEnfermedades" class="col-lg-4 control-label">Enfermedades que padece</label>
-            <div class="col-lg-8">
-              <input type="password" class="form-control" id="txtEnfermedades" placeholder="Nombre del curso" required="">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="inputTipo-sangre" class="col-lg-4 control-label">Tipo de sangre</label>
-            <div class="col-lg-8">
-              <input type="Tipo de sangre" class="form-control" id="inputTipo-sangre" placeholder="Ingrese el Tipo de sangre">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="textMedicamentos-toma" class="col-lg-4 control-label">Medicamentos que toma</label>
-            <div class="col-lg-8">
-              <input type="password" class="form-control" id="textMedicamentos-toma" placeholder="Medicamentos que toma" required="">
-            </div>
-          </div>
-
-           <div class="form-group">
-              <label for="textMedicamentos-ingerir" class="col-lg-4 control-label">Medicamentos que no debe de ingerir</label>
-              <div class="col-lg-8">
-                  <textArea class="form-control" rows="3" id="textMedicamentos-ingerir"></textArea>
-                  <span class="help-block"></span>
-              </div>
-            </div>
               
   <!--fin de la ventana-->
 
