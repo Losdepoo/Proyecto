@@ -14,21 +14,21 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Secretaría Alumnado</title>
+    <title>Alumnado</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link href="../../css/general.css" rel="stylesheet">
-	<link href="../../css/custom.css" rel="stylesheet">
-	<link href="../../css/owl.carousel.css" rel="stylesheet">
-    <link href="../../css/owl.theme.css" rel="stylesheet">
-	<link href="../../css/style.css" rel="stylesheet">
-	<link href="../../css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="../../css/magnific-popup.css"> 
-	<script src="../../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<link href="/Proyecto/css/general.css" rel="stylesheet">
+	<link href="/Proyecto/css/custom.css" rel="stylesheet">
+	<link href="/Proyecto/css/owl.carousel.css" rel="stylesheet">
+    <link href="/Proyecto/css/owl.theme.css" rel="stylesheet">
+	<link href="/Proyecto/css/style.css" rel="stylesheet">
+	<link href="/Proyecto/css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
+	<script src="/Proyecto/js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -64,13 +64,14 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la página principal">Instituto Privado Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="#administrar">Instituto Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria.php">Volver a Secretaría</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria-alumno.php">Volver a Alumnado</a></li>
+					
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -91,8 +92,9 @@
 	</nav> 
 	<!-- NavBar fin-->
 
-	<!-- inicio div administracion -->
-	<div id="Alumno" class="content-section-b" style="border-top: 0">
+	<!-- inicio div Alumnado -->
+	
+	<div id="administrar" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
@@ -103,39 +105,34 @@
 			
 			<div class="row">
 			
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Matricula/Traslados" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Matricula/Traslados</h3>
-				  <p class="lead">Control de matrícula y traslado de alumnos.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Reportes/Excusas" href="#"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Reportes/Excusas</h3>
-				   <p class="lead">En este apartado usted podrá hacer reportes, excusas.</p>
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a title="Matricula" href="/Proyecto/administracion/secretaria/alumnos/alumno-matricula.php" ><img  class="rotate" src="/Proyecto/img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Matricula</h3>
+				  <p class="lead">En este apartado se llevara acabo la matricula de cada alumno.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Expulsiones/Otros" href="#"><img  class="rotate" src="../../img/icon/expulsiones.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Expulsiones/Otros</h3>
-				   <p class="lead">En este apartado usted podrá llevar el control de las expulsiones y otros.</p>
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a title="Encargado" href="/Proyecto/administracion/secretaria/alumnos/alumno-encargado.php"><img  class="rotate" src="/Proyecto/img/icon/nuevo.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Encargado</h3>
+				   <p class="lead">En este apartado se llevara acabo el control de cada encargado por alumno.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Extension de Titulos/Otros Documentos" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Extension de Titulos/Otros Documentos</h3>
-				   <p class="lead">En este apartado usted podrá extender tituos y otros documentos.</p>
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a title="Traslado" href="/Proyecto/administracion/secretaria/alumnos/alumno-traslado.php"><img  class="rotate" src="/Proyecto/img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Traslado</h3>
+				   <p class="lead">En este apartado se llevara acabo los traslados solicitados por el alumno/encargado.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
+				
+				
 				
 			</div><!-- /.row -->
 		</div>
 	</div>
-	<!-- fin div administracion -->
+
+	<!-- fin div Alumnado -->
 	
 	<div  class="content-section-c ">
 		<div class="container">
@@ -169,7 +166,7 @@
 		</div>
 	</div>	
 	
-     <footer>
+    <footer>
           <div class="col-md-6">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
                 <li>Grupo #3</li>
@@ -184,8 +181,9 @@
           </div>
     </footer>
 
+
     <!-- JavaScript -->
-    <script src="/proyecto/js/jquery-1.10.2.js"></script>
+     <script src="/proyecto/js/jquery-1.10.2.js"></script>
     <script src="/proyecto/js/bootstrap.js"></script>
 	<script src="/proyecto/js/owl.carousel.js"></script>
 	<script src="/proyecto/js/script.js"></script>
@@ -210,6 +208,14 @@
 	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
 	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
+		<script  type="text/javascript">
+		function popitup(url)
+		{
+			newwindow=window.open(url,'name','height=660,width=600'); 
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+		</script>
 
 </body>
 
