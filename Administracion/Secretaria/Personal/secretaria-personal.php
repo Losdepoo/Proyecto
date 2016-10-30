@@ -127,7 +127,7 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  	<a title="Nuevo docente"><img  class="rotate" src="/Proyecto/img/icon/seguridad.png" alt="Generic placeholder image" height="100" width="100"></a></br>
+				  	<a title="Nuevo docente" onClick="return popitup('/Proyecto/Administracion/Secretaria/Personal/seguridad.php')"><img  class="rotate" src="/Proyecto/img/icon/seguridad.png" alt="Generic placeholder image" height="100" width="100"></a></br>
 				  	Personal Seguridad
 				  	
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
