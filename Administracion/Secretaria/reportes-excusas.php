@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Tesorería Alumnos</title>
+    <title>Reportes y Excusas</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -68,11 +68,8 @@
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="/Proyecto/administracion/tesoreria/tesoreria.php">Volver a Tesorería</a></li>
-				</ul>
-				
+				<ul class="nav navbar-nav">	
+					<li class="menuItem"><a href="/Proyecto/administracion/administracion">Volver a Administración</a></li>		
 				<ul class="nav navbar-nav navbar-right">
 	        		<li class="dropdown">
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>
@@ -92,39 +89,59 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="Alumno" class="content-section-b" style="border-top: 0">
+	<div id="Tesorería" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Alumnos</h2>
-				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
+				<h2>Reportes y Excusas</h2>
+				<p class="lead" style="margin-top:0">Seleccione una opcion:</p>
 				
 			</div>
 			
 			<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+					<img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100">
+					<p class="text-muted">Seleccione para descargar formato PDF de reportes</p>
+				 	<a href="#" class="btn btn-primary btn-lg">Reportes</a>
+				</div>
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Pagos" href="/Proyecto/administracion/tesoreria/pagos-principal.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Pagos</h3>
-				  <p class="lead">En este apartado se llevara el control de pagos matrícula y mensualidades.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Otros Pagos" href="#"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Otros Pagos</h3>
-				  <p class="lead">En este apartado se llevara el control de otros pagos realizados por el alumno.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-12 wow fadeInDown text-center">
-				  <a title="Estado de Cuenta" href="#"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Estado de Cuenta</h3>
-				   <p class="lead">En este apartado usted podrá ver el estado de cuenta de cada alumno.</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+					<img  class="rotate" src="../../img/icon/excusas.png" alt="Generic placeholder image" height="100" width="100">
+					<p class="text-muted">Seleccione para descargar formato PDF de excusas</p>
+				 	<a href="#" class="btn btn-primary btn-lg">Excusas</a>
+				</div>
 				
 			</div><!-- /.row -->
 		</div>
@@ -163,7 +180,7 @@
 		</div>
 	</div>	
 	
-     <footer>
+	<footer>
           <div class="col-md-6">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
                 <li>Grupo #3</li>
@@ -179,12 +196,12 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="/proyecto/js/jquery-1.10.2.js"></script>
-    <script src="/proyecto/js/bootstrap.js"></script>
-	<script src="/proyecto/js/owl.carousel.js"></script>
-	<script src="/proyecto/js/script.js"></script>
+    <script src="../../js/jquery-1.10.2.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+	<script src="../../js/owl.carousel.js"></script>
+	<script src="../../js/script.js"></script>
 	<!-- StikyMenu -->
-	<script src="/proyecto/js/stickUp.min.js"></script>
+	<script src="../../js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -195,15 +212,15 @@
 	
 	</script>
 	<!-- Smoothscroll -->
-	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
-	<script src="/proyecto/js/wow.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.corner.js"></script> 
+	<script src="../../js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="/proyecto/js/classie.js"></script>
-	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
+	<script src="../../js/classie.js"></script>
+	<script src="../../js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
+	<script src="../../js/jquery.magnific-popup.js"></script> 
 
 </body>
 

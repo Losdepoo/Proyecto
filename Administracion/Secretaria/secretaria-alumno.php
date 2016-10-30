@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Secretaría Alumnado</title>
+    <title>Secretaría Alumnos</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -96,7 +96,7 @@
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Alumnado</h2>
+				<h2>Alumnos</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
@@ -104,15 +104,15 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Matricula/Traslados" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Matricula/Traslados" href="#"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Matricula/Traslados</h3>
-				  <p class="lead">Control de matrícula y traslado de alumnos.</p>
+				  <p class="lead">CControl de matrícula y traslado de alumnos.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Reportes/Excusas" href="#"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Reportes/Excusas" href="/Proyecto/Administracion/Secretaria/reportes-excusas.php"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Reportes/Excusas</h3>
 				   <p class="lead">En este apartado usted podrá hacer reportes, excusas.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
@@ -126,6 +126,13 @@
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Distribuciones" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Distribuciones</h3>
+				   <p class="lead">En este apartado usted podrá administrar la distribución de aulas, edificios, material didáctico, curso, entre otros..</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-12 wow fadeInDown text-center">
 				  <a title="Extension de Titulos/Otros Documentos" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Extension de Titulos/Otros Documentos</h3>
 				   <p class="lead">En este apartado usted podrá extender tituos y otros documentos.</p>

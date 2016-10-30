@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Instituto</title>
+    <title>Secretaría Instituto</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -104,26 +104,22 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Inserciones" href="/Proyecto/administracion/secretaria/inserciones.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Inserciones</h3>
-				  <p class="lead">En este apartado usted podra inserta/crear nuevos cursos, asignaturas, secciones, entre otros a su base de datos.</p>
+				  <a title="Sujeto a cambio" href="Sujeto a cambio"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Sujeto a cambio</h3>
+				  <p class="lead">Sujeto a cambio.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
-
+				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Inventario" href="/Proyecto/administracion/secretaria/inventario.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Inventario</h3>
-				   <p class="lead">En este apartado usted podra incluir todo lo relacionado al inventario del instituto.</p>
+				  <a title="Sujeto a cambio" href="Sujeto a cambio"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Sujeto a cambio</h3>
+				   <p class="lead">Sujeto a cambio.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Distribuciones" href="#"><img  class="rotate" src="../../img/icon/pagos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Distribuciones</h3>
-				   <p class="lead">En este apartado usted podrá administrar la distribución de aulas, edificios, material didáctico, curso, entre otros..</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+				
+				
+				
 			</div><!-- /.row -->
 		</div>
 	</div>

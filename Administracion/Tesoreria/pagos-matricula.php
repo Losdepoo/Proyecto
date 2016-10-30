@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Menu de pagos</title>
+    <title>Pagos de matricula</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 
       <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
         <ul class="nav navbar-nav"> 
-          <li class="menuItem"><a href="/Proyecto/administracion/tesoreria/pagos-principal">Volver a Administración</a></li>   
+          <li class="menuItem"><a href="/Proyecto/administracion/administracion">Volver a Administración</a></li>   
         <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>
@@ -100,38 +100,50 @@
       
       <div class="row">
 
-        <div class="col-sm-6 wow fadeInDown text-center">
+
+
+
+      
+
+
+
+
+
+
+
+
+        <div class="col-sm-10 wow fadeInDown text-center">
           <!--Quite div de pagos matriculas-->
            <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 
            <form class="form-horizontal">
   <fieldset>
-    <legend>Legend</legend>
+    <legend>Datos del alumno</legend>
     <div class="form-group">
-      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <label for="inputAlumno" class="col-lg-2 control-label">Alumno:</label>
       <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        <input type="text" class="form-control" id="inputAlumno" placeholder="Alumno">
       </div>
     </div>
     <div class="form-group">
-      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+      <label for="select" class="col-lg-2 control-label">Curso</label>
       <div class="col-lg-10">
-        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Checkbox
-          </label>
-        </div>
+        <select class="form-control" id="select" placeholder="Seleccione una opcion">
+          <option>Seleccione una opcion</option>
+          <option>primer curso</option>
+          <option>segundo curso</option>
+          <option>tercer curso</option>
+          <option>I bachillerato Ciencias y Letras</option>
+          <option>II bachillerato Ciencias y letras</option>
+        </select>
+        <br>
+       
       </div>
     </div>
-    <div class="form-group">
-      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-      <div class="col-lg-10">
-        <textarea class="form-control" rows="3" id="textArea"></textarea>
-        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-      </div>
     </div>
-    <div class="form-group">
+
+    
+    <!--<div class="form-group">
       <label class="col-lg-2 control-label">Radios</label>
       <div class="col-lg-10">
         <div class="radio">
@@ -147,8 +159,8 @@
           </label>
         </div>
       </div>
-    </div>
-    <div class="form-group">
+    </div> -->
+    <!--<div class="form-group">
       <label for="select" class="col-lg-2 control-label">Selects</label>
       <div class="col-lg-10">
         <select class="form-control" id="select">
@@ -167,16 +179,61 @@
           <option>5</option>
         </select>
       </div>
+    </div> -->
+   
+  </fieldset>
+</form>
+        </div><!-- /.col-lg-4 -->
+
+
+
+
+
+
+
+
+
+
+
+ <div class="col-sm-10 wow fadeInDown text-center">
+          
+           <form class="form-horizontal">
+  <fieldset>
+    <legend>Datos de pago</legend>
+    <div class="form-group">
+      <label for="inputFecha" class="col-lg-2 control-label">Fecha:</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputMes" placeholder="Fecha">
+      </div>
     </div>
     <div class="form-group">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button type="reset" class="btn btn-default">Cancel</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
+      <label for="inputMonto" class="col-lg-2 control-label">Monto:</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputMonto" placeholder="Monto">
       </div>
+    </div>
+    <button type="reset" class="btn btn-default">Cancelar</button>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+    
+    </div>
     </div>
   </fieldset>
 </form>
         </div><!-- /.col-lg-4 -->
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
       
         
         

@@ -106,17 +106,17 @@
 				
 
 				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Alumnado" href="/Proyecto/administracion/secretaria/secretaria-alumno.php"><img  class="rotate" src="/Proyecto/img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Alumnado</h3>
+				  <a title="Alumnos" href="/Proyecto/administracion/secretaria/secretaria-alumno.php"><img  class="rotate" src="/Proyecto/img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Alumnos</h3>
 				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en la matrícula, traslados u otras acciones al alumnado.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 
 				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Personal" href="/Proyecto/administracion/secretaria/personal/secretaria-personal.php"><img  class="rotate" src="/Proyecto/img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Personal</h3>
-				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en el personal como quitar, agregar y reubicarlos.</p>
+				  <a title="Alumnos" href="/Proyecto/administracion/secretaria/secretaria-alumno.php"><img  class="rotate" src="/Proyecto/img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Docentes</h3>
+				  <p class="lead">En este apartado usted podrá administrar cualquier tipo de cambio en los docentes como quitar, agregar y reubicarlos.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
