@@ -97,53 +97,37 @@
     <div class="container">
 
       <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-        <h2>Matricula</h2>
-        <p class="lead" style="margin-top:0">Ingrese los datos del estudiante:</p>
-        
+        <h2>Matricula</h2>    
       </div>
       
       <div class="row">
 
-        <div class="col-sm-6 wow fadeInDown text-center">
-          <!--Quite div Matricula-->
-           <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-
-
-  <form class="form-horizontal">
-  <fieldset>
-    <legend></legend>
-    
+        <div class="col-sm-12 wow fadeInDown text-center">
+        <form class="form-horizontal">
     
     <div class="form-group">
-      <label for="inputNombre" class="col-lg-4 control-label">Nombre del Estudiante</label>
-      <div class="col-lg-8">
-        <input type="Nombre" class="form-control" id="inputNombre" placeholder="Ingrese el Nombre">
-      </div>
-    </div> 
-
-    <div class="form-group">
-      <label for="inputApellido" class="col-lg-4 control-label">Apellido</label>
-      <div class="col-lg-8">
-        <input type="Apellido" class="form-control" id="inputApellido" placeholder="Ingrese el Apellido">
+      <label for="inputNombre" class="col-lg-4 control-label">Nombre Completo:</label>
+      <div class="col-lg-5">
+        <input type="Nombre" class="form-control" id="inputNombre" placeholder="Ingrese el nombre del estudiante">
       </div>
     </div>
-    
-      <div class="form-group">
-      <label for="inputTelefono" class="col-lg-4 control-label">Fecha de nacimiento</label>
-      <div class="col-lg-8">
+
+    <div class="form-group">
+      <label for="inputIdEstudiante" class="col-lg-4 control-label">Numero de Identidad:</label>
+      <div class="col-lg-5">
+        <input type="text" class="form-control" id="inputIdEstudiante" placeholder="Ingrese el numero de identidad">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputTelefono" class="col-lg-4 control-label">Fecha de Nacimiento:</label>
+      <div class="col-lg-5">
         <input type="Telefono" class="form-control" id="inputNombre" placeholder="Ingrese la fecha de nacimiento">
       </div>
     </div>
 
-      <div class="form-group">
-      <label for="inputIdEstudiante" class="col-lg-4 control-label">No. de identidad</label>
-      <div class="col-lg-8">
-        <input type="text" class="form-control" id="inputIdEstudiante" placeholder="Ingrese el No. de identidad">
-      </div>
-    </div>
-
     <div class="form-group">
-      <label class="col-lg-4 control-label">Genero</label>
+      <label class="col-lg-4 control-label">Genero:</label>
       <div class="col-lg-2">
         <div class="Genero">
           <label>
@@ -158,23 +142,24 @@
     </div>
      
     <div class="form-group">
-      <label for="inputDireccion" class="col-lg-4 control-label">Direccion</label>
-      <div class="col-lg-8">
-        <input type="Direccion" class="form-control" id="inputDireccion" placeholder="Ingrese la Direccion">
+      <label for="inputDireccion" class="col-lg-4 control-label">Direccion:</label>
+      <div class="col-lg-5">
+        <input type="Direccion" class="form-control" id="inputDireccion" placeholder="Ingrese la direccion">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputEdad" class="col-lg-4 control-label">Edad</label>
-      <div class="col-lg-8">
-        <input type="Edad" class="form-control" id="inputEdad" placeholder="Ingrese la Edad">
+      <label for="inputEdad" class="col-lg-4 control-label">Edad:</label>
+      <div class="col-lg-5">
+        <input type="Edad" class="form-control" id="inputEdad" placeholder="Ingrese la edad">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="select" class="col-lg-4 control-label">Jornada</label>
-      <div class="col-lg-8">
+      <label for="select" class="col-lg-4 control-label">Jornada:</label>
+      <div class="col-lg-5">
         <select class="form-control" id="select">
+          <option>Seleccione una opcion</option>
           <option>Matutino</option>
           <option>Vespertino</option>
         </select>
@@ -182,21 +167,21 @@
     </div>
      
     <div class="form-group">
-      <label for="inputCorreo-electronico" class="col-lg-4 control-label">Correo Electronico</label>
-      <div class="col-lg-8">
-        <input type="Correo-electronico" class="form-control" id="Correo-electronico" placeholder="Ingrese el Correo Electronico">
+      <label for="inputCorreo-electronico" class="col-lg-4 control-label">Correo Electronico:</label>
+      <div class="col-lg-5">
+        <input type="Correo-electronico" class="form-control" id="Correo-electronico" placeholder="Ingrese el correo electronico">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputTelefono" class="col-lg-4 control-label">Telefono</label>
-      <div class="col-lg-8">
-        <input type="Telefono" class="form-control" id="inputNombre" placeholder="Ingrese el Telefono">
+      <label for="inputTelefono" class="col-lg-4 control-label">Telefono:</label>
+      <div class="col-lg-5">
+        <input type="Telefono" class="form-control" id="inputNombre" placeholder="Ingrese el telefono">
       </div>
     </div>
     
     <div class="form-group">
-      <div class="col-lg-8 col-lg-offset-4">
+      <div class="col-lg-4 col-lg-offset-4">
         <button type="reset" class="btn btn-default">Guardar</button>
         <button type="submit" class="btn btn-primary">Cancelar</button>
         
@@ -204,17 +189,12 @@
      <div class="center">
          <h4></h4>
             <button data-toggle="modal" data-target="#modalNDatos-medicos" class="btn btn-info" title="El usuario podra ingresar los datos medicos.">Datos Medicos</button>
-         </div>
-        </div>
-          </div>
-           <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->    
-  </fieldset>
-</form>
+      </div>
+      </div>
+    </div>
+    </form>
 
-   </div><!-- /.col-lg-4 -->
-      
-        
-        
+        </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
   </div> 
@@ -281,35 +261,35 @@
               <!-- aqui el contenido -->
         <form class="form-horizontal" style="width:520px">
           <div class="form-group">
-            <label for="textAlergias" class="col-lg-4 control-label">Alergias</label>
+            <label for="textAlergias" class="col-lg-4 control-label">Alergias:</label>
             <div class="col-lg-8">
               <input type="text" class="form-control" id="textAlergias" placeholder="Ingrese si padece de alguna alergia" required="">
             </div>
           </div>
 
           <div class="form-group">
-            <label for="txtEnfermedades" class="col-lg-4 control-label">Enfermedades que padece</label>
+            <label for="txtEnfermedades" class="col-lg-4 control-label">Enfermedades que padece:</label>
             <div class="col-lg-8">
               <input type="password" class="form-control" id="txtEnfermedades" placeholder="Ingrese si padece de alguna enfermedad" required="">
             </div>
           </div>
 
           <div class="form-group">
-            <label for="inputTipo-sangre" class="col-lg-4 control-label">Tipo de sangre</label>
+            <label for="inputTipo-sangre" class="col-lg-4 control-label">Tipo de sangre:</label>
             <div class="col-lg-8">
-                <input type="Tipo de sangre" class="form-control" id="inputTipo-sangre" placeholder="Ingrese el Tipo de sangre">
+                <input type="Tipo de sangre" class="form-control" id="inputTipo-sangre" placeholder="Ingrese el tipo de sangre">
             </div>
           </div>
           
           <div class="form-group">
-            <label for="textMedicamentos-toma" class="col-lg-4 control-label">Medicamentos que toma</label>
+            <label for="textMedicamentos-toma" class="col-lg-4 control-label">Medicamentos que toma:</label>
             <div class="col-lg-8">
-                <input type="password" class="form-control" id="textMedicamentos-toma" placeholder="Medicamentos que toma" required="">
+                <input type="password" class="form-control" id="textMedicamentos-toma" placeholder="Ingrese los medicamentos que toma" required="">
             </div>
           </div>
 
           <div class="form-group">
-            <label for="textMedicamentos-ingerir" class="col-lg-4 control-label">Medicamentos que no debe de ingerir</label>
+            <label for="textMedicamentos-ingerir" class="col-lg-4 control-label">Medicamentos que no debe de ingerir:</label>
             <div class="col-lg-8">
                   <textArea class="form-control" rows="3" id="textMedicamentos-ingerir"></textArea>
                   <span class="help-block"></span>
