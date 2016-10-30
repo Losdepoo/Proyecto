@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Pagos de matricula</title>
+    <title>Pagos de Matricula</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 
       <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
         <ul class="nav navbar-nav"> 
-          <li class="menuItem"><a href="/Proyecto/administracion/administracion">Volver a Administración</a></li>   
+          <li class="menuItem"><a href="/Proyecto/administracion/tesoreria/pagos-principal.php">Volver a Menu de Pagos</a></li>   
         <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>

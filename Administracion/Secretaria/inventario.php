@@ -104,12 +104,23 @@
 			</div>
 			
 			<div class="row">
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <img  class="rotate" src="../../img/icon/materialDidactico.png" alt="Generic placeholder image" height="100" width="100">
+				  <div class="center">
+				  	<h4>Material Didáctico</h4>
+				  	<button data-toggle="modal" data-target="#modalNMaterialDidactico" class="btn btn-link btn-lg" title="El usuario podrá llevar el control de los materiales con los que cuenta la institución.">Nuevo Material</button>
+				  	<button data-toggle="modal" data-target="#modalMEMaterialDidactico" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar un material.">Modificar/Eliminar Material</button>
+				  </div>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
 				<div class="col-sm-6 wow fadeInDown text-center">
 				  <img  class="rotate" src="../../img/icon/edificios.png" alt="Generic placeholder image" height="100" width="100">
 				  <div class="center">
-				  	<h4>Edificios</h4>
-				  	<button data-toggle="modal" data-target="#modalNEdificios" class="btn btn-link btn-lg" title="El usuario podra crear una nuevo sección.">Nuevo Edificio</button>
-				  	<button data-toggle="modal" data-target="#modalMESeccion" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar una sección.">Modificar/Eliminar Sección</button>
+				  	<h4>Inmueble</h4>
+				  	<button data-toggle="modal" data-target="#modalNEdificios" class="btn btn-link btn-lg" title="El usuario podrá llevar el control de los edificios que tiene la institución.">Nuevo Inmueble</button>
+				  	<button data-toggle="modal" data-target="#modalMEEdificios" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar edificios.">Modificar/Eliminar Inmueble</button>
 				  </div>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
@@ -168,12 +179,136 @@
           </div>
     </footer>
 
+    <!-- ventana modal Material Didactico-->
+	<div class="modal fade" id="modalNMaterialDidactico" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="lineModalLabel">Nuevo Material</h4>
+			</div>
+			<div class="modal-body">
+				
+	            <!-- aqui el contenido -->
+				<form class="form-horizontal" style="width:520px">
+					<div class="form-group">
+						<label for="txtCodMaterial" class="col-lg-4 control-label">Código del Material</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtCodMaterial" placeholder="Inserte código asignado al material." required="">
+						</div>
+					</div>
+
+					<div class="form-group">
+				      <label for="slcTipodMaterialDidactico" class="col-lg-4 control-label">Tipo de Material:</label>
+				      <div class="col-lg-8">
+				        <select class="form-control" id="slcTipodMaterialDidactico">
+				          <option value="1">Permanente de Trabajo</option>
+				          <option value="2">Informativo</option>
+				          <option value="3">Ilustrativo Audiovisual</option>
+				          <option value="4">Experimental</option>
+				          <option value="5">Tecnológico</option>
+				        </select>
+				      </div>
+				    </div>
+
+				    <div class="form-group">
+						<label for="txtNomMaterial" class="col-lg-4 control-label">Nombre del Material</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtNomMaterial" placeholder="Inserte el nombre del material." required="">
+						</div>
+					</div>
+
+				    <div class="form-group">
+						<label for="txtCantidad" class="col-lg-4 control-label">Cantidad del Material</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtCantidad" placeholder="Inserte la cantidad de dicho material." required="">
+						</div>
+					</div>
+					    
+					<div class="form-group">
+						<div class="col-lg-6 col-lg-offset-4">
+							<button type="submit" class="btn btn-primary btn-sm">Agregar</button>
+							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+						</div>
+					</div>
+
+					<div class="media">
+					   <a href="#" class="pull-left">
+					      <img  class="rotate" src="../../img/icon/ayuda.png" alt="Generic placeholder image" height="20" width="20">
+					   </a>
+					   <div class="media-body">
+					     <p class="help-block" style="font-size:8pt">1. Material permanente de trabajo: pizarras, marcadores, escritorios, sillas, cuadernos, etc.<br>2. Material informativo: mapas, libros, diccionarios, enciclopedias, revistas, periódicos, etc.<br>3. Material ilustrativo audiovisual: posters, videos, discos, etc.<br>4. Material experimental: aparatos y materiales variados, que se presten para la realización de experimentos.<br>5. Material Tecnológico: computadores personales/escritorio, proyectores, etc.</p>
+					   </div>
+					</div>							
+				</form>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="modalMEMaterialDidactico" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="lineModalLabel">Modificar/Eliminar Material</h4>
+			</div>
+			<div class="modal-body">
+				
+	            <!-- aqui el contenido -->
+				<form class="form-horizontal" style="width:520px">
+					<div class="form-group">
+						<label for="txtCodMaterial" class="col-lg-4 control-label">Código del Material</label>
+						<div class="col-lg-8">
+							<div class="input-group">
+								<input type="text" class="form-control" id="txtCodMaterial" placeholder="Código curso" required="">
+									<span class="input-group-btn">
+										<button type="button" class="btn btn-default" id="btnBuscarCurso" title="Buscar">
+											<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+										</button>	
+									</span>
+							</div>		
+						</div>
+					</div>
+
+					<div class="form-group">
+				      <label for="slcTipodMaterialDidactico" class="col-lg-4 control-label">Tipo de Material:</label>
+				      <div class="col-lg-8">
+							<input type="text" class="form-control" id="slcTipodMaterialDidactic" placeholder="ej.: Permanente de Trabajo" disabled="">
+						</div>			
+				    </div>
+
+				    <div class="form-group">
+						<label for="txtNomMaterial" class="col-lg-4 control-label">Nombre del Material</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtNomMaterial" placeholder="Nombre del material." required="">
+						</div>
+					</div>
+
+				    <div class="form-group">
+						<label for="txtCantidad" class="col-lg-4 control-label">Cantidad del Material</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtCantidad" placeholder="Cantidad de material." required="">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-lg-6 col-lg-offset-4">
+							<button type="submit" class="btn btn-warning btn-sm">Modificar</button>
+							<button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+						</div>
+					</div>							
+				</form>
+			</div>
+		</div>
+	  </div>
+	</div>
+
 	<!-- ventana modal Edificios-->
 	<div class="modal fade" id="modalNEdificios" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
 	  <div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h4 class="modal-title" id="lineModalLabel">Nuevo Edificio</h4>
+				<h4 class="modal-title" id="lineModalLabel">Nuevo Inmueble</h4>
 			</div>
 			<div class="modal-body">
 				
@@ -189,7 +324,7 @@
 					<div class="form-group">
 						<label for="txtNumAulas" class="col-lg-4 control-label">Número de Aulas</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtNumAulas" placeholder="Inserte el numero de aulas" required="">
+							<input type="text" class="form-control" id="txtNumAulas" placeholder="Inserte el número  de aulas" required="">
 						</div>
 					</div>
 
@@ -203,7 +338,59 @@
 					    
 					<div class="form-group">
 						<div class="col-lg-6 col-lg-offset-4">
-							<button type="submit" class="btn btn-primary btn-sm">Crear</button>
+							<button type="submit" class="btn btn-primary btn-sm">Agregar</button>
+							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+						</div>
+					</div>							
+				</form>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="modalMEEdificios" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="lineModalLabel">Modificar/Eliminar Inmueble</h4>
+			</div>
+			<div class="modal-body">
+				
+	            <!-- aqui el contenido -->
+				<form class="form-horizontal" style="width:520px">
+					<div class="form-group">
+						<label for="txtCodEdificio" class="col-lg-4 control-label">Código del Edificio</label>
+						<div class="col-lg-8">
+							<div class="input-group">
+								<input type="text" class="form-control" id="txtCodEdificio" placeholder="Código edificio" required="">
+									<span class="input-group-btn">
+										<button type="button" class="btn btn-default" id="btnBuscarCurso" title="Buscar">
+											<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+										</button>	
+									</span>
+							</div>		
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="txtNumAulas" class="col-lg-4 control-label">Número de Aulas</label>
+						<div class="col-lg-8">
+							<input type="text" class="form-control" id="txtNumAulas" placeholder="Numero de aulas" required="">
+						</div>
+					</div>
+
+					<div class="form-group">
+				      <label for="txtDescripcion" class="col-lg-4 control-label">Descripción</label>
+				      <div class="col-lg-8">
+				        <textarea class="form-control" rows="3" id="txtDescripcion" placeholder="ej.: El edifico tambien cuenta con un laboratorio de computación ."></textarea>
+				        <span class="help-block">El usuario podrá describir otras actividades que se desempeñan en el edificio.</span>
+				      </div>
+				    </div>
+					    
+					<div class="form-group">
+						<div class="col-lg-6 col-lg-offset-4">
+							<button type="submit" class="btn btn-warning btn-sm">Modificar</button>
+							<button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
 							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
 						</div>
 					</div>							

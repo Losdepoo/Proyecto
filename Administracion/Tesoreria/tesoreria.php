@@ -109,7 +109,7 @@
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
 				  <a title="Alumnos" href="/Proyecto/administracion/tesoreria/tesoreria-alumno.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Alumnos</h3>
+				  <h3>Alumnado</h3>
 				  <p class="lead">En este apartado usted podrá administrar los pagos que realiza el alumno.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->

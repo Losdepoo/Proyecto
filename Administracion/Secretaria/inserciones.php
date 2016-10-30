@@ -108,8 +108,8 @@
 				  <img  class="rotate" src="../../img/icon/curso.png" alt="Generic placeholder image" height="100" width="100">
 				  <div class="center">
 				  <h4>Curso</h4>
-				  	<button data-toggle="modal" data-target="#modalNCurso" class="btn btn-link btn-lg" title="El usuario podra crear un nuevo curso.">Nuevo Curso</button>
-				  	<button data-toggle="modal" data-target="#modalMECurso" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar un curso.">Modificar/Eliminar Curso</button>
+				  	<button data-toggle="modal" data-target="#modalNCurso" class="btn btn-link btn-lg" title="El usuario podrá crear un nuevo curso.">Nuevo Curso</button>
+				  	<button data-toggle="modal" data-target="#modalMECurso" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar un curso.">Modificar/Eliminar Curso</button>
 				  </div>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
@@ -118,28 +118,18 @@
 				  <img  class="rotate" src="../../img/icon/asignatura.png" alt="Generic placeholder image" height="100" width="100">
 				  <div class="center">
 				  <h4>Asignatura</h4>
-				  	<button data-toggle="modal" data-target="#modalNAsignatura" class="btn btn-link btn-lg" title="El usuario podra crear una nueva Asignatura.">Nueva Asignatura</button>
-				  	<button data-toggle="modal" data-target="#modalMEAsignatura" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar una asignatura.">Modificar/Eliminar Asignatura</button>
+				  	<button data-toggle="modal" data-target="#modalNAsignatura" class="btn btn-link btn-lg" title="El usuario podrá crear una nueva Asignatura.">Nueva Asignatura</button>
+				  	<button data-toggle="modal" data-target="#modalMEAsignatura" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar una asignatura.">Modificar/Eliminar Asignatura</button>
 				  </div>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 
-				<div class="col-sm-6 wow fadeInDown text-center">
+				<div class="col-sm-12 wow fadeInDown text-center">
 				  <img  class="rotate" src="../../img/icon/seccion.png" alt="Generic placeholder image" height="100" width="100">
 				  <div class="center">
 				  	<h4>Sección</h4>
-				  	<button data-toggle="modal" data-target="#modalNSeccion" class="btn btn-link btn-lg" title="El usuario podra crear una nuevo sección.">Nueva Sección</button>
-				  	<button data-toggle="modal" data-target="#modalMESeccion" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar una sección.">Modificar/Eliminar Sección</button>
-				  </div>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/edificios.png" alt="Generic placeholder image" height="100" width="100">
-				  <div class="center">
-				  	<h4>Edificios</h4>
-				  	<button data-toggle="modal" data-target="#modalNEdificios" class="btn btn-link btn-lg" title="El usuario podra crear una nuevo sección.">Nuevo Edificio</button>
-				  	<button data-toggle="modal" data-target="#modalMESeccion" class="btn btn-link btn-lg" title="El usuario podra modificar o eliminar una sección.">Modificar/Eliminar Sección</button>
+				  	<button data-toggle="modal" data-target="#modalNSeccion" class="btn btn-link btn-lg" title="El usuario podrá crear una nuevo sección.">Nueva Sección</button>
+				  	<button data-toggle="modal" data-target="#modalMESeccion" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar una sección.">Modificar/Eliminar Sección</button>
 				  </div>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
@@ -459,51 +449,6 @@
 						<div class="col-lg-6 col-lg-offset-4">
 							<button type="submit" class="btn btn-warning btn-sm">Modificar</button>
 							<button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
-							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
-						</div>
-					</div>							
-				</form>
-			</div>
-		</div>
-	  </div>
-	</div>
-
-	<!-- ventana modal Edificios-->
-	<div class="modal fade" id="modalNEdificios" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title" id="lineModalLabel">Nuevo Edificio</h4>
-			</div>
-			<div class="modal-body">
-				
-	            <!-- aqui el contenido -->
-				<form class="form-horizontal" style="width:520px">
-					<div class="form-group">
-						<label for="txtCodEdificio" class="col-lg-4 control-label">Código del Edificio</label>
-						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtCodEdificio" placeholder="Inserte código asignado al Edificio" required="">
-						</div>
-					</div>
-
-					<div class="form-group">
-						<label for="txtNumAulas" class="col-lg-4 control-label">Número de Aulas</label>
-						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtNumAulas" placeholder="Inserte el numero de aulas" required="">
-						</div>
-					</div>
-
-					<div class="form-group">
-				      <label for="txtDescripcion" class="col-lg-4 control-label">Descripción</label>
-				      <div class="col-lg-8">
-				        <textarea class="form-control" rows="3" id="txtDescripcion"></textarea>
-				        <span class="help-block">El usuario podrá describir otras actividades que se desempeñan en el edificio.</span>
-				      </div>
-				    </div>
-					    
-					<div class="form-group">
-						<div class="col-lg-6 col-lg-offset-4">
-							<button type="submit" class="btn btn-primary btn-sm">Crear</button>
 							<button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
 						</div>
 					</div>							
