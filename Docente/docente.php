@@ -14,21 +14,21 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Instituto</title>
+    <title>Docentes Instituto Privado Dr. Ramón Rosa</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link href="../../css/general.css" rel="stylesheet">
-	<link href="../../css/custom.css" rel="stylesheet">
-	<link href="../../css/owl.carousel.css" rel="stylesheet">
-    <link href="../../css/owl.theme.css" rel="stylesheet">
-	<link href="../../css/style.css" rel="stylesheet">
-	<link href="../../css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="../../css/magnific-popup.css"> 
-	<script src="../../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	 <link href="../css/general.css" rel="stylesheet">
+	<link href="../css/custom.css" rel="stylesheet">
+	<link href="../css/owl.carousel.css" rel="stylesheet">
+    <link href="../css/owl.theme.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/magnific-popup.css"> 
+	<script src="../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -50,7 +50,20 @@
 	</div>
 	
 	<!-- FullScreen -->
-    
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">¡Bienvenidos Docentes!</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">¡Haz clic en la flecha para continuar!</h3>
+		</div>    
+
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#administrar"> <img class="img_scroll" src="../img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+
+    </div>
 	
 	<!-- NavBar principio-->
 	<nav class="navbar-default" role="navigation">
@@ -69,8 +82,7 @@
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria.php">Volver a Secretaría</a></li>
+					<li class="menuItem"><a href="/Proyecto/Docente/ingresoCalificaciones.php">Ingreso Calificaciones</a></li>
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -92,38 +104,23 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="Instituto" class="content-section-b" style="border-top: 0">
+	<div id="administrar" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Instituto</h2>
+				<h2>Administrar</h2>
 				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
 				
 			</div>
 			
 			<div class="row">
-			
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Inserciones" href="/Proyecto/administracion/secretaria/inserciones.php"><img  class="rotate" src="../../img/icon/insercioness.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Inserciones</h3>
-				  <p class="lead">En este apartado usted podra inserta/crear nuevos cursos, asignaturas, secciones, entre otros a su base de datos.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Inventario" href="/Proyecto/administracion/secretaria/inventario.php"><img  class="rotate" src="../../img/icon/inventario.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Inventario</h3>
-				   <p class="lead">En este apartado usted podra incluir todo lo relacionado al inventario del instituto.</p>
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a title="Ingreso Calificaciones" href="/Proyecto/Docente/ingresoCalificaciones.php"><img  class="rotate" src="../img/icon/calificaciones.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Ingreso Calificaciones</h3>
+				   <p class="lead">En este apartado usted podrá ingresar las calificaciones, calcular notas y promediar a sus alumnos.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-12 wow fadeInDown text-center">
-				  <a title="Distribuciones" href="/Proyecto/administracion/secretaria/distribuciones.php"><img  class="rotate" src="../../img/icon/distribuciones.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Distribuciones</h3>
-				   <p class="lead">En este apartado usted podrá administrar la distribución de aulas, edificios, material didáctico, curso, entre otros..</p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+				
 			</div><!-- /.row -->
 		</div>
 	</div>
@@ -160,8 +157,8 @@
 			</div>
 		</div>
 	</div>	
-
-	<footer>
+	
+  <footer>
           <div class="col-md-6">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
                 <li>Grupo #3</li>
@@ -176,14 +173,13 @@
           </div>
     </footer>
 
-
     <!-- JavaScript -->
-    <script src="/proyecto/js/jquery-1.10.2.js"></script>
-    <script src="/proyecto/js/bootstrap.js"></script>
-	<script src="/proyecto/js/owl.carousel.js"></script>
-	<script src="/proyecto/js/script.js"></script>
+    <script src="../js/jquery-1.10.2.js"></script>
+    <script src="../js/bootstrap.js"></script>
+	<script src="../js/owl.carousel.js"></script>
+	<script src="../js/script.js"></script>
 	<!-- StikyMenu -->
-	<script src="/proyecto/js/stickUp.min.js"></script>
+	<script src="../js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -194,15 +190,15 @@
 	
 	</script>
 	<!-- Smoothscroll -->
-	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
-	<script src="/proyecto/js/wow.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.corner.js"></script> 
+	<script src="../js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="/proyecto/js/classie.js"></script>
-	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
+	<script src="../js/classie.js"></script>
+	<script src="../js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
+	<script src="../js/jquery.magnific-popup.js"></script> 
 
 </body>
 

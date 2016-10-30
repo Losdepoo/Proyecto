@@ -90,7 +90,7 @@
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios<span class="caret"></span></a>
 		          			<ul class="dropdown-menu">
 		            			<li><a href="/Proyecto/Administracion/administracion.php">Administración</a></li>
-		            			<li><a href="#">Docentes</a></li>
+		            			<li><a href="/Proyecto/Docente/docente.php">Docentes</a></li>
 		            			<li><a href="#">Alumnos/Encargados</a></li>
 		            		</ul>
 	        			</li>

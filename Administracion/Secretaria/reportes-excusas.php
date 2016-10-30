@@ -99,38 +99,6 @@
 			</div>
 			
 			<div class="row">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
-
-
-
 				<div class="col-sm-6 wow fadeInDown text-center">
 					<img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100">
 					<p class="text-muted">Seleccione para descargar formato PDF de reportes</p>

@@ -202,14 +202,14 @@
 					<div class="form-group">
 						<label for="txtCodCurso" class="col-lg-4 control-label">Código del Curso</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtCodCurso" placeholder="Inserte código asignado al curso" required="">
+							<input type="text" class="form-control" id="txtCodCurso" placeholder="Ingrese código asignado al curso" required="">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="txtNomCurso" class="col-lg-4 control-label">Nombre del Curso</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtNomCurso" placeholder="Inserte el nombre del curso" required="">
+							<input type="text" class="form-control" id="txtNomCurso" placeholder="Ingrese el nombre del curso" required="">
 						</div>
 					</div>
 					    
@@ -292,14 +292,14 @@
 					<div class="form-group">
 						<label for="txtCodAsignatura" class="col-lg-4 control-label">Código de la Asignatura</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtCodAsignatura" placeholder="Inserte código asignado a la asignatura" required="">
+							<input type="text" class="form-control" id="txtCodAsignatura" placeholder="Ingrese código asignado a la asignatura" required="">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="txtNomAsignatura" class="col-lg-4 control-label">Nombre de la Asignatura</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtNomAsignatura" placeholder="Inserte el nombre de la asignatura" required="">
+							<input type="text" class="form-control" id="txtNomAsignatura" placeholder="Ingrese el nombre de la asignatura" required="">
 						</div>
 					</div>
 					    
@@ -382,14 +382,14 @@
 					<div class="form-group">
 						<label for="txtCodSección" class="col-lg-4 control-label">Código de la Sección</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtCodSección" placeholder="Inserte código asignado a la sección" required="">
+							<input type="text" class="form-control" id="txtCodSección" placeholder="Ingrese código asignado a la sección" required="">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="txtNomSección" class="col-lg-4 control-label">Nombre de la Sección</label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="txtNomSección" placeholder="Inserte el nombre de la sección" required="">
+							<input type="text" class="form-control" id="txtNomSección" placeholder="Ingrese el nombre de la sección" required="">
 						</div>
 					</div>
 					    
