@@ -83,6 +83,7 @@
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					<li class="menuItem"><a href="/Proyecto/Docente/ingresoCalificaciones.php">Ingreso Calificaciones</a></li>
+					<li class="menuItem"><a href="/Proyecto/Docente/visualizacion-Notas.php">Visualización de Notas</a></li>
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -114,10 +115,17 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <a title="Ingreso Calificaciones" href="/Proyecto/Docente/ingresoCalificaciones.php"><img  class="rotate" src="../img/icon/calificaciones.png" alt="Generic placeholder image" height="100" width="100"></a>
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Ingreso Calificaciones" href="/Proyecto/Docente/ingresoCalificaciones.php"><img  class="rotate" src="../img/icon/notas.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Ingreso Calificaciones</h3>
 				   <p class="lead">En este apartado usted podrá ingresar las calificaciones, calcular notas y promediar a sus alumnos.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Ingreso Calificaciones" href="/Proyecto/Docente/visualizacion-Notas.php"><img  class="rotate" src="../img/icon/calificaciones.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Visualización de Notas</h3>
+				   <p class="lead">En este apartado usted podrá visualizar las notas de sus alumnos.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
