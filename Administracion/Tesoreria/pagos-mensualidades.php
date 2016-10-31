@@ -17,53 +17,26 @@
     <title>Administración Instituto Privado Dr. Ramón Rosa</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   	<link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	 <link href="../css/general.css" rel="stylesheet">
-	<link href="../css/custom.css" rel="stylesheet">
-	<link href="../css/owl.carousel.css" rel="stylesheet">
-    <link href="../css/owl.theme.css" rel="stylesheet">
-	<link href="../css/style.css" rel="stylesheet">
-	<link href="../css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="../css/magnific-popup.css"> 
-	<script src="../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
-	<!--[if IE 9]>
-		<script src="js/PIE_IE9.js"></script>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="js/PIE_IE678.js"></script>
-	<![endif]-->
-
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
-	<!-- fin de todas las importaciones de la plantilla -->
+	<link href="/Proyecto/css/general.css" rel="stylesheet">
+	<link href="/Proyecto/css/custom.css" rel="stylesheet">
+	<link href="/Proyecto/css/owl.carousel.css" rel="stylesheet">
+    <link href="/Proyecto/css/owl.theme.css" rel="stylesheet">
+	<link href="/Proyecto/css/style.css" rel="stylesheet">
+	<link href="/Proyecto/css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
 </head>
 
 <body id="home">
 
 	<!-- Preloader -->
 	<div id="preloader">
-		<div id="status"></div>
-	</div>
-	
-	<!-- FullScreen -->
-    <div class="intro-header">
-		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">¡Bienvenidos a la Administración!</h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">¡Haz clic en la flecha para continuar!</h3>
-		</div>    
-
-        <!-- /.container -->
-		<div class="col-xs-12 text-center abcen wow fadeIn">
-			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#administrar"> <img class="img_scroll" src="../img/icon/circle.png" alt=""> </a>
-			</div>
+		<div id="status">
 		</div>
-
-    </div>
+	</div>
 	
 	<!-- NavBar principio-->
 	<nav class="navbar-default" role="navigation">
@@ -107,22 +80,26 @@
 
 	<!-- inicio div administracion -->
 	<div id="Tesorería" class="content-section-b" style="border-top: 0">
-    <div class="container">
-
-      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-        <h2>Pagos de Mensualidades</h2>
-        <p class="lead" style="margin-top:0">Seleccione una opción de pago:</p>
-        <label><input type="radio" name="opcionPago[]">Efectivo</label><br>
-        <label><input type="radio" name="opcionPago[]">Cheque</label><br>
-        <label><input type="radio" name="opcionPago[]">Crédito</label><br>
-        <br>
-      </div>
-      	<form>
-			<p><label>Nombre de usuario: </label><input type="text" name="txt_usuario"/></p>
-			<p><label>Contraseña: </label><input type="password" name="txt_contasenia"/></p>
-			<p><label>Cantidad a pagar: </label><input type="text" name="txt_cantidadPago"/></p>
-			<p><button>Realizar Pago</button></p>
-		</form>
+    	<div class="container text-center">
+    	<h2>Pagos de Mensualidades</h2></br>
+			<div class="col-md-6  text-center ">
+        		<p class="lead" style="margin-top:0">Seleccione una opción de pago:</p>
+		        <label><input type="radio" name="opcionPago[]">Efectivo</label><br>
+		        <label><input type="radio" name="opcionPago[]">Cheque</label><br>
+		        <label><input type="radio" name="opcionPago[]">Crédito</label><br>
+		    </div>    
+        	
+        	<div class="col-md-6 text-center">
+	      		<form>
+				<p><label>Nombre de usuario: </label><input type="text" name="txt_usuario"/></p>
+				<p><label>Contraseña: </label><input type="password" name="txt_contasenia"/></p>
+				<p><label>Cantidad a pagar: </label><input type="text" name="txt_cantidadPago"/></p>
+				<p><button>Realizar Pago</button></p>
+				</form>
+      		</div>
+        	<br>
+      	</div>  
+    </div>  	
 	<!-- fin div administracion -->
 	
 	<div  class="content-section-c ">
@@ -155,7 +132,7 @@
 			</div>	
 			</div>
 		</div>
-	</div>	
+	</div>
 	
   <footer>
           <div class="col-md-6">
@@ -173,12 +150,12 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="../js/jquery-1.10.2.js"></script>
-    <script src="../js/bootstrap.js"></script>
-	<script src="../js/owl.carousel.js"></script>
-	<script src="../js/script.js"></script>
+    <script src="/proyecto/js/jquery-1.10.2.js"></script>
+    <script src="/proyecto/js/bootstrap.js"></script>
+	<script src="/proyecto/js/owl.carousel.js"></script>
+	<script src="/proyecto/js/script.js"></script>
 	<!-- StikyMenu -->
-	<script src="../js/stickUp.min.js"></script>
+	<script src="/proyecto/js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -189,15 +166,15 @@
 	
 	</script>
 	<!-- Smoothscroll -->
-	<script type="text/javascript" src="../js/jquery.corner.js"></script> 
-	<script src="../js/wow.min.js"></script>
+	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
+	<script src="/proyecto/js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
 	</script>
-	<script src="../js/classie.js"></script>
-	<script src="../js/uiMorphingButton_inflow.js"></script>
+	<script src="/proyecto/js/classie.js"></script>
+	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="../js/jquery.magnific-popup.js"></script> 
+	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
 
 </body>
 
