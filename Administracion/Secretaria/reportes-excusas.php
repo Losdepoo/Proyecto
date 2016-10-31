@@ -69,7 +69,7 @@
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">	
-					<li class="menuItem"><a href="/Proyecto/administracion/administracion">Volver a Administración</a></li>		
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria-alumno.php">Volver a Alumnado</a></li>		
 				<ul class="nav navbar-nav navbar-right">
 	        		<li class="dropdown">
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>
