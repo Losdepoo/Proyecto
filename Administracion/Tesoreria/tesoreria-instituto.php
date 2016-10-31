@@ -14,21 +14,21 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Tesorería Instituto</title>
+    <title>instituto</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link href="../../css/general.css" rel="stylesheet">
-	<link href="../../css/custom.css" rel="stylesheet">
-	<link href="../../css/owl.carousel.css" rel="stylesheet">
-    <link href="../../css/owl.theme.css" rel="stylesheet">
-	<link href="../../css/style.css" rel="stylesheet">
-	<link href="../../css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="../../css/magnific-popup.css"> 
-	<script src="../../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<link href="/Proyecto/css/general.css" rel="stylesheet">
+	<link href="/Proyecto/css/custom.css" rel="stylesheet">
+	<link href="/Proyecto/css/owl.carousel.css" rel="stylesheet">
+    <link href="/Proyecto/css/owl.theme.css" rel="stylesheet">
+	<link href="/Proyecto/css/style.css" rel="stylesheet">
+	<link href="/Proyecto/css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
+	<script src="/Proyecto/js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -92,7 +92,7 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="Instituto" class="content-section-b" style="border-top: 0">
+	<div id="Alumno" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
@@ -104,21 +104,27 @@
 			<div class="row">
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Sujeto a cambio" href="/Proyecto/administracion-tesoreria.php"><img  class="rotate" src="../../img/icon/alumnos.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Sujeto a cambio</h3>
-				  <p class="lead">Sujeto a cambio.</p>
+				  <a title="Pagos" href="/Proyecto/administracion/tesoreria/pagos-principal.php"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Pagos</h3>
+				  <p class="lead">En este apartado se llevara el control de pagos matrícula y mensualidades.</p>
+
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-6 wow fadeInDown text-center">
+				  <a title="Otros Pagos" href="#"><img  class="rotate" src="../../img/icon/traslados.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Otros Pagos</h3>
+				  <p class="lead">En este apartado se llevara el control de otros pagos realizados por el alumno.</p>
 
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Sujeto a cambio" href="/Proyecto/administracion-secretaria.php"><img  class="rotate" src="../../img/icon/maestros.png" alt="Generic placeholder image" height="100" width="100"></a>
-				  <h3>Sujeto a cambio</h3>
-				   <p class="lead">Sujeto a cambio.</p>
+				<div class="col-sm-12 wow fadeInDown text-center">
+				  <a title="Estado de Cuenta" href="#"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <h3>Estado de Cuenta</h3>
+				   <p class="lead">En este apartado usted podrá ver el estado de cuenta de cada alumno.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
-				
-				
 				
 			</div><!-- /.row -->
 		</div>
@@ -156,8 +162,8 @@
 			</div>
 		</div>
 	</div>	
-
-	<footer>
+	
+     <footer>
           <div class="col-md-6">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
                 <li>Grupo #3</li>
@@ -171,7 +177,6 @@
                 <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
           </div>
     </footer>
-
 
     <!-- JavaScript -->
     <script src="/proyecto/js/jquery-1.10.2.js"></script>
