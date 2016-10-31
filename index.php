@@ -91,7 +91,7 @@
 		          			<ul class="dropdown-menu">
 		            			<li><a href="/Proyecto/Administracion/administracion.php">Administración</a></li>
 		            			<li><a href="/Proyecto/Docente/docente.php">Docentes</a></li>
-		            			<li><a href="#">Alumnos/Encargados</a></li>
+		            			<li><a href="/Proyecto/AlumnoEncargado/alumnoEncargado.php">Alumnos/Encargados</a></li>
 		            		</ul>
 	        			</li>
 	      			</ul>

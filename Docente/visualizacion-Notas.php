@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Visualizacion de notas</title>
+    <title>Visualización de Notas</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
