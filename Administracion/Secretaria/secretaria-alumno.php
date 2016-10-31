@@ -112,7 +112,7 @@
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-6 wow fadeInDown text-center">
-				  <a title="Reportes/Excusas" href="#"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
+				  <a title="Reportes/Excusas" href="/Proyecto/administracion/secretaria/reportes-excusas.php"><img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100"></a>
 				  <h3>Reportes/Excusas</h3>
 				   <p class="lead">En este apartado usted podrá hacer reportes, excusas.</p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
