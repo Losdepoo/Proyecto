@@ -14,7 +14,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Administración Instituto Privado Dr. Ramón Rosa</title>
+    <title>AdministraciÃ³n Instituto Privado Dr. RamÃ³n Rosa</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
    	<link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
@@ -50,13 +50,13 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la página principal">Instituto Privado Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la pÃ¡gina principal">Instituto Privado Dr. RamÃ³n Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="menuItem"><a href="/Proyecto/Administracion/Secretaria/secretaria.php">Secretaría</a></li>
-					<li class="menuItem"><a href="/Proyecto/Administracion/Tesoreria/tesoreria.php">Tesorería</a></li>
+					<li class="menuItem"><a href="/Proyecto/Administracion/Secretaria/secretaria.php">SecretarÃ­a</a></li>
+					<li class="menuItem"><a href="/Proyecto/Administracion/Tesoreria/tesoreria.php">TesorerÃ­a</a></li>
 					<li class="menuItem"><a href="/Proyecto/Administracion/Cuentas/administracion-cuentas.php">Cuentas</a></li>
 				</ul>
 				
@@ -65,7 +65,7 @@
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>
 	          			<ul class="dropdown-menu">
 	            			<li><a href="#">Salir del sistema</a></li>
-	            			<li><a href="#">Perfíl</a></li>
+	            			<li><a href="#">PerfÃ­l</a></li>
 	            			<li><a href="#">Opciones</a></li>
 	            		</ul>
 	        		</li>
@@ -79,20 +79,20 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div administracion -->
-	<div id="Tesorería" class="content-section-b" style="border-top: 0">
+	<div id="TesorerÃ­a" class="content-section-b" style="border-top: 0">
     	<div class="container text-center">
     	<h2>Pagos de Mensualidades</h2></br>
 			<div class="col-md-6  text-center ">
-        		<p class="lead" style="margin-top:0">Seleccione una opción de pago:</p>
+        		<p class="lead" style="margin-top:0">Seleccione una opciÃ³n de pago:</p>
 		        <label><input type="radio" name="opcionPago[]">Efectivo</label><br>
 		        <label><input type="radio" name="opcionPago[]">Cheque</label><br>
-		        <label><input type="radio" name="opcionPago[]">Crédito</label><br>
+		        <label><input type="radio" name="opcionPago[]">CrÃ©dito</label><br>
 		    </div>    
         	
         	<div class="col-md-6 text-center">
 	      		<form>
 				<p><label>Nombre de usuario: </label><input type="text" name="txt_usuario"/></p>
-				<p><label>Contraseña: </label><input type="password" name="txt_contasenia"/></p>
+				<p><label>ContraseÃ±a: </label><input type="password" name="txt_contasenia"/></p>
 				<p><label>Cantidad a pagar: </label><input type="text" name="txt_cantidadPago"/></p>
 				<p><button>Realizar Pago</button></p>
 				</form>
@@ -107,21 +107,21 @@
 			<div class="row">
 			
 			<div class="col-md-6 col-md-offset-3 text-center white">
-				<h2>Dejanós un comentario</h2>
+				<h2>DejanÃ³s un comentario</h2>
 				<p class="lead" style="margin-top:0">Solucionaremos cualquier problema que tengas.</p>
 			</div>
 			
 			<div class="col-md-6 col-md-offset-3 text-center">
 				<div class="mockup-content">
 						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
-							<button type="button "><span>Ház click aquí</span></button>
+							<button type="button "><span>HÃ¡z click aquÃ­</span></button>
 							<div class="morph-content">
 								<div>
 									<div class="content-style-form content-style-form-4 ">
-										<h2 class="morph-clone">Ház click aquí</h2>
+										<h2 class="morph-clone">HÃ¡z click aquÃ­</h2>
 										<form>
 											<p><label>Nombre de usuario:</label><input type="text"/></p>
-											<p><label>Háblanos de tu problema:</label><input type="text"/></p>
+											<p><label>HÃ¡blanos de tu problema:</label><input type="text"/></p>
 											<p><button>Comentar</button></p>
 										</form>
 									</div>
@@ -136,7 +136,7 @@
 	
   <footer>
           <div class="col-md-6">
-              <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
+              <h1 class="footer-title">Universidad Nacional AutÃ³noma de Honduras</h1>
                 <li>Grupo #3</li>
                 <li>Integrantes:</li>
                 <li>Abigail Fick</li>
