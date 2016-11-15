@@ -5,7 +5,7 @@
 		private $usuario="root";
 		private $contrasena="";
 		private $host="localhost";
-		private $baseDatos="bd_facebook";
+		private $baseDatos="db_ramon_rosa";
 		private $puerto="3306";
 		private $link;
 
