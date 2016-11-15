@@ -321,7 +321,7 @@
                 <li>Integrantes:</li>
                 <li>Abigail Fick</li>
                 <li>Cristian Umanzor</li>
-                <li>Gabriel Mejiga</li>
+                <li>Gabriel Mejía</li>
                 <li>Gipsy Ortiz</li>
                 <li>Jennifer Escoto</li><br>
                
