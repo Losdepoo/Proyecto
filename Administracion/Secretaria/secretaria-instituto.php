@@ -17,18 +17,18 @@
     <title>Instituto</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
- 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="/proyecto/css/bootstrap.min.css" rel="stylesheet">
+ 	<link href="/proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link href="css/general.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	<script src="js/modernizr-2.8.3.min.js"></script>  
+	<link href="/proyecto/css/general.css" rel="stylesheet">
+	<link href="/proyecto/css/custom.css" rel="stylesheet">
+	<link href="/proyecto/css/owl.carousel.css" rel="stylesheet">
+    <link href="/proyecto/css/owl.theme.css" rel="stylesheet">
+	<link href="/proyecto/css/style.css" rel="stylesheet">
+	<link href="/proyecto/css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="/proyecto/css/magnific-popup.css"> 
+	<script src="/proyecto/js/modernizr-2.8.3.min.js"></script>  
 	<!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
@@ -56,7 +56,6 @@
 	<!-- NavBar principio-->
 	<nav class="navbar-default" role="navigation">
 		<div class="container">
-			
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -65,28 +64,30 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img class="img-circle" src="/Proyecto/img/RR.jpg" width="50" height="50">
-				<a class="navbar-brand" href="http://localhost/Proyecto/index.php" title="Volver a la página principal">Instituto Privado Dr. Ramón Rosa</a>
+				<a class="navbar-brand" href="#home">Instituto Privado Dr. Ramón Rosa</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria.php">Volver a Secretaría</a></li>
+					<li class="menuItem"><a href="#quienessmos">¿Quiénes somos?</a></li>
+					<li class="menuItem"><a href="#mision">Misión</a></li>
+					<li class="menuItem"><a href="#vision">Visión</a></li>
+					<li class="menuItem"><a href="#contactenos">Contáctenos</a></li>
+					
+					<ul class="nav navbar-nav navbar-right">
+	        			<li class="dropdown">
+	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios<span class="caret"></span></a>
+		          			<ul class="dropdown-menu">
+		            			<li><a href="/Proyecto/login/login.php">Administración</a></li>
+		            			<li><a href="/Proyecto/login/login.php">Docentes</a></li>
+		            			<li><a href="/Proyecto/login/login.php">Alumnos/Encargados</a></li>
+		            		</ul>
+	        			</li>
+	      			</ul>
+
 				</ul>
-				
-				<ul class="nav navbar-nav navbar-right">
-	        		<li class="dropdown">
-	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>
-	          			<ul class="dropdown-menu">
-	            			<li><a href="#">Salir del sistema</a></li>
-	            			<li><a href="#">Perfíl</a></li>
-	            			<li><a href="#">Opciones</a></li>
-	            		</ul>
-	        		</li>
-	      		</ul>
-
 			</div>
-
 		   
 		</div>
 	</nav> 
@@ -179,11 +180,11 @@
 
 
     <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/stickUp.min.js"></script>
+    <script src="/proyecto/js/jquery-1.10.2.js"></script>
+    <script src="/proyecto/js/bootstrap.js"></script>
+	<script src="/proyecto/js/owl.carousel.js"></script>
+	<script src="/proyecto/js/script.js"></script>
+	<script src="/proyecto/js/stickUp.min.js"></script>
 	<script type="text/javascript">
 	  jQuery(function($) {
 		$(document).ready( function() {
@@ -193,14 +194,14 @@
 	  });
 	
 	</script>
-	<script type="text/javascript" src="js/jquery.corner.js"></script> 
-	<script src="js/wow.min.js"></script>
+	<script type="text/javascript" src="/proyecto/js/jquery.corner.js"></script> 
+	<script src="/proyecto/js/wow.min.js"></script>
 	<script>
 		new WOW().init();
 	</script>
-	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_inflow.js"></script>
-	<script src="js/jquery.magnific-popup.js"></script> 
+	<script src="/proyecto/js/classie.js"></script>
+	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
+	<script src="/proyecto/js/jquery.magnific-popup.js"></script> 
 
 </body>
 
