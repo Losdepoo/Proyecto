@@ -28,7 +28,8 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<script src="js/modernizr-2.8.3.min.js"></script>  
+	<!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
 	<![endif]-->
@@ -89,9 +90,9 @@
 	        			<li class="dropdown">
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios<span class="caret"></span></a>
 		          			<ul class="dropdown-menu">
-		            			<li><a href="/Proyecto/Administracion/administracion.php">Administración</a></li>
-		            			<li><a href="/Proyecto/Docente/docente.php">Docentes</a></li>
-		            			<li><a href="/Proyecto/AlumnoEncargado/alumnoEncargado.php">Alumnos/Encargados</a></li>
+		            			<li><a href="/Proyecto/login/login.php">Administración</a></li>
+		            			<li><a href="/Proyecto/login/login.php">Docentes</a></li>
+		            			<li><a href="/Proyecto/login/login.php">Alumnos/Encargados</a></li>
 		            		</ul>
 	        			</li>
 	      			</ul>
@@ -301,19 +302,7 @@
 		</div>
 	</div>	
 	
-	<!-- Credits -->
-	
-	
-	<!-- Banner Download -->
-
-	
-	<!-- Contact -->
-	
-	
-	
-	
-    
-    <footer>
+	<footer>
           <div class="col-md-6">
             <div class="footer-banner">
               <h1 class="footer-title">Universidad Nacional Autónoma de Honduras</h1>
@@ -348,7 +337,7 @@
 	<script type="text/javascript" src="js/jquery.corner.js"></script> 
 	<script src="js/wow.min.js"></script>
 	<script>
-	 new WOW().init();
+		new WOW().init();
 	</script>
 	<script src="js/classie.js"></script>
 	<script src="js/uiMorphingButton_inflow.js"></script>
