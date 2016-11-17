@@ -102,42 +102,42 @@
     <div class="form-group">
       <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
       <div class="col-lg-5">
-        <input type="text" class=" nombreCompleto form-control" id="inputnombreCompleto" placeholder="Ingrese el nombre del encargado">
+        <input type="text" class="inputnombreCompleto form-control" name="inputnombreCompleto" placeholder="Ingrese el nombre del encargado">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputnumIdentidad" class="col-lg-4 control-label">Numero de Identidad:</label>
       <div class="col-lg-5">
-        <input type="text" class="numIdentidad form-control" id="inputnumIdentidad" placeholder="Ingrese el numero de identidad">
+        <input type="text" class="inputnumIdentidad form-control" name="inputnumIdentidad" placeholder="Ingrese el numero de identidad">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputnumCel" class="col-lg-4 control-label">Numero de Celular:</label>
       <div class="col-lg-5">
-        <input type="text" class="numCel form-control" id="inputnumCel" placeholder="Ingrese el numero de celular">
+        <input type="text" class="inputnumCel form-control" name="inputnumCel" placeholder="Ingrese el numero de celular">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputdireccion" class="col-lg-4 control-label">Direccion de Residencia:</label>
       <div class="col-lg-5">
-        <input type="text" class="direccion form-control" id="inputdireccion" placeholder="Ingrese la direccion">
+        <input type="text" class="inputdireccion form-control" name="inputdireccion" placeholder="Ingrese la direccion">
       </div>
     </div>
 
     <div class="form-group">
       <label for="inputocupacion" class="col-lg-4 control-label">Ocupacion:</label>
       <div class="col-lg-5">
-        <input type="text" class="ocupacion form-control" id="inputocupacion" placeholder="Ingrese la ocupacion">
+        <input type="text" class="inputocupacion form-control" name="inputocupacion" placeholder="Ingrese la ocupacion">
       </div>
     </div>
 
     <div class="form-group">
       <label for="inputlugarTrabajo" class="col-lg-4 control-label">Lugar de Trabajo:</label>
       <div class="col-lg-5">
-        <input type="text" class="lugarTrabajo form-control" id="inputlugarTrabajo" placeholder="Ingrese el lugar de trabajo">
+        <input type="text" class="inputlugarTrabajo form-control" name="inputlugarTrabajo" placeholder="Ingrese el lugar de trabajo">
       </div>
     </div>
   

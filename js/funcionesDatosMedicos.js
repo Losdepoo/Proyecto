@@ -1,11 +1,11 @@
 (function(){
     $(".boton_guardar").click(function() {
  
-        var alergias = $(".alergias").val();
-            enferPadece = $(".enferPadece").val();
-            tipoSangre = $(".tipoSangre ").val();
-            mediTomas = $(".mediTomas").val();
-            mediIngerir = $(".mediIngerir").val();
+        var alergias = $(".inputalergias").val();
+            enferPadece = $(".inputenferPadece").val();
+            tipoSangre = $(".inputtipoSangre ").val();
+            mediTomas = $(".inputmediTomas").val();
+            mediIngerir = $(".inputmediIngerir").val();
  
         if (alergias == "") {
 			alert("Debe ingresar si si padece de alguna alergia");
@@ -30,7 +30,8 @@
         }else{
                 // Si todo paso, aqui ira la llamada AJAX
 			$('.ajaxgif').removeClass('hide');
-			    var datos = 'alergias='+ alergias + '&enferPadece=' + enferPadece + 
+			    var datos = 'alergias='+ alergias + 
+			                 '&enferPadece=' + enferPadece + 
 			                 '&tipoSangre=' + tipoSangre +  
 				             '&mediTomas=' + mediTomas+ 
 				             '&mediIngerir=' + mediIngerir;

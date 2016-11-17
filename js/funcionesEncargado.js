@@ -1,12 +1,12 @@
 (function(){
-    $(".boton_crear").click(function() {
+    $(".boton_guardar").click(function() {
 
-	    var nombreCompleto = $(".nombreCompleto").val();
-            numIdentidad= $(".numIdentidad").val();
-            numCel= $(".numCel").val();
-            direccion= $(".direccion").val();
-            ocupacion= $(".ocupacion").val();
-            lugarTrabajo= $(".lugarTrabajo").val();
+	    var nombreCompleto = $(".inputnombreCompleto").val();
+            numIdentidad= $(".inputnumIdentidad").val();
+            numCel= $(".inputnumCel").val();
+            direccion= $(".inputdireccion").val();
+            ocupacion= $(".inputocupacion").val();
+            lugarTrabajo= $(".inputlugarTrabajo").val();
  
 
         if (nombreCompleto == "") {

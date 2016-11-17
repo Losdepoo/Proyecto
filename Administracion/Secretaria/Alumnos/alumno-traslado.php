@@ -10,6 +10,7 @@
     <title>Traslado</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
+    <link rel="stylesheet" href="../../css/estilos.css" />
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
   <link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -86,50 +87,51 @@
 
   <!-- inicio div Traslado -->
   
-<div id="Traslado" class="content-section-b" style="border-top: 0">
+<div id="traslado" class="content-section-b" style="border-top: 0">
     <div class="container">
 
       <div class="col-md-6 col-md-offset-3 text-center wrap_title">
         <h2>Traslado</h2>   
       </div>
       
+      <!-- aqui el contenido  -->
       <div class="row">
 
         <div class="col-sm-12 wow fadeInDown text-center">
         <form method="post" class="form-horizontal">
-  
+
     <div class="form-group">
       <label for="inputnomEstudiante" class="col-lg-4 control-label">Nombre del Estudiante:</label>
       <div class="col-lg-5">
-        <input type="text" class="nomEstudiante form-control" name="nomEstudiante" placeholder="Ingrese el nombre del estudiante">
+        <input type="text" class="inputnomEstudiante form-control" name="inputnomEstudiante" placeholder="Ingrese el nombre del estudiante">
       </div>
     </div> 
 
     <div class="form-group">
       <label for="inputnomEncargado" class="col-lg-4 control-label">Nombre del Encargado:</label>
       <div class="col-lg-5">
-        <input type="text" class="nomEncargado form-control" name="nomEncargado" placeholder="Ingrese el nombre del encargado">
+        <input type="text" class="inputnomEncargado form-control" name="inputnomEncargado" placeholder="Ingrese el nombre del encargado">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputconstancia" class="col-lg-4 control-label">Constancia de Conducta:</label>
       <div class="col-lg-5">
-        <input type="text" class="form-control" name="constancia" placeholder="Ingrese la constancia de conducta">
+        <input type="text" class="inputconstancia form-control" name="inputconstancia" placeholder="Ingrese la constancia de conducta">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputinstTraslada" class="col-lg-4 control-label">Instituto donde se Traslada:</label>
       <div class="col-lg-5">
-        <input type="text" class="instTraslada form-control" name="instTraslada" placeholder="Ingrese el instituto donde se traslada">
+        <input type="text" class="inputinstTraslada form-control" name="inputinstTraslada" placeholder="Ingrese el instituto donde se traslada">
       </div>
     </div>
   
   <div class="form-group">
       <label for="select" class="col-lg-4 control-label">Motivo/Razon del Traslado:</label>
       <div class="col-lg-5">
-        <select class="motTraslado form-control" id="select">
+        <select class="form-control" id="select">
           <option>Seleccione una opcion</option>
           <option>Salud</option>
           <option>Trabajo</option>
@@ -143,17 +145,18 @@
     <div class="form-group">
       <label for="inputfecha" class="col-lg-4 control-label">Fecha:</label>
       <div class="col-lg-5">
-        <input type="text" class="fecha form-control" name="fecha" placeholder="Ingrese la fecha">
+        <input type="text" class="inputfecha form-control" name="inputfecha" placeholder="Ingrese la fecha">
       </div>
     </div>
 
-    <div class="btn-group btn-group-justified">
+    <div class="boton_guardar btn-group-justified">
         <div class="ultimo">
                   <div class="msg"></div>
                   <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
           <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
               </div>  
       </div>
+      </form>
   
       
       </div><!-- /.col-lg-4 -->

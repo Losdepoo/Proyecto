@@ -83,29 +83,30 @@
         <h2>Matricula</h2>    
       </div>
       
-       <!-- aqui el contenido  -->
-        <div class="row">
+      <!-- aqui el contenido  -->
+      <div class="row">
+
         <div class="col-sm-12 wow fadeInDown text-center">
+        <form method="post" class="form-horizontal">
 
-        <form method="post" class="alumno-matricula" class="form-horizontal">
-    <div class="form-group">
-      <label>Nombre Completo:</label>
+       <div class="form-group">
+      <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
       <div class="col-lg-5">
-        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese el nombre del estudiante">
+        <input type="text" class="inputnombreCompleto form-control" name="inputnombreCompleto" placeholder="Ingrese el nombre del estudiante">
       </div>
     </div>
 
     <div class="form-group">
-      <label>Numero de Identidad:</label>
+      <label for="inputnumeroIdentidad" class="col-lg-4 control-label">Numero de Identidad:</label>
       <div class="col-lg-5">
-        <input type="text" class="numeroIdentidad form-control" name="numeroIdentidad" placeholder="Ingrese el numero de identidad">
+        <input type="text" class="inputnumeroIdentidad form-control" name="inputnumeroIdentidad" placeholder="Ingrese el numero de identidad">
       </div>
     </div>
 
     <div class="form-group">
-      <label>Fecha de Nacimiento:</label>
+      <label for="inputfechaNacimiento" class="col-lg-4 control-label">Fecha de Nacimiento:</label>
       <div class="col-lg-5">
-        <input type="text" class="fechaNacimiento form-control" name="fechaNacimiento"  placeholder="Ingrese la fecha de nacimiento">
+        <input type="text" class="inputfechaNacimiento form-control" name="inputfechaNacimiento"  placeholder="Ingrese la fecha de nacimiento">
       </div>
     </div>
 
@@ -118,23 +119,22 @@
             F
             <input type="radio" name="optionsgenero" id="optionsgenero2" value="option2">
             M
-          </label>
-          
+          </label>    
         </div>
       </div>
     </div>
      
     <div class="form-group">
-      <label>Direccion:</label>
+      <label for="inputdireccion" class="col-lg-4 control-label">Direccion:</label>
       <div class="col-lg-5">
-        <input type="text" class="direccion form-control" name="direccion" placeholder="Ingrese la direccion">
+        <input type="text" class="inputdireccion form-control" name="inputdireccion" placeholder="Ingrese la direccion">
       </div>
     </div>
 
     <div class="form-group">
-      <label>Edad:</label>
+      <label for="inputedad" class="col-lg-4 control-label">Edad:</label>
       <div class="col-lg-5">
-        <input type="text" class="edad form-control" name="edad" placeholder="Ingrese la edad">
+        <input type="text" class="inputedad form-control" name="inputedad" placeholder="Ingrese la edad">
       </div>
     </div>
 
@@ -150,32 +150,28 @@
     </div>
      
     <div class="form-group">
-      <label>Correo Electronico:</label>
+      <label for="inputcorreoElectronico" class="col-lg-4 control-label">Correo Electronico:</label>
       <div class="col-lg-5">
-        <input type="text" class="correoElectronico form-control" name="correoElectronico" placeholder="Ingrese el correo electronico">
+        <input type="text" class="inputcorreoElectronico form-control" name="inputcorreoElectronico" placeholder="Ingrese el correo electronico">
       </div>
     </div>
     
     <div class="form-group">
-      <label>Telefono:</label>
+      <label for="inputtelefono" class="col-lg-4 control-label">Telefono:</label>
       <div class="col-lg-5">
-        <input type="text" class="telefono form-control" name="telefono" placeholder="Ingrese el telefono">
+        <input type="text" class="inputtelefono form-control" name="inputtelefono" placeholder="Ingrese el telefono">
       </div>
     </div>
 
-    <div class="boton_guardar btn-group btn-group-justified">
-              <div class="ultimo">
-                        <div class="msg"></div>
-                        <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
-                <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/datos-medicos.php" style="background-color:#798D8F; border-color:#FFFFFF">Datos Medicos</a>
+    <div class="btn-group btn-group-justified">
+        <div class="ultimo">
+                  <div class="msg"></div>
+                  <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
+                <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/datos-medicos.php" style="background-color:#E28700; border-color:#FFFFFF">Datos Medicos</a>
                 <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
-                    </div>  
-        </div>  
-            </form>
-
-       
-
-    
+              </div>  
+      </div>
+        </form>
 
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->

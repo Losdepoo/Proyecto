@@ -1,15 +1,13 @@
 (function(){
     $(".boton_guardar").click(function() {
  
-         var nombreCompleto = $(".nombreCompleto").val();
-            numeroIdentidad= $(".numeroIdentidad").val();
-            fechaNacimiento= $(".fechaNacimiento").val();
-            genero= $(".genero").val();
-            direccion= $(".direccion").val();
-            edad= $(".edad").val();
-            jornada= $(".jornada").val();
-            correoElectronico= $(".correoElectronico").val();
-            telefono= $(".telefono").val();
+        var nombreCompleto = $(".inputnombreCompleto").val();
+            numeroIdentidad= $(".inputnumeroIdentidad").val();
+            fechaNacimiento= $(".inputfechaNacimiento").val();
+            direccion= $(".inputdireccion").val();
+            edad= $(".inputedad").val();
+            correoElectronico= $(".inputcorreoElectronico").val();
+            telefono= $(".inputtelefono").val();
 
 	    if (nombreCompleto == "") {
 			alert("Debe ingresar el nombre del estudiante");
@@ -23,10 +21,6 @@
 			alert("Debe ingresar la fecha de nacimiento");
             $(".fechaNacimiento").focus();    
             return false;
-        }else if(genero == ""){
-			alert("");
-            $(".genero").focus();    
-            return false;
         }else if(direccion == ""){
 			alert("Debe ingresar la direccion");
             $(".direccion").focus();    
@@ -34,10 +28,6 @@
         }else if(edad == ""){
 			alert("Debe ingresar la edad");
             $(".edad").focus();    
-            return false;
-        }else if(jornada == ""){
-			alert("");
-            $(".jornada").focus();    
             return false;
         }else if(correoElectronico == ""){
 			alert("Debe ingresar el correo electronico");
@@ -53,11 +43,9 @@
 				$('.ajaxgif').removeClass('hide');
 				var datos = 'nombreCompleto='+ nombreCompleto + 
 				             '&numeroIdentidad=' + numeroIdentidad + 
-				             '&fechaNacimiento=' + fechaNacimiento + 
-				             '&genero=' + genero+ 
+				             '&fechaNacimiento=' + fechaNacimiento +  
 				             '&direccion=' + direccion+ 
 				             '&edad=' + edad+
-				             '&jornada=' + jornada+
 				             '&correoElectronico=' + correoElectronico+
 				             '&telefono=' + telefono;
 

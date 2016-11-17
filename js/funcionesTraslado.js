@@ -1,12 +1,11 @@
 (function(){
     $(".boton_guardar").click(function() {
  
-        var nomEstudiante = $(".nomEstudiante").val();
-            nomEncargado= $(".nomEncargado").val();
-            constancia= $(".constancia").val();
-            instTraslada= $(".instTraslada").val();
-            motTraslado= $(".motTraslado").val();
-            fecha= $(".fecha").val();
+        var nomEstudiante = $(".inputnomEstudiante").val();
+            nomEncargado= $(".inputnomEncargado").val();
+            constancia= $(".inputconstancia").val();
+            instTraslada= $(".inputinstTraslada").val();
+            fecha= $(".inputfecha").val();
 
         if (nomEstudiante == "") {
 			alert("Debe ingresar el nombre del estudiante");
@@ -24,10 +23,6 @@
 			alert("Debe ingresar el instituto donde se traslada");
             $(".instTraslada").focus();    
             return false;
-        }else if(motTraslado == ""){
-			alert("");
-            $(".motTraslado").focus();    
-            return false;
         }else if(fecha == ""){
 			alert("Debe ingresar la fecha");
             $(".fecha").focus();    
@@ -41,7 +36,6 @@
 				             '&nomEncargado=' + nomEncargado + 
 				             '&constancia=' + constancia + 
 				             '&instTraslada=' + instTraslada+ 
-				             '&motTraslado=' + motTraslado+ 
 				             '&fecha=' + fecha;
 				$.ajax({
 				    type: "POST",
