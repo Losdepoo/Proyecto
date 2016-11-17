@@ -1,5 +1,8 @@
 <?php
-
+include_once("../../../class/class_cursos.php");
+include_once("../../../class/class_asignaturas.php");
+include_once("../../../class/class_conexion.php");
+$conexion = new conexion();
 ?>
  <!-- FlatFy Theme - Andrea Galanti /-->
 <!doctype html>
@@ -36,79 +39,65 @@
 			  <fieldset>
 			    <legend>Nuevo Maestro</legend>
 			    <div class="form-group">
-			      <label class="col-lg-2 control-label">Nombre Completo</label>
+			      <label class="col-lg-2 control-label">Nombre usuario</label>
 			      <div class="col-lg-10">
-			        <input type="text" class="form-control" id="inputEmail" placeholder="Ej. Juan Orlando Hernandez Alvarado">
+			        <input type="text" class="form-control" id="inputUsuario" placeholder="Ej. Juan_Orlando">
 			      </div>
 			    </div>
 			    <div class="form-group">
-			      <label for="inputPassword" class="col-lg-2 control-label">Numero de Identidad</label>
+			      <label  class="col-lg-2 control-label">Contraseña</label>
 			      <div class="col-lg-10">
-			        <input type="text" class="form-control" id="inputPassword" placeholder="Ej. 0801-1995-05088">
+			        <input type="password" class="form-control" id="inputcontrasena" placeholder="contrasena">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="col-lg-2 control-label">Nombre Completo</label>
+			      <div class="col-lg-10">
+			        <input type="text" class="form-control" id="inputNombre" placeholder="Ej. Juan Orlando Hernandez Alvarado">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label  class="col-lg-2 control-label">Numero de Identidad</label>
+			      <div class="col-lg-10">
+			        <input type="text" class="form-control" id="inputNumeroIdentidad" placeholder="Ej. 0801-1995-05088">
 			      </div>
 			    </div>
 				
+			    <div class="form-group">
+			      <label  class="col-lg-2 control-label">Edad</label>
+			      <div class="col-lg-10">
+			        <input type="text" class="form-control" id="inputEdad" placeholder="Ej. 15">
+			      </div>
+			    </div>
+
 				<div class="form-group">
 			      <label for="select" class="col-lg-2 control-label">Genero</label>
 			      
 			      <div class="col-lg-10">
-			        <select class="form-control" id="select">
-			          <option>Masculino</option>
-			          <option>Femenino</option>
+			        <select class="form-control" id="slcGenero">
+			          <option value="Masculino">Masculino</option>
+			          <option value="Femenino">Femenino</option>
 			        </select>
 			        <br>
 
 			        <label class="col-lg-2 control-label">Cursos a los que impartirá</label>
-			        	<br />
-						<input name="cbprimero" type="checkbox" />Primero
-						<br />
-						<input name="cbsegundo" type="checkbox" />Segundo
-						<br />
-						<input name="cbtercero" type="checkbox" />Tercero
-						<br />
-						<input name="cbprimero" type="checkbox" />Cuarto
-						<br />
-						<input name="cbsegundo" type="checkbox" />Quinto
-						<br />
-						<input name="cbtercero" type="checkbox" />Sexto
-						<br />
-						<input name="cbprimero" type="checkbox" />Séptimo
-						<br />
-						<input name="cbsegundo" type="checkbox" />Octavo
-						<br />
-						<input name="cbtercero" type="checkbox" />Noveno
-						<br />
-						<input name="cbprimero" type="checkbox" />Primero Diversificado
-						<br />
-						<input name="cbsegundo" type="checkbox" />Segundo Diversificado
-						<br />
-						<input name="cbtercero" type="checkbox" />Tercero Diversificado
-						</br>
-			        
+			        <div id=chkcursos>
+			        	<?php
+								Cursos::generarCheckboxesCursos($conexion);
+							?>
+			        </div>
 
 			        <label for="select" class="col-lg-2 control-label">Clase a impartír</label>
-			        <select class="form-control">
-			          <option>Ciencias Naturales</option>
-			          <option>Matemáticas</option>
-			          <option>Español</option>
-			          <option>Ciencias Sociáles</option>
-			          <option>Computación</option>
-			          <option>Ingles</option>
-			          <option>Dibujo</option>
-			          <option>Música</option>
-			          <option>Educación Física</option>
-			          <option>Física Elemental</option>
-			          <option>Química</option>
-			          <option>Biología</option>
-			        </select>	
-
-			      </div>
+			        <?php
+								Asignatura::generarListaAsignaturas($conexion);
+							?>
+					</div>
 			    </div>
 
 			    <div class="form-group">
 			      <label for="textArea" class="col-lg-2 control-label">Observaciones</label>
 			      <div class="col-lg-10">
-			        <textarea class="form-control" rows="3" id="textArea"></textarea>
+			        <textarea class="form-control" rows="3" id="textAreaObservacionesMedicas"></textarea>
 			        <span class="help-block">cualquier tipo de observacion incluidas: medicas, conductivas, etc.</span>
 			      </div>
 			    </div>
@@ -116,11 +105,12 @@
 				<div class="form-group">
 			      <div class="col-lg-10 col-lg-offset-2">
 			        <button type="reset" class="btn btn-default">Cancelar</button>
-			        <button type="submit" class="btn btn-primary">Agregar Docente</button>
+			        <button type="submit" class="btn btn-primary" onclick="agregarDocente();">Agregar Docente</button>
 			      </div>
 			    </div>
 			  </fieldset>
 			</form>
+	<script type="text/javascript" src="/proyecto/js/controlador.js"></script> 		
 </body>
 
 </html>

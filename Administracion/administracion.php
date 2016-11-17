@@ -1,6 +1,6 @@
 <?php session_start(); 
-	if(!isset($_SESSION['codigo_usuario']))
-		header("Location: index.php");
+	if(!isset($_SESSION['id_tipo_cuenta']))
+		header("Location: /proyecto/login/login.php");
 ?>
  <!-- FlatFy Theme - Andrea Galanti /-->
 <!doctype html>
