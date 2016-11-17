@@ -76,7 +76,6 @@
   <!-- NavBar fin-->
 
   <!-- inicio div Matricula -->
-
   <div id="alumno-matricula" class="content-section-b" style="border-top: 0">
     <div class="container">
 
@@ -86,26 +85,25 @@
       
        <!-- aqui el contenido  -->
         <div class="row">
-
         <div class="col-sm-12 wow fadeInDown text-center">
-        <form method="post" class="form-horizontal">
-    
+
+        <form method="post" class="alumno-matricula" class="form-horizontal">
     <div class="form-group">
-      <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
+      <label>Nombre Completo:</label>
       <div class="col-lg-5">
         <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese el nombre del estudiante">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputnumeroIdentidad" class="col-lg-4 control-label">Numero de Identidad:</label>
+      <label>Numero de Identidad:</label>
       <div class="col-lg-5">
         <input type="text" class="numeroIdentidad form-control" name="numeroIdentidad" placeholder="Ingrese el numero de identidad">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputfechaNacimiento" class="col-lg-4 control-label">Fecha de Nacimiento:</label>
+      <label>Fecha de Nacimiento:</label>
       <div class="col-lg-5">
         <input type="text" class="fechaNacimiento form-control" name="fechaNacimiento"  placeholder="Ingrese la fecha de nacimiento">
       </div>
@@ -127,14 +125,14 @@
     </div>
      
     <div class="form-group">
-      <label for="inputdireccion" class="col-lg-4 control-label">Direccion:</label>
+      <label>Direccion:</label>
       <div class="col-lg-5">
         <input type="text" class="direccion form-control" name="direccion" placeholder="Ingrese la direccion">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputedad" class="col-lg-4 control-label">Edad:</label>
+      <label>Edad:</label>
       <div class="col-lg-5">
         <input type="text" class="edad form-control" name="edad" placeholder="Ingrese la edad">
       </div>
@@ -152,27 +150,28 @@
     </div>
      
     <div class="form-group">
-      <label for="inputcorreoElectronico" class="col-lg-4 control-label">Correo Electronico:</label>
+      <label>Correo Electronico:</label>
       <div class="col-lg-5">
         <input type="text" class="correoElectronico form-control" name="correoElectronico" placeholder="Ingrese el correo electronico">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputtelefono" class="col-lg-4 control-label">Telefono:</label>
+      <label>Telefono:</label>
       <div class="col-lg-5">
         <input type="text" class="telefono form-control" name="telefono" placeholder="Ingrese el telefono">
       </div>
     </div>
 
-    <div class="btn-group btn-group-justified">
+    <div class="boton_guardar btn-group btn-group-justified">
               <div class="ultimo">
                         <div class="msg"></div>
                         <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
                 <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/datos-medicos.php" style="background-color:#798D8F; border-color:#FFFFFF">Datos Medicos</a>
                 <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
                     </div>  
-            </div>
+        </div>  
+            </form>
 
        
 

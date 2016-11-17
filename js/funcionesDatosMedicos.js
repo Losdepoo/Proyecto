@@ -30,9 +30,8 @@
         }else{
                 // Si todo paso, aqui ira la llamada AJAX
 			$('.ajaxgif').removeClass('hide');
-			    var datos = 'alergias='+ alergias + 
-				             '&enferPadece=' + enferPadece + 
-				             '&tipoSangre=' + tipoSangre +  
+			    var datos = 'alergias='+ alergias + '&enferPadece=' + enferPadece + 
+			                 '&tipoSangre=' + tipoSangre +  
 				             '&mediTomas=' + mediTomas+ 
 				             '&mediIngerir=' + mediIngerir;
 				$.ajax({

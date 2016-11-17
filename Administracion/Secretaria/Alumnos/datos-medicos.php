@@ -77,69 +77,62 @@
 
 
 <!-- inicio div Datos Medicos -->
-
-  <div id="alumno-matricula" class="content-section-b" style="border-top: 0">
+<div id="datos-medicos" class="content-section-b" style="border-top: 0">
     <div class="container">
 
       <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-        <h2>Datos Medicos</h2>    
+        <h4>Datos Medicos</h4>
       </div>
-      
-       <!-- aqui el contenido  -->
-      <div class="row">
 
-        <div class="col-sm-12 wow fadeInDown text-center">
-        <form method="post" class="form-horizontal">
+       <!-- aqui el contenido  -->
+      <form method="post" class="datos-medicos" class="form-horizontal">
+            <div class="form-group">
+        <div class="col-lg-6">
+          <label>Alergias:</label>
+          <input type="text" class="alergias form-control" name="alergias" size="10" placeholder="Ingrese si padece de alguna alergia" />
+        </div>          
+      </div>
     
     <div class="form-group">
-      <label for="inputalergias " class="col-lg-4 control-label">Alergias:</label>
-      <div class="col-lg-5">
-        <input type="text" class="alergias  form-control" name="alergias " placeholder="Ingrese si padece de alguna alergia">
+        <div class="col-lg-6">
+          <label>Enfermedades que padece:</label>
+          <input type="text" class="enferPadece form-control" name="enferPadece" placeholder="Ingrese si padece de alguna enfermedad" />  
+        </div>
       </div>
-    </div>
-
-     <div class="form-group">
-      <label for="inputenferPadece" class="col-lg-4 control-label">Enfermedades que padece:</label>
-      <div class="col-lg-5">
-        <input type="text" class="enferPadece form-control" name="enferPadece" placeholder="Ingrese si padece de alguna enfermedad">
-      </div>
-    </div>
-
-     <div class="form-group">
-      <label for="inputtipoSangre" class="col-lg-4 control-label">Tipo de sangre:</label>
-      <div class="col-lg-5">
-        <input type="text" class="tipoSangre form-control" name="tipoSangre" placeholder="Ingrese el tipo de sangre">
-      </div>
-    </div>
-
-     <div class="form-group">
-      <label for="inputmediTomas" class="col-lg-4 control-label">Medicamentos que toma:</label>
-      <div class="col-lg-5">
-        <input type="text" class="mediTomas form-control" name="mediTomas" placeholder="Ingrese los medicamentos que toma">
-      </div>
-    </div>
-
+    
     <div class="form-group">
-      <label for="inputmediIngerir" class="col-lg-4 control-label">Medicamentos que no debe de ingerir:</label>
-      <div class="col-lg-5">
-        <input type="text" class="mediIngerir form-control" name="mediIngerir" placeholder="Ingrese los medicamentos que no debe de ingerir:">
+        <div class="col-lg-6">
+          <label>Tipo de sangre:</label>
+          <input type="text" class="tipoSangre form-control" name="tipoSangre" placeholder="Ingrese el tipo de sangre" />  
+        </div>
       </div>
-    </div>
 
-          <div class="btn-group btn-group-justified">
+      <div class="form-group">
+        <div class="col-lg-6">
+          <label>Medicamentos que toma:</label>
+          <input type="text" class="mediTomas form-control" name="mediTomas" placeholder="Ingrese los medicamentos que toma" />  
+        </div>
+      </div>
+
+       <div class="form-group">
+        <div class="col-lg-6">
+          <label>Medicamentos que no debe de ingerir:</label>
+          <input type="text" class="mediIngerir form-control" name="mediIngerir" placeholder="Ingrese los medicamentos que no debe de ingerir:" />  
+        </div>
+      </div>
+
+         <div class="btn-group btn-group-justified">
         <div class="ultimo">
                   <div class="msg"></div>
                   <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
           <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
               </div>  
-      </div>
+      </div> 
 
-        </form>
-      </div>
-    </div>
-    </div>
-  </div>
-              
+      </form>
+    </div> 
+  </div> 
+
   <!--fin de Datos Medicos-->
 
  <div  class="content-section-c ">
@@ -192,6 +185,7 @@
    <!--Validacion -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" src="../../js/funcionesDatosMedicos.js"></script>
+
 
     <!-- JavaScript -->
     <script src="/Proyecto/js/jquery-1.10.2.js"></script>
