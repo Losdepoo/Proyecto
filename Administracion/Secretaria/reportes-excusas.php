@@ -103,7 +103,7 @@
 				<div class="col-sm-6 wow fadeInDown text-center">
 					<img  class="rotate" src="../../img/icon/reportes.png" alt="Generic placeholder image" height="100" width="100">
 					<p class="text-muted">Seleccione para descargar formato PDF de reportes</p>
-				 	<a href="#" class="btn btn-primary btn-lg">Reportes</a>
+				 	<a class="btn btn-primary btn-lg" href="../../PDF/reportes.pdf" role="button" target="_blank">Reportes</a>&nbsp;&nbsp;
 				</div>
 			
 				<div class="col-sm-6 wow fadeInDown text-center">
