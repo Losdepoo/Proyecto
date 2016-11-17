@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$("#btn-login").click(function(){
 			var parametros ="NombreUsuario=" +$("#NombreUsuario").val() + 
 						"&"+"contrasena="+$("#contrasena").val();
-			alert(parametros);
+			//alert(parametros);
 			$.ajax({
 				url:"/Proyecto/ajax/acciones.php?accion=1",
 				method: "POST",
@@ -22,3 +22,4 @@ $(document).ready(function(){
 		});
 	});	
 });
+

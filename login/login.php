@@ -24,7 +24,7 @@
             <input type="checkbox" value="remember-me"> No cerrar sesión en este equipo
           </label>
         </div>
-        <button id="btn-login" class="btn btn-lg btn-primary btn-block" type="button">ingresar</button>
+        <button id="btn-login" class="btn btn-lg btn-primary btn-block" type="button" onclick="redireccionar();">ingresar</button>
         <div id="resultado"></div>
       </div>
        
@@ -33,6 +33,14 @@
   <script type="text/javascript" src="/Proyecto/js/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="/Proyecto/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/Proyecto/js/login.js"></script>
+  <script language="JavaScript" type="text/javascript">
+    var pagina="/Proyecto/administracion/administracion.php"
+    function redireccionar(){
+      location.href=pagina
+     } 
+    setTimeout ("redireccionar()", 20000);
+  </script>
+
 </body>
 
 </html>
