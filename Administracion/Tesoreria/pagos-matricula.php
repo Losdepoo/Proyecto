@@ -17,6 +17,9 @@
     <title>Pagos de Matricula</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
+     <link rel="stylesheet" href="../../estilos.css" />
+
+
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
   <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -122,13 +125,13 @@
     <div class="form-group">
       <label for="inputAlumno" class="col-lg-2 control-label">Alumno:</label>
       <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputAlumno" placeholder="Alumno">
+        <input type="text" class="inputAlumno form-control"  name="inputAlumno" placeholder="Alumno">
       </div>
     </div>
     <div class="form-group">
       <label for="select" class="col-lg-2 control-label">Curso</label>
       <div class="col-lg-10">
-        <select class="form-control" id="select" placeholder="Seleccione una opcion">
+        <select class="form-control" id="selectCurso" placeholder="Seleccione una opcion">
           <option>Seleccione una opcion</option>
           <option>primer curso</option>
           <option>segundo curso</option>
@@ -203,17 +206,19 @@
     <div class="form-group">
       <label for="inputFecha" class="col-lg-2 control-label">Fecha:</label>
       <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputMes" placeholder="Fecha">
+        <input type="text" class="inputMes form-control" name="inputMes" placeholder="Fecha">
       </div>
     </div>
     <div class="form-group">
       <label for="inputMonto" class="col-lg-2 control-label">Monto:</label>
       <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputMonto" placeholder="Monto">
+        <input type="text" class="inputMonto form-control" name="inputMonto" placeholder="Monto"/>
+        
       </div>
     </div>
-    <button type="reset" class="btn btn-default">Cancelar</button>
-    <button type="submit" class="btn btn-primary">Registrar</button>
+    
+    <a class="boton_registrar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Registrar</a>
+
     
     </div>
     </div>
@@ -289,6 +294,10 @@
           </div>
     </footer>
 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="../../js/funcionesPagoMatriculas.js"></script>
+
+
     <!-- JavaScript -->
     <script src="../../js/jquery-1.10.2.js"></script>
     <script src="../../js/bootstrap.js"></script>
@@ -296,7 +305,14 @@
   <script src="../../js/script.js"></script>
   <!-- StikyMenu -->
   <script src="../../js/stickUp.min.js"></script>
-  <script type="text/javascript">
+  <!--<script type="text/javascript">-->
+
+
+
+
+
+
+
     jQuery(function($) {
     $(document).ready( function() {
       $('.navbar-default').stickUp();
@@ -315,6 +331,7 @@
   <script src="../../js/uiMorphingButton_inflow.js"></script>
   <!-- Magnific Popup core JS file -->
   <script src="../../js/jquery.magnific-popup.js"></script> 
+  <script type="text/javascript" src="funcionesPagosMatricula.js"></script>
 
 </body>
 
