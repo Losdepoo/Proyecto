@@ -10,7 +10,7 @@
     <title>Matricula</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link rel="stylesheet" href="../../css/estilos.css" />
+    <link rel="stylesheet" href="../../../css/estilos.css" />
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -87,14 +87,17 @@
       <div class="row">
 
         <div class="col-sm-12 wow fadeInDown text-center">
-        <form method="post" class="form-horizontal">
 
-       <div class="form-group">
+
+    <form method="post" class="alumno-matricula" class="form-horizontal">
+
+      <div class="form-group">
+
       <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
       <div class="col-lg-5">
         <input type="text" class="inputnombreCompleto form-control" name="inputnombreCompleto" placeholder="Ingrese el nombre del estudiante">
       </div>
-    </div>
+      </div>
 
     <div class="form-group">
       <label for="inputnumeroIdentidad" class="col-lg-4 control-label">Numero de Identidad:</label>
@@ -171,12 +174,12 @@
                 <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
               </div>  
       </div>
-        </form>
 
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
   </div> 
+  </form>
 
   <!-- fin div Matricula -->
   
@@ -229,7 +232,7 @@
 
    <!--Validacion -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script type="text/javascript" src="../../js/funcionesMatricula.js"></script>
+  <script type="text/javascript" src="../../../js/funcionesMatricula.js"></script>
 
     <!-- JavaScript -->
     <script src="/Proyecto/js/jquery-1.10.2.js"></script>
