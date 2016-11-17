@@ -119,7 +119,7 @@
         <label><input type="checkbox" name="otroPago[]">Crédito</label><br>
         <br>
       </div>
-      	<form method="POST">
+      	<form method="post" class="otros-pagos" class="form-horizontal">
 			<p><label>Nombre de usuario: </label><input type="text" class="txt-usuario form-control" name="txt-usuario"/></p>
 			<p><label>Contraseña: </label><input type="password" class="txt-contrasenia form-control" name="txt-contasenia"/></p>
 			<p><label>Cantidad a pagar: </label><input type="text" class="txt-cantidadPago form-control" name="txt-cantidadPago"/></p>
@@ -181,6 +181,10 @@
           </div>
     </footer>
 
+    <!-- Validacion -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="../../js/funciones_otros_pagos.js"></script>
+
     <!-- JavaScript -->
     <script src="../js/jquery-1.10.2.js"></script>
     <script src="../js/bootstrap.js"></script>
@@ -208,8 +212,7 @@
 	<!-- Magnific Popup core JS file -->
 	<script src="../js/jquery.magnific-popup.js"></script>
 
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="funciones_otros_pagos.js"></script>
+
 
 </body>
 
