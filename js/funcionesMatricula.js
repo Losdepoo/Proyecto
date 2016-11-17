@@ -1,25 +1,25 @@
 (function(){
     $(".boton_guardar").click(function() {
  
-        var nombreCompleto = $(".inputnombreCompleto").val();
-            numeroIdentidad= $(".inputnumeroIdentidad").val();
-            fechaNacimiento= $(".inputfechaNacimiento").val();
-            direccion= $(".inputdireccion").val();
-            edad= $(".inputedad").val();
-            correoElectronico= $(".inputcorreoElectronico").val();
-            telefono= $(".inputtelefono").val();
+        var nombre = $(".nombre").val();
+            numeroId= $(".numeroId").val();
+            fechaNac= $(".fechaNac").val();
+            direccion= $(".direccion").val();
+            edad= $(".edad").val();
+            correoElec= $(".correoElec").val();
+            tel= $(".tel").val();
 
-	    if (nombreCompleto == "") {
+	    if (nombre == "") {
 			alert("Debe ingresar el nombre del estudiante");
-            $(".nombreCompleto").focus();
+            $(".nombre").focus();
             return false;
-        }else if(numeroIdentidad == ""){
+        }else if(numeroId == ""){
 			alert("Debe ingresar el numero de identidad");
-            $(".numeroIdentidad").focus();    
+            $(".numeroId").focus();    
             return false;
-        }else if(fechaNacimiento == ""){
+        }else if(fechaNac == ""){
 			alert("Debe ingresar la fecha de nacimiento");
-            $(".fechaNacimiento").focus();    
+            $(".fechaNac").focus();    
             return false;
         }else if(direccion == ""){
 			alert("Debe ingresar la direccion");
@@ -29,27 +29,27 @@
 			alert("Debe ingresar la edad");
             $(".edad").focus();    
             return false;
-        }else if(correoElectronico == ""){
+        }else if(correoElec == ""){
 			alert("Debe ingresar el correo electronico");
-            $(".correoElectronico").focus();    
+            $(".correoElec").focus();    
             return false;
-        }else if(telefono == ""){
+        }else if(tel == ""){
 			alert("Debe ingresar el telefono");
-            $(".telefono").focus();    
+            $(".tel").focus();    
             return false;
         }else{
-                // Si todo paso, aqui ira la llamada AJAX
-			$('.ajaxgif').removeClass('hide');
+
+               // Si todo paso, aqui ira la llamada AJAX
+           $('.ajaxgif').removeClass('hide');
 				$('.ajaxgif').removeClass('hide');
-				var datos = 'nombreCompleto='+ nombreCompleto + 
-				             '&numeroIdentidad=' + numeroIdentidad + 
-				             '&fechaNacimiento=' + fechaNacimiento +  
+				var datos = 'nombre='+ nombre + 
+				             '&numeroId=' + numeroId+ 
+				             '&fechaNac=' + fechaNac +  
 				             '&direccion=' + direccion+ 
 				             '&edad=' + edad+
-				             '&correoElectronico=' + correoElectronico+
-				             '&telefono=' + telefono;
-
-                $.ajax({
+				             '&correoElec=' + correoElec+
+				             '&tel=' + tel;
+                 $.ajax({
 				    type: "POST",
 				    url: "proceso.php",
 				    data: datos,
@@ -57,7 +57,7 @@
 				        $('.msg').text('Mensaje enviado!').addClass('msg_ok').animate({ 'right' : '130px' }, 300);  
 				    },
 				    error: function() {
-				        $('.msg').text('Hubo un error!').addClass('msg_error').animate({ 'right' : '130px' }, 300);                 
+				        $('.msg').text('Mensaje NO enviado!').addClass('msg_error').animate({ 'right' : '130px' }, 300);                 
 				    }
 				});
 				return false;
