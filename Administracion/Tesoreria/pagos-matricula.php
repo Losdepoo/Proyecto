@@ -119,7 +119,7 @@
           <!--Quite div de pagos matriculas-->
            <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 
-           <form nethod="post" class="pagos-matricula" class="form-horizontal">
+           <form method="post" class="pagos-matricula" class="form-horizontal">
   <fieldset>
     <legend>Datos del alumno</legend>
     <div class="form-group">
