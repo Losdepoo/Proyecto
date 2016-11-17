@@ -106,37 +106,37 @@
         <form class="form-horizontal">
   
     <div class="form-group">
-      <label for="inputNombre" class="col-lg-4 control-label">Nombre del Estudiante:</label>
+      <label for="inputnomEstudiante" class="col-lg-4 control-label">Nombre del Estudiante:</label>
       <div class="col-lg-5">
-        <input type="Nombre" class="form-control" id="inputNombre" placeholder="Ingrese el nombre del estudiante">
+        <input type="text" class="nomEstudiante form-control" name="nomEstudiante" placeholder="Ingrese el nombre del estudiante">
       </div>
     </div> 
 
     <div class="form-group">
-      <label for="inputEncargado" class="col-lg-4 control-label">Nombre del Encargado:</label>
+      <label for="inputnomEncargado" class="col-lg-4 control-label">Nombre del Encargado:</label>
       <div class="col-lg-5">
-        <input type="Encargado" class="form-control" id="inputEncargado" placeholder="Ingrese el nombre del encargado">
+        <input type="text" class="nomEncargado form-control" name="nomEncargado" placeholder="Ingrese el nombre del encargado">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputConstancia-conducta" class="col-lg-4 control-label">Constancia de Conducta:</label>
+      <label for="inputconstancia" class="col-lg-4 control-label">Constancia de Conducta:</label>
       <div class="col-lg-5">
-        <input type="Constancia-conducta" class="form-control" id="inputConstancia-conducta" placeholder="Ingrese la constancia de conducta">
+        <input type="text" class="form-control" name="constancia" placeholder="Ingrese la constancia de conducta">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputInstituto-traslada" class="col-lg-4 control-label">Instituto donde se Traslada:</label>
+      <label for="inputinstTraslada" class="col-lg-4 control-label">Instituto donde se Traslada:</label>
       <div class="col-lg-5">
-        <input type="Instituto-traslada" class="form-control" id="inputInstituto-traslada" placeholder="Ingrese el instituto donde se traslada">
+        <input type="text" class="instTraslada form-control" name="instTraslada" placeholder="Ingrese el instituto donde se traslada">
       </div>
     </div>
   
   <div class="form-group">
       <label for="select" class="col-lg-4 control-label">Motivo/Razon del Traslado:</label>
       <div class="col-lg-5">
-        <select class="form-control" id="select">
+        <select class="motTraslado form-control" id="select">
           <option>Seleccione una opcion</option>
           <option>Salud</option>
           <option>Trabajo</option>
@@ -148,19 +148,20 @@
     </div>
 
     <div class="form-group">
-      <label for="inputFecha" class="col-lg-4 control-label">Fecha:</label>
+      <label for="inputfecha" class="col-lg-4 control-label">Fecha:</label>
       <div class="col-lg-5">
-        <input type="lugar-fecha" class="form-control" id="inputfecha" placeholder="Ingrese la fecha">
+        <input type="text" class="fecha form-control" name="fecha" placeholder="Ingrese la fecha">
       </div>
     </div>
-    
-    <div class="form-group">
-      <div class="col-lg-4 col-lg-offset-4">
-        <button type="reset" class="btn btn-default">Guardar</button>
-        <button type="submit" class="btn btn-primary">Cancelar</button>
+
+    <div class="btn-group btn-group-justified">
+        <div class="ultimo">
+                  <div class="msg"></div>
+                  <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
+          <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
+              </div>  
       </div>
-    </div>
-</form>
+  
       
       </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -215,6 +216,10 @@
                 <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
           </div>
     </footer>
+
+    <!--Validacion -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="../../js/funcionesTraslado.js"></script>
 
     <!-- JavaScript -->
     <script src="/Proyecto/js/jquery-1.10.2.js"></script>

@@ -7,7 +7,7 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Matricula</title>
+    <title>Datos Medicos</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
     <link rel="stylesheet" href="../../css/estilos.css" />
@@ -75,13 +75,14 @@
   </nav> 
   <!-- NavBar fin-->
 
-  <!-- inicio div Matricula -->
+
+<!-- inicio div Datos Medicos -->
 
   <div id="alumno-matricula" class="content-section-b" style="border-top: 0">
     <div class="container">
 
       <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-        <h2>Matricula</h2>    
+        <h2>Datos Medicos</h2>    
       </div>
       
        <!-- aqui el contenido  -->
@@ -91,101 +92,55 @@
         <form class="form-horizontal">
     
     <div class="form-group">
-      <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
+      <label for="inputnombreCompleto" class="col-lg-4 control-label">Alergias:</label>
       <div class="col-lg-5">
-        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese el nombre del estudiante">
+        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese si padece de alguna alergia">
+      </div>
+    </div>
+
+     <div class="form-group">
+      <label for="inputnombreCompleto" class="col-lg-4 control-label">Enfermedades que padece:</label>
+      <div class="col-lg-5">
+        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese si padece de alguna enfermedad">
+      </div>
+    </div>
+
+     <div class="form-group">
+      <label for="inputnombreCompleto" class="col-lg-4 control-label">Tipo de sangre:</label>
+      <div class="col-lg-5">
+        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese el tipo de sangre">
+      </div>
+    </div>
+
+     <div class="form-group">
+      <label for="inputnombreCompleto" class="col-lg-4 control-label">Medicamentos que toma:</label>
+      <div class="col-lg-5">
+        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese los medicamentos que toma">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputnumeroIdentidad" class="col-lg-4 control-label">Numero de Identidad:</label>
+      <label for="inputnombreCompleto" class="col-lg-4 control-label">Medicamentos que no debe de ingerir:</label>
       <div class="col-lg-5">
-        <input type="text" class="numeroIdentidad form-control" name="numeroIdentidad" placeholder="Ingrese el numero de identidad">
+        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese los medicamentos que no debe de ingerir:">
       </div>
     </div>
 
-    <div class="form-group">
-      <label for="inputfechaNacimiento" class="col-lg-4 control-label">Fecha de Nacimiento:</label>
-      <div class="col-lg-5">
-        <input type="text" class="fechaNacimiento form-control" name="fechaNacimiento"  placeholder="Ingrese la fecha de nacimiento">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label class="col-lg-4 control-label">Genero:</label>
-      <div class="col-lg-2">
-        <div class="Genero">
-          <label>
-            <input type="radio" name="optionsgenero" id="optionsgenero1" value="option1" checked="">
-            F
-            <input type="radio" name="optionsgenero" id="optionsgenero2" value="option2">
-            M
-          </label>
-          
-        </div>
-      </div>
-    </div>
-     
-    <div class="form-group">
-      <label for="inputdireccion" class="col-lg-4 control-label">Direccion:</label>
-      <div class="col-lg-5">
-        <input type="text" class="direccion form-control" name="direccion" placeholder="Ingrese la direccion">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="inputedad" class="col-lg-4 control-label">Edad:</label>
-      <div class="col-lg-5">
-        <input type="text" class="edad form-control" name="edad" placeholder="Ingrese la edad">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="select" class="col-lg-4 control-label">Jornada:</label>
-      <div class="col-lg-5">
-        <select class="form-control" id="select">
-          <option>Seleccione una opcion</option>
-          <option>Matutino</option>
-          <option>Vespertino</option>
-        </select>
-      </div>
-    </div>
-     
-    <div class="form-group">
-      <label for="inputcorreoElectronico" class="col-lg-4 control-label">Correo Electronico:</label>
-      <div class="col-lg-5">
-        <input type="text" class="correoElectronico form-control" name="correoElectronico" placeholder="Ingrese el correo electronico">
-      </div>
-    </div>
-    
-    <div class="form-group">
-      <label for="inputtelefono" class="col-lg-4 control-label">Telefono:</label>
-      <div class="col-lg-5">
-        <input type="text" class="telefono form-control" name="telefono" placeholder="Ingrese el telefono">
-      </div>
-    </div>
-
-    <div class="btn-group btn-group-justified">
-              <div class="ultimo">
-                        <div class="msg"></div>
-                        <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
-                <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/datos-medicos.php" style="background-color:#798D8F; border-color:#FFFFFF">Datos Medicos</a>
-                <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
-                    </div>  
+          <div class="form-group">
+            <div class="col-lg-6 col-lg-offset-4">
+              <button type="submit" class="btn btn-primary btn-sm">Guardar</button>
+              <button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
             </div>
-
-       
-
-    
-
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+          </div>              
+        </form>
+      </div>
     </div>
-  </div> 
+    </div>
+  </div>
+              
+  <!--fin de Datos Medicos-->
 
-  <!-- fin div Matricula -->
-  
-  <div  class="content-section-c ">
+ <div  class="content-section-c ">
     <div class="container">
       <div class="row">
       
@@ -263,3 +218,4 @@
 </body>
 
 </html>
+
