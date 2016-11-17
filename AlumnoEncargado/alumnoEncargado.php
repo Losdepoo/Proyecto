@@ -107,14 +107,12 @@
 		<div class="container">
 		
 		<footer>
-			<div class="media">
-				<a href="#" class="pull-left">
-					<img  class="rotate" src="../../img/icon/exclamation.png" alt="Generic placeholder image" height="30" width="30">
-				</a>
-				<div class="media-body">
-					 <p class="help-block" style="font-size:16pt">Aquí el encargado podrá ver las calificaciones, usaremos un PDF para la visualización.</p>
-			 	</div>
-			</div>	
+			<div class="row">
+				<div class="col-sm-6 wow fadeInDown text-center">
+					<img  class="rotate" src="../../Proyecto/img/icon/calificaciones.png" alt="Generic placeholder image" height="100" width="100">
+					<p class="text-muted">Seleccione para descargar formato PDF de notas</p>
+				 	<a class="btn btn-primary btn-lg" href="../../Proyecto/PDF/notas.pdf" role="button" target="_blank">Notas</a>&nbsp;&nbsp;
+				</div>
 		</footer>
 			
 		</div>
