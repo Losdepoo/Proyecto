@@ -17,7 +17,7 @@
     <title>Pagos de Matricula</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-     <link rel="stylesheet" href="../../estilos.css" />
+     <link rel="stylesheet" href="../../css/estilos.css" />
 
 
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -119,7 +119,7 @@
           <!--Quite div de pagos matriculas-->
            <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 
-           <form class="form-horizontal">
+           <form nethod="post" class="pagos-matricula" class="form-horizontal">
   <fieldset>
     <legend>Datos del alumno</legend>
     <div class="form-group">
@@ -294,9 +294,8 @@
           </div>
     </footer>
 
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script type="text/javascript" src="../../js/funcionesPagoMatriculas.js"></script>
-
+    <script type="text/javascript" src="../../js/funcionesPagosMatricula.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <!-- JavaScript -->
     <script src="../../js/jquery-1.10.2.js"></script>
@@ -312,7 +311,7 @@
 
 
 
-
+  <script type="text/javascript">
     jQuery(function($) {
     $(document).ready( function() {
       $('.navbar-default').stickUp();
@@ -331,7 +330,7 @@
   <script src="../../js/uiMorphingButton_inflow.js"></script>
   <!-- Magnific Popup core JS file -->
   <script src="../../js/jquery.magnific-popup.js"></script> 
-  <script type="text/javascript" src="funcionesPagosMatricula.js"></script>
+  
 
 </body>
 
