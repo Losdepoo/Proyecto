@@ -75,6 +75,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `BD_Proyecto`.`tbl_cursos` (
   `id_curso` INT NOT NULL,
   `id_tipo_curso` INT NOT NULL,
+  `nombre_curso` VARCHAR(45) NULL,
   PRIMARY KEY (`id_curso`),
   CONSTRAINT `fk_tbl_cursos_tbl_tipo_curso1`
     FOREIGN KEY (`id_tipo_curso`)

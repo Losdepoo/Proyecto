@@ -21,15 +21,16 @@
 			} else {
 				echo "Bienvenido señor"."<br>";
 				echo $fila["nombre_cuenta"]."<br>";
+				$_SESSION["id_cuenta"] = $fila["id_cuenta"];
+				$_SESSION["nombre_cuenta"] = $fila["nombre_cuenta"];
+				$_SESSION["id_tipo_cuenta"] = $fila["id_tipo_cuenta"];
+				json_encode($fila);
 			}
 
 			$conexion->cerrarConexion();
 			
-			$_SESSION["id_cuenta"] = $fila["id_cuenta"];
-			$_SESSION["nombre_cuenta"] = $fila["nombre_cuenta"];
-			$_SESSION["id_tipo_cuenta"] = $fila["id_tipo_cuenta"];
 			
-			echo ($fila["id_tipo_cuenta"]);
+			//echo ($fila["id_tipo_cuenta"]);
 			break;
 		default:
 			# code...
