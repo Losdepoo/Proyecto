@@ -10,8 +10,7 @@ $(document).ready(function(){
 				
 				success:function(respuesta){
 					$("#resultado").html(respuesta);
-
-					if(respuesta =='1')
+					if(respuesta.id_tipo_usuario=='1')
 						window.location="/Proyecto/Administracion/administracion.php";
 					//else if(respuesta.id_tipo_usuario =='2')
 						//window.location="/Proyecto/Docente/docente.php";

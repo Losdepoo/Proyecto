@@ -93,7 +93,7 @@
 	        		<li class="dropdown">
 	          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario<span class="caret"></span></a>
 	          			<ul class="dropdown-menu">
-	            			<li><a href="#">Salir del sistema</a></li>
+	            			<li><a href="/Proyecto/login/cerrar_sesion.php">Salir del sistema</a></li>
 	            			<li><a href="#">Perfíl</a></li>
 	            			<li><a href="#">Opciones</a></li>
 	            		</ul>
