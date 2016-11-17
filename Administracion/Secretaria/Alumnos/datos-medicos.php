@@ -89,7 +89,7 @@
       <div class="row">
 
         <div class="col-sm-12 wow fadeInDown text-center">
-        <form class="form-horizontal">
+        <form method="post" class="form-horizontal">
     
     <div class="form-group">
       <label for="inputalergias " class="col-lg-4 control-label">Alergias:</label>

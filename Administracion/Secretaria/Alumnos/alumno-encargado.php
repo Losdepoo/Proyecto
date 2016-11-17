@@ -98,7 +98,7 @@
 
         <div class="col-sm-12 wow fadeInDown text-center">       
 
-  <form class="form-horizontal">
+  <form method="post" class="form-horizontal">
     <div class="form-group">
       <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
       <div class="col-lg-5">
