@@ -33,8 +33,8 @@ $conexion = new conexion();
 	<link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
 	
 </head>
-
 <body id="home">
+
 		<form class="form-vertical">
 			  <fieldset>
 			    <legend>Nuevo Maestro</legend>
@@ -105,12 +105,55 @@ $conexion = new conexion();
 				<div class="form-group">
 			      <div class="col-lg-10 col-lg-offset-2">
 			        <button type="reset" class="btn btn-default">Cancelar</button>
-			        <button type="submit" class="btn btn-primary" onclick="agregarDocente();">Agregar Docente</button>
+			        <button id="agregardocente" type="button" class="btn btn-primary">Agregar Docente</button>
 			      </div>
 			    </div>
+			    <div id="ver"></div>
 			  </fieldset>
 			</form>
-	<script type="text/javascript" src="/proyecto/js/controlador.js"></script> 		
+
+	
+	<script type="text/javascript" src="/Proyecto/js/jquery-1.9.1.min.js"></script>
+  	<script type="text/javascript" src="/Proyecto/js/bootstrap.min.js"></script>
+  	<script>
+  		$(document).ready(function(){
+		$("#agregardocente").click(function(){
+			
+			var cursosSeleccionadas="";
+			$("input[name='chkcursos[]']:checked").each(function(){
+			cursosSeleccionadas+="cursos[]="+$(this).val()+"&";
+			});
+
+			var parametros ="inputUsuario=" +$("#inputUsuario").val() + 
+						"&"+"inputcontrasena="+$("#inputcontrasena").val()+
+						"&"+"inputNombre="+$("#inputNombre").val()+
+						"&"+"inputNumeroIdentidad="+$("#inputNumeroIdentidad").val()+
+						"&"+"inputEdad="+$("#inputEdad").val()+
+						"&"+"slcGenero="+$("#slcGenero").val()+
+						"&"+cursosSeleccionadas+
+						"&"+"slcAsignaturas="+$("#slcAsignaturas").val()+
+						"&"+"textAreaObservacionesMedicas="+$("#textAreaObservacionesMedicas").val();
+						
+
+			alert(parametros);
+			$.ajax({
+				url:"/Proyecto/ajax/acciones.php?accion=2",
+				method: "POST",
+				data: parametros,
+				
+				success:function(respuesta){
+					$("#ver").html(respuesta);
+
+				},
+
+				error:function(){
+
+				}
+		});
+	});	
+});
+  	</script>
+  	
 </body>
 
 </html>

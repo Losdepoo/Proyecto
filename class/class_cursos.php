@@ -25,7 +25,7 @@
 
 
 		public static function generarCheckboxesCursos($conexion){
-			echo "Informacion generada desde la clase Categoria<br>";
+			
 			$resultado = $conexion->ejecutarInstruccion(
 				"SELECT id_curso, nombre_curso
 				FROM tbl_cursos

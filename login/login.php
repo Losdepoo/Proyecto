@@ -24,9 +24,10 @@
             <input type="checkbox" value="remember-me"> No cerrar sesión en este equipo
           </label>
         </div>
-        <button id="btn-login" class="btn btn-lg btn-primary btn-block" type="submit">ingresar</button>
+        <button id="btn-login" class="btn btn-lg btn-primary btn-block" type="button">ingresar</button>
+        <div id="resultado"></div>
       </div>
-       <div id="resultado"></div>
+       
   </div> 
   
   <script type="text/javascript" src="/Proyecto/js/jquery-1.9.1.min.js"></script>
