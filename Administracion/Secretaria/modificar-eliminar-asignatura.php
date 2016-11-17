@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 <head>
@@ -75,50 +74,42 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div insercion -->
-	<div id="Inserciones" class="content-section-b" style="border-top: 0">
+	<div id="nuevo-curso" class="content-section-b" style="border-top: 0">
 		<div class="container">
-
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Inserciones</h2>
-				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
-				
+				<h4>Modificar/Eliminar Asignatura</h4>
 			</div>
-			
-			<div class="row">
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/curso.png" alt="Generic placeholder image" height="100" width="100">
-				  <div class="center">
-				  <h4>Curso</h4>
-				  	<a href="/Proyecto/administracion/secretaria/nuevo-curso.php" class="btn btn-link btn-lg" title="El usuario podrá crear un nuevo curso.">Nuevo Curso</a>
-				  	<a href="/Proyecto/administracion/secretaria/modificar-eliminar-curso.php" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar un curso.">Modificar/Eliminar Curso</a>
-				  </div>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+				
+	            <!-- aqui el contenido -->
+				<form class="form-horizontal">
+					<div class="form-group">
+						<div class="col-lg-7">
+							<div class="input-group">
+								<input type="text" class="form-control" id="txtCodAsignatura" placeholder="Código Asignatura" required="">
+									<span class="input-group-btn">
+										<button type="button" class="btn btn-default" id="btnBuscarAsignatura" title="Buscar" >
+											<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+										</button>	
+									</span>
+							</div>		
+						</div>
+					</div>
 
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/asignatura.png" alt="Generic placeholder image" height="100" width="100">
-				  <div class="center">
-				  <h4>Asignatura</h4>
-				  	<a  href="/Proyecto/administracion/secretaria/nueva-asignatura.php" class="btn btn-link btn-lg" title="El usuario podrá crear una nueva asignatura.">Nueva Asignatura</a>
-				  	<a href="/Proyecto/administracion/secretaria/modificar-eliminar-asignatura.php" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar una asignatura.">Modificar/Eliminar Asignatura</a>
-				  </div>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-
-				<div class="col-sm-12 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/seccion.png" alt="Generic placeholder image" height="100" width="100">
-				  <div class="center">
-				  	<h4>Sección</h4>
-				  	<a href="/Proyecto/administracion/secretaria/nueva-seccion.php" class="btn btn-link btn-lg" title="El usuario podrá crear una nuevo sección.">Nueva Sección</a>
-				  	<a href="/Proyecto/administracion/secretaria/modificar-eliminar-seccion.php" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar una sección.">Modificar/Eliminar Sección</a>
-				  </div>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-			</div><!-- /.row -->
+					<div class="form-group">
+						<div class="col-lg-12">
+							<input type="text" class="form-control" id="txtNomAsignatura" placeholder="Nombre Asignatura" required="">
+						</div>
+					</div>
+					    
+					<div class="btn-group btn-group-justified">
+					  <a id="btn-modificarAsignatura" class="btn btn-default btn-sm" style="background-color:#E28700; border-color:#FFFFFF">Modificar</a>
+					  <a id="btn-eliminarAsignatura" class="btn btn-default btn-sm" style="background-color:#CB171E; border-color:#FFFFFF">Eliminar</a>
+					  <a class="btn btn-default btn-sm" style="background-color:#798D8F; border-color:#FFFFFF" href="/Proyecto/administracion/secretaria/inserciones.php">Cancelar</a>
+					</div>						
+				</form>
 		</div>
 	</div>
-
-	<!-- fin div insercion -->
+	<!-- fin div nuevo-curso -->
 
 	<!--Comentario-->
 	
@@ -126,6 +117,7 @@
 		<div class="container">
 			<div class="row">
 			
+
 			<div class="col-md-6 col-md-offset-3 text-center white">
 				<h2>Dejanós un comentario</h2>
 				<p class="lead" style="margin-top:0">Solucionaremos cualquier problema que tengas.</p>
@@ -169,9 +161,7 @@
           </div>
     </footer>
 
-	<!--fin de las ventanas modales-->
-
-    <!-- JavaScript -->
+   <!-- JavaScript -->
     <script src="../../js/jquery-1.10.2.js"></script>
     <script src="../../js/bootstrap.js"></script>
 	<script src="../../js/owl.carousel.js"></script>

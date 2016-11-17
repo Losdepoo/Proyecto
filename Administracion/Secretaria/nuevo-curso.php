@@ -7,9 +7,10 @@
     <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <title>Inserciones</title>
+    <title>Nuevo Curso</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
+    <link rel="stylesheet" href="../../css/estilos.css" />
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -23,7 +24,8 @@
 	<link rel="stylesheet" href="../../css/magnific-popup.css"> 
 	<script src="../../js/modernizr-2.8.3.min.js"></script>
 	<link href="bootstrap.css" rel="stylesheet">   
-	<link href="/css/bootstrap.css" rel="stylesheet"> 
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	
 </head>
 
 <body id="home">
@@ -53,7 +55,7 @@
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria-instituto.php">Volver a Instituto</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/inserciones.php">Volver a Inserciones</a></li>
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
@@ -75,50 +77,48 @@
 	<!-- NavBar fin-->
 
 	<!-- inicio div insercion -->
-	<div id="Inserciones" class="content-section-b" style="border-top: 0">
+	<div id="nuevo-curso" class="content-section-b" style="border-top: 0">
 		<div class="container">
 
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Inserciones</h2>
-				<p class="lead" style="margin-top:0">Seleccione una opción:</p>
-				
+				<h4>Nuevo Curso</h4>
 			</div>
-			
-			<div class="row">
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/curso.png" alt="Generic placeholder image" height="100" width="100">
-				  <div class="center">
-				  <h4>Curso</h4>
-				  	<a href="/Proyecto/administracion/secretaria/nuevo-curso.php" class="btn btn-link btn-lg" title="El usuario podrá crear un nuevo curso.">Nuevo Curso</a>
-				  	<a href="/Proyecto/administracion/secretaria/modificar-eliminar-curso.php" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar un curso.">Modificar/Eliminar Curso</a>
-				  </div>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+				
+	        <!-- aqui el contenido -->
+	        <form method="post" class="curso" class="form-horizontal">
+            <div class="form-group">
+				<div class="col-lg-6">
+					<label>Código Curso:</label>
+					<input type="text" class="codigoCurso form-control" name="codigoCurso" size="10" placeholder="Ingrese el código para el nuevo curso." />
+				</div>					
+			</div>
+            <div class="form-group">
+				<div class="col-lg-6">
+					<label>Nombre Curso:</label>
+					<input type="text" class="nombreCurso form-control" name="nombreCurso" placeholder="Ingrese el nombre para el nuevo curso." />	
+				</div>
+			</div>
 
-				<div class="col-sm-6 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/asignatura.png" alt="Generic placeholder image" height="100" width="100">
-				  <div class="center">
-				  <h4>Asignatura</h4>
-				  	<a  href="/Proyecto/administracion/secretaria/nueva-asignatura.php" class="btn btn-link btn-lg" title="El usuario podrá crear una nueva asignatura.">Nueva Asignatura</a>
-				  	<a href="/Proyecto/administracion/secretaria/modificar-eliminar-asignatura.php" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar una asignatura.">Modificar/Eliminar Asignatura</a>
-				  </div>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
+			<div class="btn-group btn-group-justified">
+				<div class="ultimo">
+	                <div class="msg"></div>
+	                <a class="boton_crear btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Crear</a>
+					<a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/inserciones.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
+	            </div>	
+			</div>
 
-				<div class="col-sm-12 wow fadeInDown text-center">
-				  <img  class="rotate" src="../../img/icon/seccion.png" alt="Generic placeholder image" height="100" width="100">
-				  <div class="center">
-				  	<h4>Sección</h4>
-				  	<a href="/Proyecto/administracion/secretaria/nueva-seccion.php" class="btn btn-link btn-lg" title="El usuario podrá crear una nuevo sección.">Nueva Sección</a>
-				  	<a href="/Proyecto/administracion/secretaria/modificar-eliminar-seccion.php" class="btn btn-link btn-lg" title="El usuario podrá modificar o eliminar una sección.">Modificar/Eliminar Sección</a>
-				  </div>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-			</div><!-- /.row -->
-		</div>
+			<div class="media">
+				<a class="pull-left">
+					<img  class="rotate" src="../../img/icon/ayuda.png" alt="Generic placeholder image" height="20" width="20">
+				</a>
+				<div class="media-body">
+					<p class="help-block" style="font-size:7pt; font-weight:bold;">Aquí el usuario establecerá cuales son los cursos/carreras que se imparten en la institución,<br>(ej.: primero de ciclo común, bachillerato en ciencias y letras, entre otros).</p>
+				</div> 
+     </form>
+		</div> 
 	</div>
 
-	<!-- fin div insercion -->
+	<!-- fin div nuevo-curso -->
 
 	<!--Comentario-->
 	
@@ -169,9 +169,11 @@
           </div>
     </footer>
 
-	<!--fin de las ventanas modales-->
+    <!--Validacion -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="../../js/funcionesNuevoCurso.js"></script>
 
-    <!-- JavaScript -->
+   <!-- JavaScript -->
     <script src="../../js/jquery-1.10.2.js"></script>
     <script src="../../js/bootstrap.js"></script>
 	<script src="../../js/owl.carousel.js"></script>
@@ -196,7 +198,7 @@
 	<script src="../../js/classie.js"></script>
 	<script src="../../js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="../../js/jquery.magnific-popup.js"></script> 
+	<script src="../../js/jquery.magnific-popup.js"></script>
 
 </body>
 
