@@ -92,17 +92,17 @@
 		    </div>    
         	
         	<div class="col-md-6 text-center">
-	      		<form method="post">
+	      		<form method="post" class="pagos-mensualidades" class="form-horizontal">
 				<p><label>Nombre de usuario: </label><input type="text" class="txt-usuario form-control" name="txt-usuario"/></p>
 				<p><label>Contraseña: </label><input type="password" class="txt-contrasenia form-control" name="txt-contasenia"/></p>
 				<p><label>Cantidad a pagar: </label><input type="text" class="txt-cantidadPago form-control" name="txt-cantidadPago"/></p>
-				<p><button id="btn-realizar-pago">Realizar Pago</button></p>
-				<!--<div class="btn-realizar-pago btn-group-justified">
+				<!--<p><button id="btn-realizar-pago">Realizar Pago</button></p>-->
+				<div class="btn-realizar-pago btn-group-justified">
 				<div class="ultimo">
 	                <div class="msg"></div>
 	                <a class="btn-realizar-pago btn btn-default btn-sm" style="background-color:#1A242F;						border-color:#FFFFFF">Realizar Pago</a>
 					<a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/inserciones.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
-	            </div>-->	
+	            </div>	
 			</div>
 				</form>
       		</div>
@@ -158,6 +158,10 @@
           </div>
     </footer>
 
+    <!-- Validaciones -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="../../js/funciones_pago_mensualidades.js"></script>
+
     <!-- JavaScript -->
     <script src="/proyecto/js/jquery-1.10.2.js"></script>
     <script src="/proyecto/js/bootstrap.js"></script>
@@ -184,8 +188,7 @@
 	<script src="/proyecto/js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
 	<script src="/proyecto/js/jquery.magnific-popup.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="funciones_pago_mensualidades.js"></script>
+
 
 </body>
 
