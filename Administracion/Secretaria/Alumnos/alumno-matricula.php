@@ -85,7 +85,7 @@
       </div>
       
        <!-- aqui el contenido  -->
-      <div class="row">
+        <div class="row">
 
         <div class="col-sm-12 wow fadeInDown text-center">
         <form class="form-horizontal">
