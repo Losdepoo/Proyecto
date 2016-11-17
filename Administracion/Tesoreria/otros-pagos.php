@@ -17,6 +17,7 @@
     <title>Administración Instituto Privado Dr. Ramón Rosa</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
+    <link rel="stylesheet" href="../../css/estilos.css" />
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -119,10 +120,17 @@
         <br>
       </div>
       	<form>
-			<p><label>Nombre de usuario: </label><input type="text" name="txt_usuario"/></p>
-			<p><label>Contraseña: </label><input type="password" name="txt_contasenia"/></p>
-			<p><label>Cantidad a pagar: </label><input type="text" name="txt_cantidadPago"/></p>
-			<p><button>Realizar Pago</button></p>
+			<p><label>Nombre de usuario: </label><input type="text" class="txt-usuario form-control" name="txt-usuario"/></p>
+			<p><label>Contraseña: </label><input type="password" class="txt-contrasenia form-control" name="txt-contasenia"/></p>
+			<p><label>Cantidad a pagar: </label><input type="text" class="txt-cantidadPago form-control" name="txt-cantidadPago"/></p>
+			<!--<p><button>Realizar Pago</button></p>-->
+			<div class="btn-realizar-pago btn-group-justified">
+				<div class="ultimo">
+	                <div class="msg"></div>
+	                <a class="boton_crear btn btn-default btn-sm" style="background-color:#1A242F; 						border-color:#FFFFFF">Realizar Pago</a>
+					<a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/inserciones.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
+	            </div>	
+			</div>
 		</form>
 	<!-- fin div administracion -->
 	
@@ -198,7 +206,10 @@
 	<script src="../js/classie.js"></script>
 	<script src="../js/uiMorphingButton_inflow.js"></script>
 	<!-- Magnific Popup core JS file -->
-	<script src="../js/jquery.magnific-popup.js"></script> 
+	<script src="../js/jquery.magnific-popup.js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="funciones_otros_pagos.js"></script>
 
 </body>
 
