@@ -1,86 +1,47 @@
-<?php
-
-
-?>
-<?php
-
-?>
- <!-- FlatFy Theme - Andrea Galanti /-->
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
     <meta name="author" content="">
+     <title>Login</title>
 
-    <title>Login</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/proyecto/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- inicio de todas las importaciones de la plantilla -->
-    <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link href="/Proyecto/css/general.css" rel="stylesheet">
-	<link href="/Proyecto/css/custom.css" rel="stylesheet">
-	<link href="/Proyecto/css/owl.carousel.css" rel="stylesheet">
-    <link href="/Proyecto/css/owl.theme.css" rel="stylesheet">
-	<link href="/Proyecto/css/style.css" rel="stylesheet">
-	<link href="/Proyecto/css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
-	
-</head>
+    
+    <!-- Custom styles for this template -->
+    <link href="/proyecto/css/signin.css" rel="stylesheet">
 
-<body id="home">
-		<form class="form-vertical">
-			  <fieldset>
-			    <legend>Bienvenido, Autentiquese para continuar.</legend>
-			    <div class="form-group">
-			      <label class="col-lg-2 control-label">Nombre de Usuario:</label>
-			      <div class="col-lg-10">
-			        <input type="text" class="form-control" id="txt-nombre_usuario" placeholder="Ej. Juan Orlando Hernandez Alvarado">
-			      </div>
-			    </div>
-			    <div class="form-group">
-			      <label for="inputPassword" class="col-lg-2 control-label">Contraseña:</label>
-			      <div class="col-lg-10">
-			        <input type="Password" class="form-control" id="txt-contrasena" placeholder="Password">
-			      </div>
-			    </div>
-				
-				<div class="form-group">
-			      <div class="col-lg-10 col-lg-offset-2">
-			        <button type="reset" class="btn btn-default">Cancelar</button>
-			        <button type="submit" class="btn btn-primary" onclick="sesion();">Iniciar Sesión</button>
-			      </div>
-			    </div>
+    
+  </head>
 
-			    <div id="informacion">
-			    </div>
-			 </fieldset>
-		</form>
+  <body>
 
-	<script>
-		function sesion(){
-			var parametros = "txt-nombre_usuario="+$("#txt-nombre_usuario").val()+"&"+"txt-contrasena="+$("#txt-contrasena").val();
-			alert(parametros);
-			$.ajax({
-          		url:"ajax/existo.php?accion=tarjetas",
-          		method:"POST",
-          		data: parametros,
-          		success:function(respuesta){
-            		$("#informacion").html(respuesta);
-          		},
-          		error:function(){
-            		alert("Ocurrio un error.");
-          		}
-        	});
-		}
-	</script>	
-</body>
+    <div class="container">
 
+      <div class="form-signin">
+        <h2 class="form-signin-heading">Bienvenido, Identificate para ingresar</h2>
+        <label for="inputEmail" class="sr-only">Nombre de Usuario</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Nombre de Usuario" required autofocus>
+        <label for="inputPassword" class="sr-only">Contraseña</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> No cerrar sesión en este equipo
+          </label>
+        </div>
+        <button id="btn-login" class="btn btn-lg btn-primary btn-block" type="submit">ingresar</button>
+      </div>
+      <div id="resultado"></div>
+    </div> <!-- /container -->
+
+
+    <script type="text/javascript" src="/proyecto/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/proyecto/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/proyecto/js/login.js"></script>
+  </body>
 </html>
