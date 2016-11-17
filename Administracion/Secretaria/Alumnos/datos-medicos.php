@@ -92,46 +92,48 @@
         <form class="form-horizontal">
     
     <div class="form-group">
-      <label for="inputnombreCompleto" class="col-lg-4 control-label">Alergias:</label>
+      <label for="inputalergias " class="col-lg-4 control-label">Alergias:</label>
       <div class="col-lg-5">
-        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese si padece de alguna alergia">
+        <input type="text" class="alergias  form-control" name="alergias " placeholder="Ingrese si padece de alguna alergia">
       </div>
     </div>
 
      <div class="form-group">
-      <label for="inputnombreCompleto" class="col-lg-4 control-label">Enfermedades que padece:</label>
+      <label for="inputenferPadece" class="col-lg-4 control-label">Enfermedades que padece:</label>
       <div class="col-lg-5">
-        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese si padece de alguna enfermedad">
+        <input type="text" class="enferPadece form-control" name="enferPadece" placeholder="Ingrese si padece de alguna enfermedad">
       </div>
     </div>
 
      <div class="form-group">
-      <label for="inputnombreCompleto" class="col-lg-4 control-label">Tipo de sangre:</label>
+      <label for="inputtipoSangre" class="col-lg-4 control-label">Tipo de sangre:</label>
       <div class="col-lg-5">
-        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese el tipo de sangre">
+        <input type="text" class="tipoSangre form-control" name="tipoSangre" placeholder="Ingrese el tipo de sangre">
       </div>
     </div>
 
      <div class="form-group">
-      <label for="inputnombreCompleto" class="col-lg-4 control-label">Medicamentos que toma:</label>
+      <label for="inputmediTomas" class="col-lg-4 control-label">Medicamentos que toma:</label>
       <div class="col-lg-5">
-        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese los medicamentos que toma">
+        <input type="text" class="mediTomas form-control" name="mediTomas" placeholder="Ingrese los medicamentos que toma">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputnombreCompleto" class="col-lg-4 control-label">Medicamentos que no debe de ingerir:</label>
+      <label for="inputmediIngerir" class="col-lg-4 control-label">Medicamentos que no debe de ingerir:</label>
       <div class="col-lg-5">
-        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese los medicamentos que no debe de ingerir:">
+        <input type="text" class="mediIngerir form-control" name="mediIngerir" placeholder="Ingrese los medicamentos que no debe de ingerir:">
       </div>
     </div>
 
-          <div class="form-group">
-            <div class="col-lg-6 col-lg-offset-4">
-              <button type="submit" class="btn btn-primary btn-sm">Guardar</button>
-              <button type="reset" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
-            </div>
-          </div>              
+          <div class="btn-group btn-group-justified">
+        <div class="ultimo">
+                  <div class="msg"></div>
+                  <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
+          <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
+              </div>  
+      </div>
+
         </form>
       </div>
     </div>
@@ -189,7 +191,7 @@
 
    <!--Validacion -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script type="text/javascript" src="../../js/funcionesMatricula.js"></script>
+  <script type="text/javascript" src="../../js/funcionesDatosMedicos.js"></script>
 
     <!-- JavaScript -->
     <script src="/Proyecto/js/jquery-1.10.2.js"></script>
