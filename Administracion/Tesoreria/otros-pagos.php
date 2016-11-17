@@ -119,7 +119,7 @@
         <label><input type="checkbox" name="otroPago[]">Crédito</label><br>
         <br>
       </div>
-      	<form>
+      	<form method="POST">
 			<p><label>Nombre de usuario: </label><input type="text" class="txt-usuario form-control" name="txt-usuario"/></p>
 			<p><label>Contraseña: </label><input type="password" class="txt-contrasenia form-control" name="txt-contasenia"/></p>
 			<p><label>Cantidad a pagar: </label><input type="text" class="txt-cantidadPago form-control" name="txt-cantidadPago"/></p>
