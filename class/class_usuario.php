@@ -2,67 +2,62 @@
 
 	class Usuario{
 
-		private $codigoUsuario;
-		private $nombreUsuario;
-		private $correo;
-		private $contrasena;
-		private $codigoTipoUsuario;
+		private $id_cuenta;
+		private $id_tipo_cuenta;
+		private $nombre_cuenta;
+		private $contrasena_cuenta;
+		
 
-		public function __construct($codigoUsuario,
-					$nombreUsuario,
-					$correo,
-					$contrasena,
-					$codigoTipoUsuario){
-			$this->codigoUsuario = $codigoUsuario;
-			$this->nombreUsuario = $nombreUsuario;
-			$this->correo = $correo;
-			$this->contrasena = $contrasena;
-			$this->codigoTipoUsuario = $codigoTipoUsuario;
+		public function __construct($id_cuenta,
+					$id_tipo_cuenta,
+					$nombre_cuenta,
+					$contrasena_cuenta)
+					{
+					$this->id_cuenta = $id_cuenta;
+					$this->id_tipo_cuenta = $id_tipo_cuenta;
+					$this->nombre_cuenta = $nombre_cuenta;
+					$this->contrasena_cuenta = $contrasena_cuenta;
 		}
-		public function getCodigoUsuario(){
-			return $this->codigoUsuario;
+
+		public function getId_Cuenta(){
+			return $this->id_cuenta;
 		}
-		public function setCodigoUsuario($codigoUsuario){
-			$this->codigoUsuario = $codigoUsuario;
+		public function setId_Cuenta($id_cuenta){
+			$this->id_cuenta = $id_cuenta;
 		}
-		public function getNombreUsuario(){
-			return $this->nombreUsuario;
+		public function getId_Tipo_Cuenta(){
+			return $this->id_tipo_cuenta;
 		}
-		public function setNombreUsuario($nombreUsuario){
-			$this->nombreUsuario = $nombreUsuario;
+		public function setId_Tipo_Cuenta($id_tipo_cuenta){
+			$this->id_tipo_cuenta = $id_tipo_cuenta;
 		}
-		public function getCorreo(){
-			return $this->correo;
+		public function getNombre_Cuenta(){
+			return $this->nombre_cuenta;
 		}
-		public function setCorreo($correo){
-			$this->correo = $correo;
+		public function setNombre_Cuenta($nombre_cuenta){
+			$this->nombre_cuenta = $nombre_cuenta;
 		}
-		public function getContrasena(){
-			return $this->contrasena;
+		public function getContrasena_Cuenta(){
+			return $this->contrasena_cuenta;
 		}
-		public function setContrasena($contrasena){
-			$this->contrasena = $contrasena;
+		public function setContrasena_Cuenta($contrasena_cuenta){
+			$this->contrasena_cuenta = $contrasena_cuenta;
 		}
-		public function getCodigoTipoUsuario(){
-			return $this->codigoTipoUsuario;
-		}
-		public function setCodigoTipoUsuario($codigoTipoUsuario){
-			$this->codigoTipoUsuario = $codigoTipoUsuario;
-		}
+		
+		
 		public function toString(){
-			return "CodigoUsuario: " . $this->codigoUsuario . 
-				" NombreUsuario: " . $this->nombreUsuario . 
-				" Correo: " . $this->correo . 
-				" Contrasena: " . $this->contrasena . 
-				" CodigoTipoUsuario: " . $this->codigoTipoUsuario;
+			return "Id_Cuenta: " . $this->id_cuenta. 
+				" Id_Tipo_Cuenta: " . $this->id_tipo_cuenta. 
+				" Nombre_Cuenta: " . $this->nombre_cuenta . 
+				" Contrasena_cuenta: " . $this->contrasena_cuenta;
 		}
 
-		public static function verificarUsuario($conexion, $correo,$contrasena){
+		public static function verificarUsuario($conexion, $usuario,$contrasena){
 				$resultado = $conexion->ejecutarInstruccion(
-					sprintf("SELECT codigo_usuario, nombre_usuario, correo, contrasena, codigo_tipo_usuario FROM tbl_usuarios 
-					WHERE correo = '%s'
-					AND contrasena = sha1('%s')",
-					stripslashes($correo),
+					sprintf("SELECT id_cuenta, id_tipo_cuenta, nombre_cuenta, contrasena_cuenta FROM tbl_cuentas 
+					WHERE nombre_cuenta = '%s'
+					AND contrasena_cuenta = sha1('%s')",
+					stripslashes($usuario),
 					stripslashes($contrasena)
 				));
 				$respuesta = array();
@@ -71,9 +66,9 @@
 					$fila = $conexion->obtenerFila($resultado);
 					$respuesta["codigo_resultado"] = 1;
 					$respuesta["resultado"] = "Usuario Existe";
-					$respuesta["codigo_usuario"] = $fila["codigo_usuario"];
+					$respuesta["id_cuenta"] = $fila["id_cuenta"];
 					$respuesta["nombre_usuario"] = $fila["nombre_usuario"];
-					$respuesta["codigo_tipo_usuario"] = $fila["codigo_tipo_usuario"];
+					$respuesta["id_tipo_cuenta"] = $fila["id_tipo_cuenta"];
 				}
 				else {
 					$respuesta["codigo_resultado"] = 0;

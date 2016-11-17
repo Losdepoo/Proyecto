@@ -1,19 +1,19 @@
 $(document).ready(function(){
 	$("#btn-login").click(function(){
-			var parametros = "inputEmail=" +$("#inputEmail").val() + 
-						"&inputPassword="+$("#inputPassword").val();
+			var parametros ="NombreUsuario=" +$("#NombreUsuario").val() + 
+						"&"+"contrasena="+$("#contrasena").val();
 			alert(parametros);
 			$.ajax({
-				url:"/proyecto/ajax/acciones.php?accion=1",
+				url:"/Proyecto/ajax/acciones.php?accion=1",
 				method: "POST",
 				data: parametros,
-				dataType: 'json	',
+				
 				success:function(respuesta){
-					$("#resultado").html(respuesta.resultado + "Tipo Usuario: " + respuesta.codigo_tipo_usuario);
-					if(respuesta.codigo_tipo_usuario =='1')
-						window.location="pagina_cajero.php";
-					else if(respuesta.codigo_tipo_usuario =='2')
-						window.location="pagina_admin.php";
+					$("#resultado").html(respuesta);
+					if(respuesta.id_tipo_usuario =='1')
+						window.location="/Proyecto/Administracion/administracion.php";
+					else if(respuesta.id_tipo_usuario =='2')
+						window.location="/Proyecto/Docente/docente.php";
 				},
 
 				error:function(){

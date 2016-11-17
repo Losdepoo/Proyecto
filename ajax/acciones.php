@@ -1,17 +1,35 @@
 <?php
-	session_start(); 
+	include_once("../class/class_conexion.php");
+	session_start();
+	
 	switch ($_GET["accion"]) {
-		case '1': //Guardar
-			//echo "Correo enviado" . $_POST["inputEmail"];
-			//echo ", Password enviado" . $_POST["inputPassword"];
-			include_once("/proyecto/class/class_conexion.php");
-			include_once("/proyecto/class/class_usuario.php");
-			$conexion = new Conexion();
-			$respuesta = Usuario::verificarUsuario($conexion,$_POST["inputEmail"],$_POST["inputPassword"]);
-			$_SESSION["codigo_usuario"] = $respuesta["codigo_usuario"];
-			$_SESSION["nombre_usuario"] = $respuesta["nombre_usuario"];
-			$_SESSION["codigo_tipo_usuario"] = $respuesta["codigo_tipo_usuario"];
-			echo json_encode($respuesta);
+		case '1': //Acceder
+			
+			$nombre =$_POST["NombreUsuario"];
+			$contrasena= $_POST["contrasena"];
+
+			$conexion= new conexion;
+
+			$codigo = $conexion->ejecutarInstruccion('SELECT id_cuenta, id_tipo_cuenta, nombre_cuenta, contrasena_cuenta FROM tbl_cuentas WHERE 											contrasena_cuenta ='."'".$contrasena."'".' AND nombre_cuenta ='."'".$nombre."'");
+			
+			$cantidad = $conexion->cantidadRegistros($codigo);
+			$fila = $conexion->obtenerFila($codigo);
+			$conexion->liberarResultado($codigo);
+			
+			if ($cantidad == 0 || !$cantidad){  
+				echo "No existen registros en la base de datos."."<br>";
+			} else {
+				echo "Bienvenido señor"."<br>";
+				echo $fila["nombre_cuenta"]."<br>";
+			}
+
+			$conexion->cerrarConexion();
+			
+			$_SESSION["id_cuenta"] = $fila["id_cuenta"];
+			$_SESSION["nombre_cuenta"] = $fila["nombre_cuenta"];
+			$_SESSION["id_tipo_cuenta"] = $fila["id_tipo_cuenta"];
+			
+			echo ($fila["id_tipo_cuenta"]);
 			break;
 		default:
 			# code...
