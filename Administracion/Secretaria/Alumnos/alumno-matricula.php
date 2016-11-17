@@ -17,6 +17,7 @@
     <title>Matricula</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
+     <link rel="stylesheet" href="../../css/estilos.css" />
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
   <link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -29,17 +30,7 @@
   <link href="/Proyecto/css/animate.css" rel="stylesheet">
   <link rel="stylesheet" href="/Proyecto/css/magnific-popup.css"> 
   <script src="/Proyecto/js/modernizr-2.8.3.min.js"></script> <!-- Modernizr /-->
-  <!--[if IE 9]>
-    <script src="js/PIE_IE9.js"></script>
-  <![endif]-->
-  <!--[if lt IE 9]>
-    <script src="js/PIE_IE678.js"></script>
-  <![endif]-->
 
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-  <!-- fin de todas las importaciones de la plantilla -->
 </head>
 
 <body id="home">
@@ -106,23 +97,23 @@
         <form class="form-horizontal">
     
     <div class="form-group">
-      <label for="inputNombre" class="col-lg-4 control-label">Nombre Completo:</label>
+      <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
       <div class="col-lg-5">
-        <input type="Nombre" class="form-control" id="inputNombre" placeholder="Ingrese el nombre del estudiante">
+        <input type="text" class="nombreCompleto form-control" id="nombreCompleto" placeholder="Ingrese el nombre del estudiante">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputIdEstudiante" class="col-lg-4 control-label">Numero de Identidad:</label>
+      <label for="inputnumeroIdentidad" class="col-lg-4 control-label">Numero de Identidad:</label>
       <div class="col-lg-5">
-        <input type="text" class="form-control" id="inputIdEstudiante" placeholder="Ingrese el numero de identidad">
+        <input type="text" class="numeroIdentidad form-control" id="numeroIdentidad" placeholder="Ingrese el numero de identidad">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputTelefono" class="col-lg-4 control-label">Fecha de Nacimiento:</label>
+      <label for="inputfechaNacimiento" class="col-lg-4 control-label">Fecha de Nacimiento:</label>
       <div class="col-lg-5">
-        <input type="Telefono" class="form-control" id="inputNombre" placeholder="Ingrese la fecha de nacimiento">
+        <input type="text" class="fechaNacimiento form-control" id="fechaNacimiento" placeholder="Ingrese la fecha de nacimiento">
       </div>
     </div>
 
@@ -131,9 +122,9 @@
       <div class="col-lg-2">
         <div class="Genero">
           <label>
-            <input type="radio" name="optionsGenero" id="optionsGenero1" value="option1" checked="">
+            <input type="radio" name="optionsgenero" id="optionsgenero1" value="option1" checked="">
             F
-            <input type="radio" name="optionsGenero" id="optionsGenero2" value="option2">
+            <input type="radio" name="optionsgenero" id="optionsgenero2" value="option2">
             M
           </label>
           
@@ -142,16 +133,16 @@
     </div>
      
     <div class="form-group">
-      <label for="inputDireccion" class="col-lg-4 control-label">Direccion:</label>
+      <label for="inputdireccion" class="col-lg-4 control-label">Direccion:</label>
       <div class="col-lg-5">
-        <input type="Direccion" class="form-control" id="inputDireccion" placeholder="Ingrese la direccion">
+        <input type="text" class="direccion form-control" id="direccion" placeholder="Ingrese la direccion">
       </div>
     </div>
 
     <div class="form-group">
-      <label for="inputEdad" class="col-lg-4 control-label">Edad:</label>
+      <label for="inputedad" class="col-lg-4 control-label">Edad:</label>
       <div class="col-lg-5">
-        <input type="Edad" class="form-control" id="inputEdad" placeholder="Ingrese la edad">
+        <input type="text" class="edad form-control" id="edad" placeholder="Ingrese la edad">
       </div>
     </div>
 
@@ -167,31 +158,33 @@
     </div>
      
     <div class="form-group">
-      <label for="inputCorreo-electronico" class="col-lg-4 control-label">Correo Electronico:</label>
+      <label for="inputcorreoElectronico" class="col-lg-4 control-label">Correo Electronico:</label>
       <div class="col-lg-5">
-        <input type="Correo-electronico" class="form-control" id="Correo-electronico" placeholder="Ingrese el correo electronico">
+        <input type="text" class="correoElectronico form-control" id="correoElectronico" placeholder="Ingrese el correo electronico">
       </div>
     </div>
     
     <div class="form-group">
-      <label for="inputTelefono" class="col-lg-4 control-label">Telefono:</label>
+      <label for="inputtelefono" class="col-lg-4 control-label">Telefono:</label>
       <div class="col-lg-5">
-        <input type="Telefono" class="form-control" id="inputNombre" placeholder="Ingrese el telefono">
+        <input type="text" class="telefono form-control" id="telefono" placeholder="Ingrese el telefono">
       </div>
     </div>
-    
-    <div class="form-group">
-      <div class="col-lg-4 col-lg-offset-4">
-        <button type="reset" class="btn btn-default">Guardar</button>
-        <button type="submit" class="btn btn-primary">Cancelar</button>
-        
 
+    <div class="btn-group btn-group-justified">
+              <div class="ultimo">
+                        <div class="msg"></div>
+                        <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
+                <a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/alumnos/alumnado.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
+                    </div>  
+            </div>
+
+        
      <div class="center">
          <h4></h4>
             <button data-toggle="modal" data-target="#modalNDatos-medicos" class="btn btn-info" title="El usuario podra ingresar los datos medicos.">Datos Medicos</button>
       </div>
-      </div>
-    </div>
+     
     </form>
 
         </div><!-- /.col-lg-4 -->
@@ -247,6 +240,10 @@
                 <li>Creative Commons Attribution 3.0 License - NOT COMMERCIAL</li><br>
           </div>
     </footer>
+
+   <!--Validacion -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="../../js/funcionesMatricula.js"></script>
 
    <!-- ventana modal Datos Medicos-->
 
