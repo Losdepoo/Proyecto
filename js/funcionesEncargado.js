@@ -1,12 +1,12 @@
 (function(){
     $(".boton_guardar").click(function() {
 
-	    var nombreCompleto = $(".inputnombreCompleto").val();
-            numIdentidad= $(".inputnumIdentidad").val();
-            numCel= $(".inputnumCel").val();
-            direccion= $(".inputdireccion").val();
-            ocupacion= $(".inputocupacion").val();
-            lugarTrabajo= $(".inputlugarTrabajo").val();
+	    var nombreCompleto = $(".nombreCompleto").val();
+            numIdentidad= $(".numIdentidad").val();
+            numCel= $(".numCel").val();
+            direccion= $(".direccion").val();
+            ocupacion= $(".ocupacion").val();
+            lugarTrabajo= $(".lugarTrabajo").val();
  
 
         if (nombreCompleto == "") {
@@ -44,7 +44,6 @@
 				             '&direccion=' + direccion+ 
 				             '&ocupacion=' + ocupacion+
 				             '&lugarTrabajo=' + lugarTrabajo;
-
 				$.ajax({
 				    type: "POST",
 				    url: "proceso.php",

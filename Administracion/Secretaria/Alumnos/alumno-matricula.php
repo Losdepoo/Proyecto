@@ -89,7 +89,7 @@
         <div class="col-sm-12 wow fadeInDown text-center">
 
 
-    <form method="post" class="alumno-matricula" class="form-horizontal">
+    <form method="post" class="form-horizontal">
 
       <div class="form-group">
 

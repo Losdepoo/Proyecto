@@ -10,7 +10,7 @@
     <title>Encargado</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-     <link rel="stylesheet" href="../../css/estilos.css" />
+     <link rel="stylesheet" href="../../../css/estilos.css" />
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
   <link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -102,42 +102,42 @@
     <div class="form-group">
       <label for="inputnombreCompleto" class="col-lg-4 control-label">Nombre Completo:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputnombreCompleto form-control" name="inputnombreCompleto" placeholder="Ingrese el nombre del encargado">
+        <input type="text" class="nombreCompleto form-control" name="nombreCompleto" placeholder="Ingrese el nombre del encargado">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputnumIdentidad" class="col-lg-4 control-label">Numero de Identidad:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputnumIdentidad form-control" name="inputnumIdentidad" placeholder="Ingrese el numero de identidad">
+        <input type="text" class="numIdentidad form-control" name="numIdentidad" placeholder="Ingrese el numero de identidad">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputnumCel" class="col-lg-4 control-label">Numero de Celular:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputnumCel form-control" name="inputnumCel" placeholder="Ingrese el numero de celular">
+        <input type="text" class="numCel form-control" name="numCel" placeholder="Ingrese el numero de celular">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputdireccion" class="col-lg-4 control-label">Direccion de Residencia:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputdireccion form-control" name="inputdireccion" placeholder="Ingrese la direccion">
+        <input type="text" class="direccion form-control" name="direccion" placeholder="Ingrese la direccion">
       </div>
     </div>
 
     <div class="form-group">
       <label for="inputocupacion" class="col-lg-4 control-label">Ocupacion:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputocupacion form-control" name="inputocupacion" placeholder="Ingrese la ocupacion">
+        <input type="text" class="ocupacion form-control" name="ocupacion" placeholder="Ingrese la ocupacion">
       </div>
     </div>
 
     <div class="form-group">
       <label for="inputlugarTrabajo" class="col-lg-4 control-label">Lugar de Trabajo:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputlugarTrabajo form-control" name="inputlugarTrabajo" placeholder="Ingrese el lugar de trabajo">
+        <input type="text" class="lugarTrabajo form-control" name="lugarTrabajo" placeholder="Ingrese el lugar de trabajo">
       </div>
     </div>
   
@@ -205,7 +205,7 @@
 
       <!--Validacion -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script type="text/javascript" src="../../js/funcionesEncargado.js"></script>
+  <script type="text/javascript" src="../../../js/funcionesEncargado.js"></script>
 
     <!-- JavaScript -->
     <script src="/Proyecto/js/jquery-1.10.2.js"></script>

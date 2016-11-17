@@ -1,11 +1,11 @@
 (function(){
     $(".boton_guardar").click(function() {
  
-        var alergias = $(".inputalergias").val();
-            enferPadece = $(".inputenferPadece").val();
-            tipoSangre = $(".inputtipoSangre ").val();
-            mediTomas = $(".inputmediTomas").val();
-            mediIngerir = $(".inputmediIngerir").val();
+        var alergias = $(".alergias").val();
+            enferPadece = $(".enferPadece").val();
+            tipoSangre = $(".tipoSangre ").val();
+            mediTomas = $(".mediTomas").val();
+            mediIngerir = $(".mediIngerir").val();
  
         if (alergias == "") {
 			alert("Debe ingresar si si padece de alguna alergia");

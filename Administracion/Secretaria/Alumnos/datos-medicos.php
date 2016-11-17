@@ -9,7 +9,7 @@
     <title>Datos Medicos</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link rel="stylesheet" href="../../css/estilos.css" />
+    <link rel="stylesheet" href="../../../css/estilos.css" />
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -92,35 +92,35 @@
     <div class="form-group">
       <label for="inputalergias " class="col-lg-4 control-label">Alergias:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputalergias  form-control" name="inputalergias " placeholder="Ingrese si padece de alguna alergia">
+        <input type="text" class="alergias  form-control" name="alergias " placeholder="Ingrese si padece de alguna alergia">
       </div>
     </div>
 
      <div class="form-group">
       <label for="inputenferPadece" class="col-lg-4 control-label">Enfermedades que padece:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputenferPadece form-control" name="inputenferPadece" placeholder="Ingrese si padece de alguna enfermedad">
+        <input type="text" class="enferPadece form-control" name="enferPadece" placeholder="Ingrese si padece de alguna enfermedad">
       </div>
     </div>
 
      <div class="form-group">
       <label for="inputtipoSangre" class="col-lg-4 control-label">Tipo de sangre:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputtipoSangre form-control" name="inputtipoSangre" placeholder="Ingrese el tipo de sangre">
+        <input type="text" class="tipoSangre form-control" name="tipoSangre" placeholder="Ingrese el tipo de sangre">
       </div>
     </div>
 
      <div class="form-group">
       <label for="inputmediTomas" class="col-lg-4 control-label">Medicamentos que toma:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputmediTomas form-control" name="inputmediTomas" placeholder="Ingrese los medicamentos que toma">
+        <input type="text" class="mediTomas form-control" name="mediTomas" placeholder="Ingrese los medicamentos que toma">
       </div>
     </div>
 
     <div class="form-group">
       <label for="inputmediIngerir" class="col-lg-4 control-label">Medicamentos que no debe de ingerir:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputmediIngerir form-control" name="inputmediIngerir" placeholder="Ingrese los medicamentos que no debe de ingerir:">
+        <input type="text" class="mediIngerir form-control" name="mediIngerir" placeholder="Ingrese los medicamentos que no debe de ingerir:">
       </div>
     </div>
 
@@ -189,7 +189,7 @@
 
    <!--Validacion -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script type="text/javascript" src="../../js/funcionesDatosMedicos.js"></script>
+  <script type="text/javascript" src="../../../js/funcionesDatosMedicos.js"></script>
 
 
     <!-- JavaScript -->

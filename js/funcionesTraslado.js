@@ -1,11 +1,11 @@
 (function(){
     $(".boton_guardar").click(function() {
  
-        var nomEstudiante = $(".inputnomEstudiante").val();
-            nomEncargado= $(".inputnomEncargado").val();
-            constancia= $(".inputconstancia").val();
-            instTraslada= $(".inputinstTraslada").val();
-            fecha= $(".inputfecha").val();
+        var nomEstudiante = $(".nomEstudiante").val();
+            nomEncargado= $(".nomEncargado").val();
+            constancia= $(".constancia").val();
+            instTraslada= $(".instTraslada").val();
+            fecha= $(".fecha").val();
 
         if (nomEstudiante == "") {
 			alert("Debe ingresar el nombre del estudiante");

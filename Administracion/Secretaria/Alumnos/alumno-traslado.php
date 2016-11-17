@@ -10,7 +10,7 @@
     <title>Traslado</title>
 
     <!-- inicio de todas las importaciones de la plantilla -->
-    <link rel="stylesheet" href="../../css/estilos.css" />
+    <link rel="stylesheet" href="../../../css/estilos.css" />
     <link href="/Proyecto/css/bootstrap.min.css" rel="stylesheet">
   <link href="/Proyecto/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -103,28 +103,28 @@
     <div class="form-group">
       <label for="inputnomEstudiante" class="col-lg-4 control-label">Nombre del Estudiante:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputnomEstudiante form-control" name="inputnomEstudiante" placeholder="Ingrese el nombre del estudiante">
+        <input type="text" class="nomEstudiante form-control" name="nomEstudiante" placeholder="Ingrese el nombre del estudiante">
       </div>
     </div> 
 
     <div class="form-group">
       <label for="inputnomEncargado" class="col-lg-4 control-label">Nombre del Encargado:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputnomEncargado form-control" name="inputnomEncargado" placeholder="Ingrese el nombre del encargado">
+        <input type="text" class="nomEncargado form-control" name="nomEncargado" placeholder="Ingrese el nombre del encargado">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputconstancia" class="col-lg-4 control-label">Constancia de Conducta:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputconstancia form-control" name="inputconstancia" placeholder="Ingrese la constancia de conducta">
+        <input type="text" class="constancia form-control" name="constancia" placeholder="Ingrese la constancia de conducta">
       </div>
     </div>
     
     <div class="form-group">
       <label for="inputinstTraslada" class="col-lg-4 control-label">Instituto donde se Traslada:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputinstTraslada form-control" name="inputinstTraslada" placeholder="Ingrese el instituto donde se traslada">
+        <input type="text" class="instTraslada form-control" name="instTraslada" placeholder="Ingrese el instituto donde se traslada">
       </div>
     </div>
   
@@ -145,11 +145,11 @@
     <div class="form-group">
       <label for="inputfecha" class="col-lg-4 control-label">Fecha:</label>
       <div class="col-lg-5">
-        <input type="text" class="inputfecha form-control" name="inputfecha" placeholder="Ingrese la fecha">
+        <input type="text" class="fecha form-control" name="fecha" placeholder="Ingrese la fecha">
       </div>
     </div>
 
-    <div class="boton_guardar btn-group-justified">
+    <div class="btn-group btn-group-justified">
         <div class="ultimo">
                   <div class="msg"></div>
                   <a class="boton_guardar btn btn-default btn-sm" style="background-color:#1A242F; border-color:#FFFFFF">Guardar</a>
@@ -215,7 +215,7 @@
 
     <!--Validacion -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script type="text/javascript" src="../../js/funcionesTraslado.js"></script>
+  <script type="text/javascript" src="../../../js/funcionesTraslado.js"></script>
 
     <!-- JavaScript -->
     <script src="/Proyecto/js/jquery-1.10.2.js"></script>
