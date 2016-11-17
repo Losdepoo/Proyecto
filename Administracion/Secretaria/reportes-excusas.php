@@ -109,7 +109,7 @@
 				<div class="col-sm-6 wow fadeInDown text-center">
 					<img  class="rotate" src="../../img/icon/excusas.png" alt="Generic placeholder image" height="100" width="100">
 					<p class="text-muted">Seleccione para descargar formato PDF de excusas</p>
-				 	<a href="#" class="btn btn-primary btn-lg">Excusas</a>
+				 	<a class="btn btn-primary btn-lg" href="../../PDF/excusas.pdf" role="button" target="_blank">Excusas</a>&nbsp;&nbsp;
 				</div>
 				
 			</div><!-- /.row -->
