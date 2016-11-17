@@ -101,7 +101,7 @@
 				<div class="ultimo">
 	                <div class="msg"></div>
 	                <a class="btn-realizar-pago btn btn-default btn-sm" style="background-color:#1A242F;						border-color:#FFFFFF">Realizar Pago</a>
-					<a class="btn btn-default btn-sm" href="/Proyecto/administracion/secretaria/inserciones.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
+					<a class="btn btn-default btn-sm" href="/Proyecto/administracion/tesoreria/pagos-principal.php" style="background-color:#798D8F; border-color:#FFFFFF">Cancelar</a>
 	            </div>	
 			</div>
 				</form>
