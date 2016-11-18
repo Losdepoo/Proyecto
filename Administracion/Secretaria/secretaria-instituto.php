@@ -70,10 +70,8 @@
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="#quienessmos">¿Quiénes somos?</a></li>
-					<li class="menuItem"><a href="#mision">Misión</a></li>
-					<li class="menuItem"><a href="#vision">Visión</a></li>
-					<li class="menuItem"><a href="#contactenos">Contáctenos</a></li>
+					<li class="menuItem"><a href="/Proyecto/administracion/secretaria/secretaria.php">Volver a Secretaría</a></li>
+					
 					
 					<ul class="nav navbar-nav navbar-right">
 	        			<li class="dropdown">

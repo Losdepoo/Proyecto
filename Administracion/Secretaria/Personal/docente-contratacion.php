@@ -135,7 +135,7 @@ $conexion = new conexion();
 						"&"+"textAreaObservacionesMedicas="+$("#textAreaObservacionesMedicas").val();
 						
 
-			alert(parametros);
+			//alert(parametros);
 			$.ajax({
 				url:"/Proyecto/ajax/acciones.php?accion=2",
 				method: "POST",

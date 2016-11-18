@@ -22,11 +22,11 @@
 				echo "Nombre de usuario o contraseña equivocada."."<br>";
 			} else {
 				echo "Bienvenido señor"."<br>";
-				echo $fila["id_tipo_cuenta"]."<br>";
+				echo $fila["nombre_cuenta"]."<br>";
 				$_SESSION["id_tipo_cuenta"] = $fila["id_tipo_cuenta"];
 				$_SESSION["nombre_cuenta"] = $fila["nombre_cuenta"];
 				$_SESSION["contrasena_cuenta"] = $fila["contrasena_cuenta"];
-				echo ($fila["id_tipo_cuenta"]);
+				
 			}
 
 			$conexion->cerrarConexion();
@@ -43,19 +43,20 @@
 			$asignatura= $_POST["slcAsignaturas"];
 			$observacionesMedicas= $_POST["textAreaObservacionesMedicas"];
 
-			echo $nombreUsuario." ";
+			/*echo $nombreUsuario." ";
 			echo $contrasena." ";
 			echo $nombre." ";
 			echo $numeroIdentidad." ";
 			echo $edad." ";
 			echo $genero." ";
+			
+			echo $tamano." ";*/
+			//for($i=0;$i<=$tamano-1;$i++){
+				//echo " - ".$i." este es igual a ". $cursos[$i];
+			//}
+			//echo $asignatura." ";
+			//echo $observacionesMedicas."<br/>";
 			$tamano=count($cursos);
-			echo $tamano." ";
-			for($i=0;$i<=$tamano-1;$i++){
-				echo " - ".$i." este es igual a ". $cursos[$i];
-			}
-			echo $asignatura." ";
-			echo $observacionesMedicas."<br/>";
 
 			$contar = $conexion->ejecutarInstruccion('SELECT * FROM tbl_persona');	
 			$contar2 = $conexion->ejecutarInstruccion('SELECT * FROM tbl_docente');
@@ -77,7 +78,7 @@
 			$id_empleado = $numero3+1;
 			$id_cuenta = $numero4+1;
 
-			echo $id_persona." ".$id_docente." ".$id_empleado." ".$id_cuenta." <br/>";
+			//echo $id_persona." ".$id_docente." ".$id_empleado." ".$id_cuenta." <br/>";
 			
 			$codigo = $conexion->ejecutarInstruccion(
 					'INSERT INTO `tbl_persona`(`id_persona`, `numero_identidad`, `nombre_persona`, `edad`, `Genero`, `datos_medicos`) 
@@ -105,9 +106,11 @@
 							VALUES ('.$id_docente.",".$cursos[$i].')');
 				}
 					
-			$codigo6=$conexion->ejecutarInstruccion('');
+			$codigo6=$conexion->ejecutarInstruccion(
+						'INSERT INTO `tbl_asignaturas_docente`(`id_docente`, `id_asignaturas`) 
+							VALUES ('.$id_docente.",".$asignatura.')');
 
-			echo "Se ha añadido con exito su nuevo usuario bienvenido ".$nombre." tenga un excelente dia"."<br>";
+			echo "Se ha añadido con exito su nuevo usuario bienvenido ".$nombreUsuario." tenga un excelente dia"."<br>";
 			$conexion->cerrarConexion();
 
 		break;	
